@@ -1,0 +1,104 @@
+#########FIREFOX CURRENT PAGE
+firefox current pag~F6~move to the next frame
+firefox current pag~Shift + F6~move to the prev frame
+#########FIREFOX EDITING
+firefox edit~Backspace~Delete Word to the Left   
+firefox edit~Ctrl + Del~Delete Word to the Right  
+firefox edit~Ctrl + ←~Go one Word to the Left   
+firefox edit~Ctrl + →~Go one Word to the Right  
+firefox edit~Ctrl + Home~Go to Beginning of Text   
+firefox edit~Ctrl + End~Go to End of Text   
+#########FIREFOX SEARCH
+firefox search~Ctrl + F~Find
+firefox search~F3 Ctrl + G~Find Again   
+firefox search~Shift + F3 Ctrl + Shift + G~Find Previous  
+firefox search~'~Quick Find within link-text only
+firefox search~/~Quick Find
+firefox search~Esc~Close the Find or Quick Find bar - when the Find or Quick Find bar is focused  
+firefox search~Alt + ↓↑~Switch Search Engine - after you have written something in the address bar   
+firefox search~Ctrl + K Ctrl + J~Focus Address bar for Web Search (writes "? " there)  - if search bar is not shown   
+firefox search~Ctrl + K Ctrl + J~Focus Search bar - if search bar is shown  
+firefox search~Ctrl + ↓ Ctrl + ↑~Change the Default Search Engine - in the Search bar or the Search field of the New Tab page.  
+firefox search~Alt + ↓ Alt + ↑ F4~View menu to switch, add or manage search engines - when the Search bar is focused 
+#########FIREFOX TABS 
+firefox tabs~Ctrl + W Ctrl + F4~Close Tab - except for Pinned Tabs
+firefox tabs~Ctrl + Shift + W Alt + F4~Close Window  
+firefox tabs~Ctrl + Tab~Cycle through Tabs in Recently Used Order -if enabled in Preferences 
+firefox tabs~Ctrl + Q~Quit
+firefox tabs~Ctrl+Page Up, Ctrl+Shift+Tab~Go one Tab to the Left
+firefox tabs~Ctrl + Page Down Ctrl + Tab~Go one Tab to the Right * if the setting Ctrl+Tab cycles through tabs in recently used order is disabled in Preferences
+firefox tabs~Alt + 1~to 8 Go to Tab 1 to 8
+firefox tabs~Alt + 9~Go to Last Tab
+firefox tabs~Ctrl + Shift + Page Up~Move Tab Left
+firefox tabs~Ctrl + Shift + Page Down~Move Tab Right
+firefox tabs~Ctrl + Shift + Home~Move Tab to start 
+firefox tabs~Ctrl + Shift + End~Move Tab to end -
+firefox tabs~Ctrl + M~Mute/Unmute Audio
+firefox tabs~Ctrl + T~New Tab
+firefox tabs~Ctrl + N~New Window
+firefox tabs~Ctrl + Shift + P~New Private Window
+firefox tabs~Alt + Shift + Enter~Open Address or Search in New Background Tab - from address bar
+firefox tabs~Alt + Enter~Open Address or Search in New Foreground Tab - from address bar or Search bar
+firefox tabs~Shift + Enter~Open Address or Search in New Window - from address bar or the Search field on the New Tab page
+firefox tabs~Ctrl + Enter~Open Search in New Background Tab - from the Search field on the New Tab page. (see note, below)
+firefox tabs~Ctrl + Shift + Enter~Open Search in New Foreground Tab - from the Search field on the New Tab page.
+firefox tabs~Enter~Open Focused Bookmark or Link in Current Tab
+firefox tabs~Ctrl + Enter~Open Focused Bookmark in New Foreground Tab
+firefox tabs~Ctrl + Shift + Enter~Open Focused Bookmark in New Background Tab
+firefox tabs~Ctrl + Enter~Open Focused Link in New Background Tab (see note, below)
+firefox tabs~Ctrl + Shift + Enter~Open Focused Link in New Foreground Tab
+firefox tabs~Shift + Enter~Open Focused Bookmark or Link in New Window
+firefox tabs~Ctrl + Shift + T~Undo Close Tab
+firefox tabs~Ctrl + Shift + N~Undo Close Window
+firefox tabs~Ctrl + Shift + X~Moves the URL left or right (if cursor is in the address bar)
+#########FIREFOX HISTORY
+firefox history~Ctrl + H~History sidebar
+firefox history~Ctrl + Shift + H~Library window (History)  
+firefox history~ Ctrl + Shift + Del~Clear Recent History
+#########FIREFOX BOOKMARKS 
+firefox marks~Ctrl +  D~Bookmark This Page
+firefox marks~Ctrl + B~Bookmarks sidebar
+firefox marks~Ctrl + Shift + O~Library window (Bookmarks)  
+#########FIREFOX TOOLS 
+firefox tools~Ctrl + Shift + Y~Downloads
+firefox tools~Ctrl + Shift + A~Add-ons
+firefox tools~F12, Ctrl + Shift + I~Toggle Developer Tools
+firefox tools~Ctrl + Shift + K~Web Console
+firefox tools~Ctrl + Shift + C~Inspector
+firefox tools~Ctrl + Shift + S~Debugger
+firefox tools~Shift + F7~Style Editor
+firefox tools~Shift + F5~Profiler
+firefox tools~Ctrl + Shift + E~Network
+firefox tools~Shift + F2~Developer Toolbar
+firefox tools~Ctrl + Shift + M~Responsive Design View
+firefox tools~Shift + F4~Scratchpad
+firefox tools~Ctrl + U~Page Source
+firefox tools~Ctrl + Shift + J~Browser Console
+firefox tools~Ctrl + I~Page -nfo 
+#########FOX PDF VIEWER 
+firefox pdf~N or J or →~Next page
+firefox pdf~P or K or ← ~Previous page
+firefox pdf~Ctrl +~Zoom in
+firefox pdf~Ctrl -~Zoom out
+firefox pdf~Ctrl + 0~Automatic Zoom
+firefox pdf~R~Rotate the document clockwise
+firefox pdf~Shift + R~Rotate counterclockwise 
+firefox pdf~Ctrl + Alt + P~Switch to Presentation Mode
+firefox pdf~S~Choose Text Selection Tool
+firefox pdf~H~Choose Hand Tool
+firefox pdf~Ctrl + Alt + G~Focus the Page Number input box
+#########FIREFOX MISCELANEOUS 
+firefox misc~Ctrl + Enter~Complete .com Address   
+firefox misc~Shift + Del~Delete Selected Autocomplete Entry
+firefox misc~F11~Toggle Full Screen  
+firefox misc~Alt or F10~Toggle Menu Bar activation (showing it temporarily when hidden)
+firefox misc~Ctrl + Alt + R~Toggle Reader Mode
+firefox misc~F7~Caret Browsing
+firefox misc~F6, Alt + D, Ctrl + L~Focus Address Bar
+firefox misc~F6, Ctrl + F~Focus Search Field in Library   
+firefox misc~Esc~Stop Autoscroll Mode
+firefox misc~Shift + F10~Toggle Context Menu
+#########FIREFOX SIMPLE TABS GROUPS 
+firefox misc~Ctrl + space~Show groups
+firefox misc~ctrl+1-9~Change to a group
+

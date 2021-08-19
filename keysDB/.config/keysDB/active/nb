@@ -1,0 +1,103 @@
+nb~help~Display this help information.
+nb~help~<subcommand>  View help information for <subcommand>.
+nb~help~--colors      View information about color settings.
+nb~help~--readme      View the `nb` README file.
+nb~[<ls options>...]~ [<id> | <filename> | <path> | <title> | <notebook>]
+nb~~[<url>]~[<bookmark options>...]
+nb~add~[<filename>|<content>][-c <content> --content <content>][--edit][-e --encrypt][-f <filename> --filename <filename>][-t <title> --title <title>] [--type <type>]
+nb~bookmark~[<ls options>...]
+nb~bookmark <url>~[-c <comment> --comment <comment>] [--edit][-e --encrypt] [-f <filename> --filename <filename>][-q --quote] [-r <url> --related <url>]... [--save-source] [--skip-content] [-t <tag1>,<tag2>... --tags <tag1>,<tag2>...] [--title <title>]
+nb~bookmark~[list [<list-options>...]]
+nb~bookmark~(open | peek | url) (<id> | <filename> | <path> | <title>)
+nb~nb~bookmark~(edit | delete) (<id> | <filename> | <path> | <title>)
+nb~bookmark search~<query>
+nb~completions~(check | install [-d | --download] | uninstall)
+nb~count~
+nb~delete~(<id> | <filename> | <path> | <title>) [-f | --force]
+nb~edit~(<id> | <filename> | <path> | <title>)[-c <content> | --content <content>] [--edit][-e <editor> | --editor <editor>]
+nb~export~(<id> | <filename> | <path> | <title>) <path> [-f | --force][<pandoc options>...]
+nb~export notebook~<name> [<path>]
+nb~export pandoc~(<id> | <filename> | <path> | <title>)[<pandoc options>...]
+nb~git~[checkpoint [<message>] | dirty]
+nb~git~<git-options>...
+nb~hel~[<subcommand>] [-p | --print]
+nb~help~[-c | --colors] | [-r | --readme] | [-s | --short] [-p | --print]
+nb~history~[<id> | <filename> | <path> | <title>]
+nb~import~[copy | download | move] (<path>... | <url>) [--convert]
+nb~import notebook~<path> [<name>]
+nb~init~[<remote-url>]
+nb~list~[-e [<length>] --excerpt [<length>]] [--filenames][-n <limit> --limit <limit> --<limit>] [--no-id][--no-indicator] [-p --pager] [--paths] [-s --sort][-r --reverse] [-t <type> --type <type> --<type>][<id> <filename> <path> <title> <query>]
+nb~nb ls~[-a --all] [-e [<length>] --excerpt [<length>]] [--filenames][-n <limit> --limit <limit> --<limit>] [--no-id] [--no-indicator][-p --pager] [--paths] [-s --sort] [-r --	reverse][-t <type> --type <type> --<type>][<id> <filename> <path> <title> <query>]
+nb~move~(<id> <filename> <path> <title>) [-f --force] <notebook>
+nb~notebooks~[<name>] [--archived] [--global] [--local] [--names][--paths] [--unarchived]
+nb~notebooks add~<name> [<remote-url>]
+nb~notebooks~(archive | open | peek | status | unarchive) [<name>]
+nb~notebooks current~[--path | --selected | --filename [<filename>]][--global | --local]
+nb~notebooks delete~<name> [-f | --force]
+nb~notebooks~(export <name> [<path>] | import <path>)
+nb~notebooks init~[<path> [<remote-url>]]
+nb~notebooks rename~<old-name> <new-name>
+nb~notebooks select~<selector>
+nb~notebooks show~(<name> | <path> | <selector>) [--archived][--escaped | --name | --path | --filename [<filename>]]
+nb~notebooks use~<name>
+nb~open~(<id> | <filename> | <path> | <title> | <notebook>)
+nb~peek~(<id> | <filename> | <path> | <title> | <notebook>)
+nb~plugins~[<name>] [--paths]
+nb~plugins install~[<path> | <url>] [--force]
+nb~plugins uninstall~<name> [--force]
+nb~remote~[remove | set <url> [-f | --force]]
+nb~rename~(<id> | <filename> | <path> | <title>) [-f | --force](<name> | --reset | --to-bookmark | --to-note)
+nb~run~<command> [<arguments>...]
+nb~search~<query> [-a | --all] [-t <type> | --type <type> | --<type>][-l | --list] [--path]
+nb~set~[<name> [<value>] | <number> [<value>]]
+nb~settings~[colors [<number> | themes] | edit | list [--long]]
+nb~settings~(get | show | unset) (<name> | <number>)
+nb~settings set~(<name> | <number>) <value>
+nb~shell~[<subcommand> [<options>...] | --clear-history]
+nb~show~(<id> | <filename> | <path> | <title>) [[-a | --added] |--filename | --id | --info-line | --path | [-p | --print][-r | --render] | --selector-id | --title | --type [<type>] |
+				[-u | --updated]]
+nb~show~<notebook>
+nb~subcommands~[add <name>...] [alias <name> <alias>][describe <name> <usage>]
+nb~sync~[-a | --all]
+nb~update~
+nb~use~<notebook>
+nb~-i~--interactive [<subcommand> [<options>...]]
+nb~-h~--help | help [<subcommand> | --readme]
+nb~--no-color
+nb~--version~version
+nb~add~Add a new note.
+nb~bookmark~Add, open, list, and search bookmarks.
+nb~completions~Install and uninstall completion scripts.
+nb~count~Print the number of notes.
+nb~delete~Delete a note.
+nb~edit~Edit a note.
+nb~export~Export a note to a variety of different formats.
+nb~git~Run `git` commands within the current notebook.
+nb~help~View help information for the program or a subcommand.
+nb~history~View git history for the current notebook or a note.
+nb~import~Import a file into the current notebook.
+nb~init~Initialize the first notebook.
+nb~list~List notes in the current notebook.
+nb~ls~List notebooks and notes in the current notebook.
+nb~move~Move a note to a different notebook.
+nb~notebooks~Manage notebooks.
+nb~open~Open a bookmarked web page or notebook folder, or edit a note.
+nb~peek~View a note, bookmarked web page, or notebook in the terminal.
+nb~plugins~Install and uninstall plugins and themes.
+nb~remote~Get, set, and remove the remote URL for the notebook.
+nb~rename~Rename a note.
+nb~run~Run shell commands within the current notebook.
+nb~search~Search notes.
+nb~settings~Edit configuration settings.
+nb~shell~Start the `nb` interactive shell.
+nb~show~Show a note or notebook.
+nb~status~Run `git status` in the current notebook.
+nb~subcommands~List, add, alias, and describe subcommands.
+nb~sync~Sync local notebook with the remote repository.
+nb~update~Update `nb` to the latest version.
+nb~use~Switch to a notebook.
+nb~version~Display version information.
+nb~-i, --interactive~Start the `nb` interactive shell.
+nb~-h, --help~Display this help information.
+nb~--no-color~Print without color highlighting.
+nb~--version~Display version information.

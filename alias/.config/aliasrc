@@ -1,0 +1,100 @@
+#!/bin/sh
+
+
+#: Shell Basics {{{
+alias	b="cd .."      
+alias	ls="lsd --color=auto" 
+alias l="lsd -l" 
+alias	la="lsd -a" 
+alias	lla="lsd -la"	
+alias lt="lsd --tree"
+alias cp="cp -i"                                                # Confirm before overwriting something
+alias df='df -h'                                                # Human-readable sizes
+alias free='free -m'                                            # Show sizes in MB
+# Date 
+#alias today='date && xclip -i'
+# Better Tools
+alias ping="prettyping"
+#Places
+alias dot="cd /home/niko/.dot_tale"
+#: }}}
+
+#: System Administration {{{
+
+# SystemWide
+alias ip='ip -color=auto'
+
+# Restic 
+alias rest-backup='restic backup --files-from /home/niko/.restic_include.txt'
+alias rest-snap='restic snapshots'
+alias rest-clean='restic cache --cleanup'
+alias rest-prune='restic forget --keep-last 1 --prune'
+	
+# Vim
+alias	vm="vim -S Main.vim --servername "Main"" 
+alias	vt="vim -c :TW --servername "Task"" 
+alias	vl="vim --serverlist" 
+# bpytop
+alias status="bpytop"
+# Pacman
+alias pau="pacui 3"
+#: }}}
+
+#: Tools {{{
+# Grep
+alias grep="grep --color=auto" 
+# Curl ( Real time execution )
+alias	tiempo="curl wttr.in" 
+# pywal
+alias wall="cd /home/niko/Images/wall &&  fzfimg --bind 'enter:execute-silent(wal -i {} -st)'" 
+# simple-mtpfs ( Android Mounting)
+alias android="simple-mtpfs --device 1 /home/niko/Storage/Cell/"
+# curl cheat sheat script 
+alias cheat="cheatsh" 
+# npm list all packages
+alias npmlist="npm list -g --depth=0"
+
+#: }}}
+
+#: Apps {{{
+
+# Tmux
+alias	tm="tmux new-session -A -s Main" 
+# Kitty vim server 
+alias kv="kitty --class vserver </dev/null &>/dev/null &"
+# Dropdown  
+alias drop="kitty --class dropdown </dev/null &>/dev/null &"
+# NCDU ( Ncurses disk space analizer )
+alias	disk="ncdu" 
+# Mutt Wizard
+alias syncmail="mw -Y"
+# TUIR ( Reddit Ncurses)	
+alias	reddit="tuir" 
+# TaskWarrior
+# entr + taskwarrior commands
+alias tc=" ls .task/* | entr task calendar"
+alias tb=" ls .task/* | entr task burndown.weekly"
+alias	tsummary="ls .task/* | entr task summary" 
+alias ta="ls .task/*.data | entr task +ACTIVE"
+alias	t="task" 
+alias	tl="task +LATEST" 
+alias	tnw="task newest" 
+alias tw='task rc.defaultwidth=0 rc.defaultheight=0 rc.verbose=nothing rc._forcecolor=on'
+# PipeViewer
+alias pipe="pipe-viewer --use-colors --get-term-width"
+alias pipech="pipe-viewer --use-colors -sc"
+# Pass
+alias passgen="pass generate -c"
+# ncmpcpp
+alias music="ncmpcpp"
+# Mind mapping
+alias mind="mm /run/media/hdd/Documents/mindmaps/lifeOn2021"
+#: }}}	
+
+#: Places {{{
+
+alias hdd="cd /run/media/hdd"
+alias usb="cd /run/media/usb"
+alias dwn="cd /home/niko/Downloads"
+
+#: }}}

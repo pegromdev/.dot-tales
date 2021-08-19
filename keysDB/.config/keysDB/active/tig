@@ -1,0 +1,90 @@
+##########switching
+tig view~m view-main~Show main view
+tig view~d view-diff~Show diff view
+tig view~l view-log~Show log view
+tig view~L view-reflog~Show reflog view
+tig view~t view-tree~Show tree view
+tig view~f view-blob~Show blob view
+tig view~b view-blame~Show blame view
+tig view~r view-refs~Show refs view
+tig view~s, S view-status~Show status view
+tig view~c view-stage~Show stage view
+rig view~y view-stash~Show stash view
+tig view~g view-grep~Show grep view
+tig view~p view-pager~Show pager view
+tig view~h view-help~Show help view
+##########Manipulation
+tig view~<Enter>~Enter and open selected line
+tig view~<~Go back to the previous view state
+tig view~<Down>,<Ctrl-N>~Move to next
+tig view~<Up>,<Ctrl-P>~Move to previous
+tig view~,parent~Move to parent
+tig view~<Tab>~Move focus to the next view
+tig view~R,<F5>~Reload and refresh view
+tig view~O~Maximize the current view
+tig view~q~Close the current view
+tig view~Q,<Ctrl-C>~Close all views and quit
+#########Cursor navigation
+tig movement~k~Move cursor one line up
+tig movement~j~Move cursor one line down
+tig movement~<PageDown>,<Space>~Move cursor one page down
+tig movement~<PageUp>~Move cursor half a page up
+tig movement~<Ctrl-D>~Move cursor half a page down
+tig movement~<Ctrl-U>~Move cursor one page up
+tig movement~<Home>~Move cursor to first line
+tig movement~<End>~Move cursor to last line
+##########Scrolling
+tig movement~<Insert>,<Ctrl-Y>~Scroll one line up
+tig movement~<Delete>,<Ctrl-E>~Scroll one line down
+tig movement~<ScrollBack>~Scroll one page up
+tig movement~<ScrollFwd>~Scroll one page down
+tig movement~|~Scroll to the first line columns
+tig movement~<Left>~ Scroll two columns left
+tig movement~<Right>~Scroll two columns right
+##########Searching
+tig searh~/~Search the view
+tig searh~?~Search backwards in the view
+tig searh~n~Find next search match
+tig searh~N~Find previous search match
+##########More Searching
+tig search~<Down>,<Ctrl-N>,<Ctrl-J>~Find next search match
+tig search~<Up>,<Ctrl-P>,<Ctrl-K>~Find previous search match
+##########Misc
+tig misc~e~Open in editor
+tig misc~:~Open the prompt
+tig misc~o~Open the options menu
+tig misc~<Ctrl-L>~Redraw the screen
+tig misc~z~Stop all loading views
+tig misc~v~Show version information
+##########Option toggling
+tig options~I~:toggle sort-order
+tig options~i~:toggle sort-field
+tig options~#~:toggle line-number
+tig options~D~:toggle date
+tig options~A~:toggle author
+tig optionsi~Tilde~:toggle line-graphics
+tig options~F~:toggle file-name
+tig options~W~:toggle ignore-space
+tig options~X~:toggle id
+tig options~$~:toggle commit-title-overflow
+tig options~%~:toggle file-filter
+##########External commands:
+tig more~C~!git commit -v
+tig more~[-]~search bindings
+##########Main
+##########Option toggling
+tig main~G~:toggle commit-title-graph
+tig main~F~:toggle commit-title-refs
+##########View-specific actions
+tig main~u~Stage/unstage chunk or file changes
+tig main~!~Revert chunk or file changes
+tig main~M~Merge file using external tool
+##########View-specific actions
+tig main~u~Stage/unstage chunk or file changes
+tig main~!~Revert chunk or file changes
+tig main~1~Stage/unstage single line
+tig main~\~Split current diff chunk
+##########Option toggling:
+tig main~[~:toggle diff-context -1
+tig main~]~:toggle diff-context +1
+

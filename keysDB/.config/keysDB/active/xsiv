@@ -1,0 +1,59 @@
+xsiv general~0-9~Prefix the next command with a number (denoted via count).
+xsix general~q~Quit sxiv.
+xsix general~f~Toggle fullscreen mode.
+xsiv general~b~Toggle visibility of info bar on bottom of window.
+xsic general~Ctrl-x~Send the next key to the external key-handler. See section EXTERNAL KEY HANDLER for more information.
+xsiv general~g~Go to the first image.
+xsiv general~G~Go to the last image, or image number count.
+xsiv general~r~Reload image.
+xsiv general~D~Remove current image from file list and go to next image.
+xsiv general~Ctrl-h, Ctrl-Left~Scroll left one screen width.
+xsix general~Ctrl-j, Ctrl-Down~Scroll down one screen height.
+xsiv general~Ctrl-k, Ctrl-Up~Scroll up one screen height.
+xsiv general~Ctrl-l, Ctrl-Right~Scroll right one screen width.
+xsiv general~+~Zoom in.
+xsiv general~-~Zoom out.
+xsix general~m~Mark/unmark the current image.
+xsiv general~M~Reverse all image marks.
+xsiv general~Ctrl-M~Repeat last mark action on all images from the last marked/unmarked up to the current one.
+xsiv general~Ctrl-m~Remove all image marks.
+xsiv general~N~Go count marked images forward.
+xsiv general~P~Go count marked images backward.
+xsiv general~{~Decrease gamma correction by count steps.
+xsiv general~}~Increase gamma correction by count steps.
+xsiv general~Ctrl-g~Reset gamma correction.
+xsiv thumbnail~h, Left~Move selection left count times.
+xsiv thumbnail~j, Down~Move selection down count times.
+xsiv thumbnail~k, Up~Move selection up count times.
+xsiv thumbnail~l, Right~Move selection right count times.
+xsiv thumbnail~R~Reload all thumbnails.
+xsiv thumbnail~n, Space~Go count images forward.
+xsiv thumbnail~p, Backspace~Go count images backward.
+xsiv thumbnail~[~Go count * 10 images backward.
+xsiv thumbnail~]~Go count * 10 images forward.
+##########Handle multi-frame images:
+xsiv thumbnail~Ctrl-n~Go count frames of a multi-frame image forward.
+xsiv thumbnail~Ctrl-p~Go count frames of a multi-frame image backward.
+xsiv thumbnail~Ctrl-Space~Play/stop animations of multi-frame images.
+xsiv thumbnail~h, Left~Scroll image 1/5 of window width or count pixel left.
+xsiv thumbnail~j, Down~Scroll image 1/5 of window height or count pixel down.
+xsiv thumbnail~k, Up~Scroll image 1/5 of window height or count pixel up.
+xsiv thumbnail~l, Right~Scroll image 1/5 of window width or count pixel right.
+xsiv thumbnail~H~Scroll to left image edge.
+xsiv thumbnail~J~Scroll to bottom image edge.
+xsiv thumbnail~K~Scroll to top image edge.
+xsiv thumbnail~L~Scroll to right image edge.
+xsiv Zooming~=~Set zoom level to 100%, or count%.
+xsiv zomming~w~Set zoom level to 100%, but fit large images into window.
+xsiv zomming~W~Fit image to window.
+xsiv zomming~e~Fit image to window width.
+xsiv zomming~E~Fit image to window height.
+xsiv rotatio~<~Rotate image counter-clockwise by 90 degrees.
+xsiv rotatio~>~Rotate image clockwise by 90 degrees.
+xsiv rotatio~?~Rotate image by 180 degrees.
+###########xsiv flippin
+xsiv flippin~|~Flip image horizontally.
+xsiv flippin~_~Flip image vertically.
+xsiv Mis~a~Toggle anti-aliasing.
+xsiv mis~A~Toggle visibility of alpha-channel, i.e. image transparency.
+xsiv misc~s~Toggle slideshow mode and/or set the delay between images to count seconds.

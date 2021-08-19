@@ -1,0 +1,42 @@
+# global
+vit~<esc>~Escape
+vit~q,zz~Quit
+vit~q= ~It with confirm
+vit~s=~Ask sync
+# commands
+vit~<colon>~Bar_ex
+vit~t~task_Read_wait
+vit~/~Search_forward
+vit~?~Search_reverse
+vit~n~Search_next
+vit~n~Search_previous
+vit~c~Task_context
+# task actions.
+vit~a~Add
+vit~u~Undo
+vit~a~Annotate
+vit~d~Delete
+vit~e~Denotate
+vit~m~Modify
+vit~b~Start stop
+vit~d~Done
+vit~p~Priority
+vit~p~Project
+vit~t~Tags
+vit~w~Wait
+vit~e~Edit
+vit~<~Show
+# navigation
+vit~<up>,k~List up
+vit~<down>,j,<space>~List down
+vit~<page up>,<ctrl> b~List page up
+vit~<page down>,<ctrl> f~List page down
+vit~gg,0~List home
+vit~g~Screen end
+vit~h~screen top
+vit~m~Screen middle
+vit~l~Screen bottom
+vit~c~Focus valign center
+# report
+vit~f~Repor filter
+vit~<ctrl> l~Refresh

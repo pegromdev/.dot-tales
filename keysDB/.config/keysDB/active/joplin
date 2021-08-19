@@ -1,0 +1,44 @@
+joplin cli~:~enter_command_line_mode
+joplin cli~TAB~focus_next
+joplin cli~SHIFT_TAB~focus_previous
+joplin cli~UP~move_up
+joplin cli~DOWN~move_down
+joplin cli~PAGE_UP~page_up
+joplin cli~PAGE_DOWN~page_down
+joplin cli~ENTER~activate
+joplin cli~DELETE, BACKSPACE~delete
+joplin cli~(SPACE)~todo toggle $n
+joplin cli~n~next_link
+joplin cli~b~previous_link
+joplin cli~o~open_link
+joplin cli~tc~toggle_console
+joplin cli~tm~toggle_metadata
+joplin cli~/~search ""
+joplin cli~mn~mknote ""
+joplin cli~mt~mktodo ""
+joplin cli~mb~mkbook ""
+gmail~x~Archive the conversation
+gmail~s~Add or remove a star to a message or conversation
+gmail~!~Mark message as spam and remove it from conversation
+gmail~r~Reply to sender
+gmail~Shift r~Reply to sender in a new window
+gmail~Shift a~Reply to all message recipients
+gmail~f~Forward a message
+gmail~Shift f~Forward a message in a new window
+gmail~Esc~Escape from input field 
+gmail~,~Move focus to toolbar 	
+gmail~x~Select conversation 	
+gmail~s~Toggle star/rotate among superstars 	
+gmail~e~Archive 	
+gmail~m~Mute conversation 	
+gmail~!~Report as spam 	
+gmail~#~Delete 	
+gmail~a~Reply all 	
+gmail~Shift+n~Update conversation 	
+gmail~] or [~Archive conversation and go previous/next 	
+gmail~z~Undo last action 	
+gmail~Shift+i~Mark as read 	
+gmail~Shift+u~Mark as unread 	
+gmail~_~Mark unread from the selected message 
+gmail~+ or =~Mark as important 
+gmail~-~Mark as not important 	

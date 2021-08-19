@@ -1,0 +1,9 @@
+mpc~mod + Shift + p~pause
+mpc~mod + Shift + t~stop
+mpc~mod + Shift + F9~play
+mpc~mod + Shift + F10~next
+mpc~mod + Shift + F8~prev
+mpc~mod + Shift + F11~volume 30
+mpc~mod + Shift + F12~volume 100
+
+

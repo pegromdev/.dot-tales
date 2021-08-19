@@ -1,0 +1,123 @@
+##########Basic
+mutt basic~m~compose a new mail message
+mutt basic~b~remail a message to another user
+mutt basic~r~reply to all recipients
+mutt basic~re~reply t message
+mutt basic~s~save changes to mailbox
+mutt basic~s~save message/attachment to a mailbox/file
+mutt basic~f~forward a message with comments
+mutt basic~x~exit this menu
+mutt basic~q~query external program for addresses
+mutt basic~a~add the sender address to abook
+mutt basic~o~run mw -y to sync all mail
+mutt basic~e~edit the raw message if the mailbox is not read-only, otherwise view it
+mutt basic~i1~switch to nicolas.villafan@gmail.com
+mutt basic~o~run mbsync to sync nicolas.villafan@gmail.com
+mutt basic~p~print the current entry
+mutt basic~q~save changes to mailbox and quit
+mutt basic~w w~set a status flag on a message
+mutt basic~|~pipe message/attachment to a shell command
+mutt basic~tilde~create a hotkey macro for the current message
+##########Movements
+mutt moves~<down>~move to the next undeleted message
+mutt moves~^e~move to the next undeleted message
+mutt moves~<u~>~move to the previous undeleted message
+mutt moves~<enter>~move the highlight to next mailbox
+mutt moves~^k~move the highlight to previous mailbox
+mutt moves~^n~move the highlight to next mailbox with new mail
+mutt moves~^p~move the highlight to previous mailbox with new mail
+mutt moves~ms~move mail to spam
+mutt moves~md~move mail to drafts
+mutt moves~mi~move mail to inbox
+mutt moves~ms~move mail to sent
+mutt moves~mt~move mail to trash
+mutt moves~1~jump to an index number
+mutt moves~2~jump to an index number
+mutt moves~3~jump to an index number
+mutt moves~4~jump to an index number
+mutt moves~5~jump to an index number
+mutt moves~6~jump to an index number
+mutt moves~7~jump to an index number
+mutt moves~8~jump to an index number
+mutt moves~9~jump to an index number
+mutt moves~<tab>~jump to the next new or unread message
+mutt moves~<esc><tab>~jump to the previous new or unread message
+mutt moves~<esc>n~jump to the next subthread
+mutt moves~<esc>p~jump to previous subthread
+mutt moves~p~jump to parent message in thread
+mutt moves~gs~go to spam
+mutt moves~gd~go to drafts
+mutt moves~gi~go to inbox
+mutt moves~gs~go to sent
+mutt moves~gt~go to trash
+mutt moves~^o~open highlighted mailbox
+mutt moves~<esc>c~open a different folder in read only mode
+mutt moves~<esc>i~open a different newsgroup in read only mode
+mutt moves~c~open a different folder
+mutt moves~u [~scroll up 1/2 page
+mutt moves~d ]~scroll down 1/2 page
+mutt moves~<~scroll up one line
+mutt moves~>~scroll down one line
+mutt moves~=~<home> gg~move to the first entry
+mutt moves~j j <down>~move to the next entry
+mutt moves~k k<up>~move to the previous entry
+mutt moves~* <end> g~move to the last entry
+mutt moves~h~move to the top of the page
+mutt moves~l~move to the bottom of the page
+mutt moves~m~move to the middle of the page
+mutt moves~z <left>  <pageup>~move to the previous page
+mutt moves~z <right> <pagedown>~move to the next page
+##########Controls~
+mutt controls~^d~delete all messages in thread
+mutt controls~<esc>d~delete all messages in subthread
+mutt controls~d~delete the current entry
+mutt controls~<esc>s~make decoded copy (text/plain) and delete
+mutt controls~<esc>u~undelete all messages in subthread
+mutt controls~^u~undelete all messages in thread
+mutt controls~u~undelete the current entry
+mutt controls~^y~move to the previous undeleted message
+mutt controls~cs~mail to spam
+mutt controls~cd~copy mail to drafts
+mutt controls~ci~copy mail to inbox
+mutt controls~s~copy mail to sent
+mutt controls~c<return> <enter>~select the current entry
+mutt controls~!t~copy mail to trash
+mutt controls~<return> l~display a message
+mutt controls~.~list mailboxes with new mail
+mutt controls~a~show all messages (undo limit)
+mutt controls~^f~show only messages matching a notmuch pattern
+mutt controls~<esc>l~show currently active limit pattern
+mutt controls~h~show the raw message
+mutt controls~l~show only messages matching a pattern
+mutt controls~v~show mime attachments
+mutt controls~y~show incoming mailboxes list
+mutt controls~&~link tagged message to the current one
+mutt controls~<esc>t~tag the current thread
+mutt controls~<space>~tag the current entry
+mutt controls~t~tag messages matching a pattern
+mutt controls~^t~untag messages matching a pattern
+mutt controls~^r~mark all messages as read
+mutt controls~<esc>r~mark the current subthread as read
+mutt controls~<esc>c~make decoded (text/plain) copy
+mutt controls~<esc>v~collapse/uncollapse all threads
+mutt controls~f~toggle a message's 'important' flag
+mutt controls~n~toggle a message's 'new' flag
+##########Options
+mutt options~<esc>b~search in message bodies
+mutt options~n~search for next match o a message
+mutt options~<esc>/~search backwards for a regular expression
+mutt options~/~search for a regular expression
+mutt options~<esc>e~use the current message as a template for a new one
+mutt options~<esc>k~mail a pgp public key
+mutt options~<esc>p~check for classic pgp
+mutt options~#~break the thread in two
+mutt options~$~save changes to mailbox
+mutt options~%~toggle whether the mailbox will be rewritten
+mutt options~@~display full address of sender
+mutt options~^l~clear and redraw the screen
+mutt options~b~make the sidebar (in)visible
+mutt options~v~show the neomutt version number and date
+mutt options~:~enter a neomuttrc command
+mutt options~?~this screen
+mutt options~<f1>~show neomutt documentation
+mutt options~#t~exit this menu

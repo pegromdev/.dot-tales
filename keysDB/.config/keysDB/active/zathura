@@ -1,0 +1,73 @@
+#########General
+zathura gral~J, PgDn~Go to the next page
+zathura gral~K, PgUp~Go to the previous page
+zathura gral~h, k, j, l~Scroll to the left, down, up or right direction
+zathura gral~Left, Down, Up, Right~Scroll to the left, down, up or right direction
+zathura gral~^t, ^d, ^u, ^y~Scroll a half page left, down, up or right
+zathura gral~t, ^f, ^b, space, <S-space>, y~Scroll a full page left, down, up or right
+zathura gral~gg, G, nG~Goto to the first, the last or to the nth page
+zathura gral~P~Snaps to the current page
+zathura gral~H, L~Goto top or bottom of the current page
+zathura gral~^o, ^i~Move backward and forward through the jump list
+zathura gral~^j, ^k~Bisect forward and backward between the last two jump points
+zathura gral~^c, Escape~Abort
+zathura gral~a, s~Adjust window in best-fit or width mode
+zathura gral~/, ?~Search for text
+zathura gral~n, N~Search for the next or previous result
+zathura gral~o, O~Open document
+zathura gral~f~Follow links
+zathura gral~F~Display link target
+zathura gral~:~Enter command
+zathura gral~r~Rotate by 90 degrees
+zathura gral~^r~Recolor (grayscale and invert colors)
+zathura gral~R~Reload document
+zathura gral~Tab~Show index and switch to Index mode
+zathura gral~d~Toggle dual page view
+zathura gral~F5~Switch to presentation mode
+zathura gral~F11~Switch to fullscreen mode
+zathura gral~^m~Toggle inputbar
+zathura gral~^n~Toggle statusbar
+zathura gral~+, -, =~Zoom in, out or to the original size
+zathura gral~zI, zO, z0~Zoom in, out or to the original sizen=    Zoom to size nmX    Set a quickmark to a letter or number X
+zathura gral~'X~Goto quickmark saved at letter or number X
+zathura gral~q~Quit
+#########Fullscreen mode
+zathura full~J, K~Go to the next or previous page
+zathura full~space, <S-space>, <BackSpace>~Scroll a full page down or up
+zathura full~gg, G, nG~Goto to the first, the last or to the nth page
+zathura full~^c, Escape~Abort
+#########Navigate image list:
+zathura full~+, -, =~Zoom in, out or to the original size
+zathura full~zI, zO, z0~Zoom in, out or to the original size
+zathura full~n=~Zoom to size n
+zathura full~q~Quit
+##########Presentation mode
+zathura alt~pace, <S-space>, <BackSpace>~Scroll a full page down or up
+zathura alt~^c, Escape~Abort
+zathura alt~F5~Switch to normal mode
+zathura alt~q~Quit
+##########Index mode
+zathura index~, j~Move to upper or lower entry
+zathura index~l~ Expand entry
+zathura index~L~Expand all entries
+zathura index~h~Collapse entry
+zathura index~H~Collapse all entries
+zathura index~space, Return~Select and open entry
+##########Mouse bindings
+zathura mouse~Scroll~Scroll up or down
+zathura mouse~^Scroll~Zoom in or out
+zathura mouse~Hold Button2~Pan the document
+zathura mouse~Button1~Follow link
+##########Commands
+zathura commands~bmark~Save a bookmark
+zathura commands~bdelete~Delete a bookmark
+zathura commands~blist~List bookmarks
+zathura commands~close~Close document
+zathura commands~exec~Execute an external command
+zathura commands~info~Show docu-ent information
+zathura commands~open~Open a document
+zathura commands~offset~Set page offset
+zathura commands~print~Print document
+zathura commands~write(!)~Save document (and force overwriting)
+zathura commands~export~Export attachments
+zathura commands~dump~Write values, descriptions, etc. of all current settings to a file.

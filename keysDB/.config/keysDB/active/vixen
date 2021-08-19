@@ -1,0 +1,81 @@
+#########Basics
+vixen basic~:~command show 
+vixen basic~o~show open false 
+vixen basic~O~show open true 
+vixen basic~t~show tab open false 
+vixen basic~T~show tab open true 
+vixen basic~w~showw in open false 
+vixen basic~W~showw in open true 
+vixen basic~b~show buffer 
+vixen basic~a~show add bookmark true
+#########Movements
+vixen moves~0~scroll home 
+vixen basic~k~scroll vertically -1 
+vixen basic~j~scroll vertically 1 
+vixen basic~h~scroll horizonally -1 
+vixen basic~l~scroll horizonally 1 
+vixen basic~<C-U>~croll pages -05 
+vixen basic~<C-D>~croll pages 05 
+vixen basic~<C-B>~croll pages 1 
+vixen basic~<C-F>~croll pages 1 
+vixen basic~gg~croll top 
+vixen basic~G~croll bottom 
+vixen basic~$~croll end 
+vixen basic~H~navigate history prev 
+vixen basic~L~navigate history next 
+vixen basic~[[~navigate link prev 
+vixen basic~]]~navigate link next 
+vixen basic~gu~navigate parent 
+vixen basic~gU~navigate root 
+vixen basic~gi~focus input 
+vixen basic~gf~page source 
+vixen basic~gh~page home 
+vixen basic~gH~page home newTab true 
+#########tabs
+vixen tabs~x~tabs close 
+vixen tabs~D~tabs close left
+vixen tabs~d~tabs close right 
+vixen tabs~x$~tabs close right 
+vixen tabs~!d~tabs close force 
+vixen tabs~u~tabs reopen 
+vixen tabs~K~tabs prev 
+vixen tabs~J~tabs next 
+vixen tabs~gT~tabs prev 
+vixen tabs~gt~tabs next 
+vixen tabs~g0~tabs first 
+vixen tabs~g$~tabs last 
+vixen tabs~<C-6>~tabs prev sel 
+vixen tabs~r~tabs reload cache false 
+vixen tabs~R~tabs reload cache true 
+vixen tabs~zp~tabs pin toggle 
+vixen tabs~zd~tabs duplicate 
+#########tools
+vixen tools~zi~zoom in 
+vixen tools~zo~zoom out 
+vixen tools~zz~zoom neutral 
+vixen tools~f~follow start newTab false 
+vixen tools~F~follow start newTab true background false 
+vixen tools~m~mark setprefix 
+vixen tools~'~mark jumpprefix 
+vixen tools~y~urls yank 
+vixen tools~p~urls paste newTab false 
+vixen tools~P~urls paste newTab true 
+vixen tools~/~find start 
+vixen tools~n~find next 
+vixen tools~N~find prev 
+vixen tools~.~repeat last 
+vixen tools~<S-Esc>~addon toggle enabled
+#########SearchEngines
+vixen~DEFAULT~duckduckgo.com
+vixen~goog~google.com
+vixen~googi~oogle.com Images
+vixen~wiki~en.wikipedia.org
+vixen~ddg~duckduckgo.com
+vixen~aur~aur.archlinux.org
+vixen~arch~wiki.archlinux.org
+vixen~imdb~imdb.com
+vixen~dic~dictionary.com
+vixen~ety~etymonline.com
+vixen~urban~urbandictionary.com
+vixen~ddgi~duckduckgo.com Images
+vixen~myt~youtube.com

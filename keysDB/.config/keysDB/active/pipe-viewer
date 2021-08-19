@@ -1,0 +1,45 @@
+##########Base
+pipe basics~[keywords]~search for YouTube videos
+pipe basics~[youtube-url]~play a video by YouTube URL
+pipe basics~:v(ideoid)=ID~play videos by YouTube video IDs
+pipe basics~[playlist-url]~display videos from a playlistURL
+pipe basics~:playlist=ID~display videos from a playlistID
+##########Control
+pipe control~:n(ext)~get the next page of results
+pipe control~:b(ack~get the previous page of results
+##########Actions
+pipe actions~:login~will prompt you for login
+pipe actions~:logout~will delete the authentication key
+##########YouTube
+pipe tube~:i(nfo)=i,i~display more information
+pipe tube~:d(ownload)=i,i~download the selected videos
+pipe tube~:c(omments)=i~display video comments
+pipe tube~:r(elated)=i~display related videos
+pipe tube~:u(ploads)=i~display author's latest uploads
+pipe tube~:pv=i :popular=i~display author's popular uploads
+pipe tube~:A(ctivity)=i~display author's recent activity
+pipe tube~:p(laylists)=i~display author's playlists
+pipe tube~:ps=i :s2p=i,i~save videos to a post-selected playlist
+pipe tube~:subscribe=i~subscribe to author's channel
+pipe tube~:(dis)like=i~like or dislike a video
+pipe tube~:fav(orite)=i~favorite a video
+pipe tube~:autoplay=i~autoplay mode, starting from video i
+##########Playing
+pipe play~<number>~play the corresponding video
+pipe play~3-8, 3..8~same as 3 4 5 6 7 8
+pipe play~8-3, 8..3~same as 8 7 6 5 4 3
+pipe play~8 2 12 4 6 5 1~play the videos in a specific order
+pipe play~10..~play all the videos onwards from 10
+pipe play~:q(ueue)=i,i,...~enqueue videos for playing them later
+pipe play~:pq, :play-queue~play the enqueued videos (if any)
+pipe play~:anp, :nnp~auto-next-page, no-next-page
+pipe play~:play=i,i,...~play a group of selected videos
+pipe play~:regex=my?[regex]~play videos matched by a regex (/i)
+pipe play~:kregex=KEY,RE~play videos if the value of KEY matches the RE
+##########Others
+pipe more~:r(eturn)~return to previous page of results
+pipe more~:refresh~refresh the current list of results
+pipe more~:dv=i~display the data structure of result i
+pipe more~-argv -argv2=v~apply some arguments (e.g.: -u=google)
+pipe more~:reset, :reload~restart the application
+pipe more~:q, :quit, :exit~close the application

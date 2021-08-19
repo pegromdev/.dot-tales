@@ -1,0 +1,77 @@
+#########I3WM BASE
+i3 base~mod + number~Go to workspace ( Desktop )
+i3 base~mod + b~Go to next/prior workspace ( Desktop, back and forth)
+i3 base~mod + shift +b~Move window to next/prior workspace ( Desktop, back and forth)
+i3 base~mod + arrows~Select application in the current workspace
+i3 base~mod + shift + number~Move application to workspace and move to workspace
+i3 base~mod + ctrl + number~Move application to workspace and stay in current workspace
+i3 base~mod + shift + arrows~Move application
+i3 base~mod + shift + r~Resize application
+i3 base~mod + a~Focus parent
+i3 base~mod + space~Toggle float or floating
+i3 base~mod + shift + s~Toggle Sticky
+i3 base~mod + f~Full screen
+i3 base~mod + shift + minus~Send to Scratchpad
+i3 base~mod + minus~Toggle Scratchpad
+i3 base~mod + ctrl + x~XKill
+i3 base~mod + shift + q~kill
+i3 base~mod + ctrl + l~Sticky bottom rigth 
+i3 base~mod + ctrl + h~Sticky bottom left
+i3 base~mod + g~Turn Gaps on
+i3 base~mod + shift + g~Turn Gaps Off
+i3 base~mod + q~Split toggle
+i3 base~mod + s~Layout stacking
+i3 base~mod + w~Layout tabbed
+i3 base~mod + e~Layout toggle split
+i3 base~mod + Ctrl + Right~Workspace next ( Desktop )
+i3 base~mod + Ctrl + Left~Workspace prev ( Desktop )
+#########I3WM Function Keys 
+i3 fk~mod + F1~Wallpaper or background picker by ucollage
+i3 fk~mod + Shift + F1~CheatSheets	
+i3 fk~mod + F2~Reload I3 ( reaload, restart )
+i3 fk~mod + F3~Display select ( Monitor selection )
+i3 fk~mod + Shift + F3~Toogle touchpad
+i3 fk~mod + F4~Newsboat ( RSS Reader )
+i3 fk~mod + F5~Net Refresh ( restart network manager )
+i3 fk~mod + F6~Pulse Audio ( Volume ncurses TUI audio manager )
+i3 fk~mod + F7~Neo Mutt ( Mail Tui application )
+i3 fk~mod + F8~Calculator		
+i3 fk~mod + F9~Mount				
+i3 fk~mod + F10~Unmount
+i3 fk~mod + F11~WebCam
+i3 fk~mod + F12~Nmtui ( Network Manager TUI )
+######### I3WM MULTIMEDIA CONTROLS
+i3 multi~mod + v~Volume or Audio Menu Mode ( Mute. Vol up, Vol down ) ( SYSTEM )
+i3 multi~mod + end~Play/pause (Playerctl )
+i3 multi~mod + pgdn~Play previous ( Playerctl )
+i3 multi~mod + pgup~Play next ( playerctl )
+i3 multi~mod + shift + pgdn~Play previous -4 position ( playerctl, Retroceder )
+i3 multi~mod + shift + pgup~Play next +4  ( playerctl, Adelantar )
+i3 multi~mod + shift + End~Play/Pause Firefox player ( playerctl )
+i3 mpc~	mod + Shift + p~pause ( mpc )
+i3 mpc~	mod + Shift + t~stop ( mpc )
+i3 mpc~	mod + Shift + F9~play ( mpc )
+i3 mpc~	mod + Shift + F10~next ( mpc )
+i3 mpc~	mod + Shift + F8~prev (mpc )
+i3 mpc~	mod + Shift + F11~volume 30 ( mpc )
+i3 mpc~	mod + Shift + F12~volume 100 ( mpc )
+#########3WM NOTIFICATIONS (dunst)
+i3 notif~ctrl+mod1+h~Close all notifications
+i3 notif~ctrl+mod4+h~Show n otifications h istory
+i3 notif~ctrl+mod1+p~Show c ontext
+i3 notif~mod + insert~Show Clip ( clipboard )
+#########I3WM TOOLS
+i3 tools~ctrl+shift+s~Screenshoot ( Scrot )
+i3 tools~shift + home~Screenshoot ( maimpick )
+#########I3WM Launch Keys
+i3 launch~mod + return~Kitty
+i3 launch~mod + shift + return~Dropdown terminal
+i3 launch~mod + z~Morc menu ( Aplication Menu )
+i3 launch~mod + d~Dmenu
+i3 launch~mod + r~Rofi Menu Mode (Launcher, Pass, Window select, Boku, Locate, Recent, Shortcuts  )
+i3 launch~mod + c~Concky Menu Mode ( Fast-time, Sticky-time, Cpu, Disk, Dnust tempterature )
+i3 launch~mod + o~Options Menu Mode ( Gaps, Borders, Title Bar, Picom compositor )
+i3 launch~mod + 9~Lock screen
+i3 launch~mod + 0~Exit Menu ( Restart, Suspend, Hibernate, Shutdown, Lock )
+i3 launch~mod + ctrl + f~Ranger File Manager
+i3 launch~mod + m~Toggle bar mode 

@@ -1,0 +1,6 @@
+#########VIM PLUGINS
+#########NerdTree
+vim-nerdtree~ctrl+t~Toggle tree
+vim-nerdtree~lead+nf~Tree from bookmark
+vim-nerdtree~lead+nb~Open Bookmark
+

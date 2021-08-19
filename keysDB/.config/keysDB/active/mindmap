@@ -1,0 +1,12 @@
+mind~arrows~move around
+mind~escape~go to root node
+mind~return~add child node / exit edit node
+mind~alt + return~backspace enter edit node
+mind~tab~add siblin node
+mind~delete / d~delete node and its sub-tree
+mind~alt + arrows~move node with its sub-tree
+mind~alt + .~toggle 'zoom in' on node
+mind~space~toggle collapse
+mind~ctrl + space~toggle deep collapse
+mind~v~toggle outline / mindmap (outline mode is not stable)
+mind~q~exit

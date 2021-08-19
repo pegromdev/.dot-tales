@@ -1,0 +1,108 @@
+#########panes
+tmux panes~mod + !~break pane to a new window
+tmux panes~mod + c-o~rotate through the panes
+tmux panes~mod + ;~move to the previously active pane
+tmux panes~mod + o~select the next pane
+tmux panes~mod + q~display pane numbers
+tmux panes~mod + m~toggle the marked pane
+tmux panes~mod + f~search for a pane
+tmux panes~mod + m~clear the marked pane
+tmux panes~mod + e~spread panes out evenly
+tmux panes~mod + x~kill the active pane
+tmux panes~mod + z~zoom the active pane
+tmux panes~mod + {~swap the active pane with the pane above
+tmux panes~mod + }~swap the active pane with the pane below
+tmux panes~mod + up~select the pane above the active pane
+tmux panes~mod + down~select the pane below the active pane
+tmux panes~mod + left~select the pane to the left of the active pane
+tmux panes~mod + right~select the pane to the right of the active pane
+tmux panes~mod + c-up~resize the pane up
+tmux panes~mod + c-down~resize the pane down
+tmux panes~mod + c-left~resize the pane left
+tmux panes~mod + c-right~resize the pane right
+#########windows
+tmux window~mod + "~split window vertically
+tmux window~mod + %~split window horizontally
+tmux window~mod + &~kill current window
+tmux window~mod + '~prompt for window index to select
+tmux window~mod + ,~rename current window
+tmux window~mod + .~move the current window
+tmux window~mod + number~select window number
+tmux window~mod + c~create a new window
+tmux window~mod + i~display window information
+tmux window~mod + l~select the previously current window
+tmux window~mod + n~select the next window
+tmux window~mod + w~choose a window from a list
+tmux window~mod + dc~reset so the visible part of the window follows the cursor
+tmux window~mod + m-n~select the next window with an alert
+tmux window~mod + m-p~select the previous window with an alert
+tmux window~mod + s-up~move the visible part of the window up
+tmux window~mod + s-down~move the visible part of the window down
+tmux window~mod + s-left~move the visible part of the window left
+tmux window~mod + s-right~move the visible part of the window right
+#########layots and clients
+tmux layouts&clients~mod + m-1~set the even-horizontal layout
+tmux layouts&clients~mod + m-2~set the even-vertical layout
+tmux layouts&clients~mod + m-3~set the main-horizontal layout
+tmux layouts&clients~mod + m-4~set the main-vertical layout
+tmux layouts&clients~mod + m-5~select the tiled layout
+tmux layouts&clients~mod + space~select next layout
+tmux layouts&clients~mod + )~switch to next client
+tmux layouts&clients~mod + (~switch to previous client
+tmux layouts&clients~mod + c-z~suspend the current client
+tmux layouts&clients~mod + l~switch to the last client
+tmux layouts&clients~mod + d~choose a client from a list
+tmux layouts&clients~mod + d~detach the current client
+#########buffers and sessions
+tmux buffers&sessions~mod + #~list all paste buffers
+tmux buffers&sessions~mod + =~choose a paste buffer from a list
+tmux buffers&sessions~mod + ]~paste the most recent paste buffer
+tmux buffers&sessions~mod + -~delete the most recent paste buffer
+tmux buffers&sessions~mod + $~rename current session
+tmux buffers&sessions~mod + s~choose a session from a list
+#########tools
+tmux tools~mod + /~describe key binding
+tmux tools~mod + ?~list key bindings
+tmux tools~mod + :~prompt for a command
+tmux tools~mod + Tilde~show messages
+tmux tools~mod + tTilde~show a clock
+tmux tools~mod + [Tilde~enter copy mode
+tmux tools~mod + ppage~enter copy mode and scroll up
+#########customs
+tmyx custom~ctrl-f~ find functionallity keybind
+tmux custom~mod + c-f~copy-mode \; send-key ?
+##########reload config keybind
+tmux custom~bind r~source config reloaded
+##########easier and faster switching between next/prev window with alt
+tmux custom~mod +  alt-b~previous-window
+tmux custom~mod +  alt-n~next-window
+#########switching windows with alt
+tmux custom~mod +  alt-number~select-window -t number
+#########switching panes with alt
+tmux custom~mod +  alt-h~select-pane -l
+tmux custom~mod +  alt-l~select-pane -r
+tmux custom~mod +  alt-k~select-pane -u
+tmux custom~mod +  alt-j~select-pane -d
+##########resizing penes with alt
+tmux custom~mod +  alt-k~resize-pane -u 5
+tmux custom~mod +  alt-j~resize-pane -d 5
+tmux custom~mod +  alt-h~resize-pane -l 5
+tmux custom~mod +  alt-l~resize-pane -r 5
+tmux custom~alt + z~Zoom
+tmux custom~mod +  alt-z~resize-pane -z
+######### split current window horizontally
+tmux custom~mod +  alt-[~split-window -v
+########## split current window vertically
+tmux custom~mod +  alt-]~split-window -h
+########## buffers
+tmux custom~bind b~list-buffers  # list paste buffers
+tmux custom~bind p~paste-buffer  # paste from the top paste buffer
+tmux custom~bind p~choose-buffer # choose which buffer to paste from
+#########copy mode (vim style)
+# Needs Check
+#tmux custom~bind-key -t copy-mode-vi v send-keys -x begin-selection
+#tmux custom~bind-key -t copy-mode-vi v send-keys -x select-line
+#tmux custom~bind-key -t copy-mode-vi c-v send-keys -x rectangle-toggle
+#tmux custom~bind-key -t copy-mode-vi mousedragend1pane send-keys -x copy-pipe "xclip -in -selection clipboard"
+#tmux custom~bind-key -t copy-mode-vi y send-keys -x copy-pipe "xclip -in -selection clipboard"
+

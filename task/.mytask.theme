@@ -1,0 +1,83 @@
+################################################################################
+##
+## Color theme for taskwarrior 2.4 (or later) 
+##
+## taskwarrior - a command line task list manager.
+## http://taskwarrior.org - http://tasktools.org
+##
+## For more information on how to use, see 'man taskrc' and 'man task-color'
+##
+################################################################################
+#rule.precedence.color=deleted,completed,due.today,sheduled,active,blocked,blocking,pri.,project.,overdue,due,recurring
+#
+# basics
+#color.active=underline on inverse
+olor.completed=rgb030 on rgb010
+color.deleted=rgb335 on rgb100
+color.due.today=white on rgb500
+color.due=bold on gray8
+color.overdue=
+color.blocking=white on black
+color.blocked=black on yellow
+color.recurring=
+color.scheduled=
+color.tagged=
+color.pri.H=
+color.pri.M=
+color.pri.L=
+color.pri.none=
+
+### missing attributes
+#color.project.none=
+#color.tag.none=
+#color.pri.none=
+#
+## personal color rules (remove "#" and replace "X" with your value)
+##color.keyword.X=
+color.project.Arch=rgb025 
+color.project.Home=rgb310
+color.project.Study=rgb532
+color.project.Personal=rgb450
+color.project.Server=rgb334
+color.project.Books=rgb022
+color.tag.next=
+color.uda.X=
+
+## interface
+color.alternate=on gray1
+color.header=bold white on bright black
+color.label=
+color.footnote=bold cyan on bright black
+
+## burndown report
+color.burndown.pending=on rgb010 
+color.burndown.started=on bright yellow
+color.burndown.done=on rgb030
+
+### calendar
+color.calendar.holiday=rgb550
+color.calendar.today=bold white on green
+color.calendar.due.today=on rgb500
+color.calendar.due=on rgb100
+color.calendar.overdue=on rgb300
+color.calendar.weekend=on gray3
+color.calendar.weeknumber=rgb200
+
+### history report
+color.history.add=white on rgb010
+color.history.done=black on rgb030
+color.history.delete=white on rgb100
+
+### summary report (background color only)
+color.summary.bar=white on gray1
+color.summary.background=gray4
+
+### status
+color.error=red on white
+color.debug=black on white
+color.undo.before=yellow
+color.undo.after=green
+color.sync.added=green
+color.sync.changed=yellow
+color.sync.rejected=red
+color.warning=bold red

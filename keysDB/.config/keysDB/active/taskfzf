@@ -1,0 +1,17 @@
+taskfzf~D~marks the tasks as done (task do).
+taskfzf~X~Deletes the tasks (task del).
+taskfzf~E~edits the task in your editor (task edit).
+taskfzf~T~edits the task in your editor (task edit).
+taskfzf~I~Add a new task, with context of the currently highlighted task
+taskfzf~A~appends a text to the tasks using a shell input (task append).
+taskfzf~N~annotates a text to a task using a shell input (task annotate).
+taskfzf~M~modifies a task using a shell input (task modify).
+taskfzf~S~starts the tasks (task start).
+taskfzf~P~stops the tasks (task stop).
+taskfzf~U~undo the last action performed (task undo)
+taskfzf~T~add interactively a new task (task add).
+taskfzf~R~changes the current `report'' (`task reports).
+taskfzf~C~changes the current context (task contexts).
+taskfzf~C~RL-R reloads the current report, useful when another instance of task changes your tasks.
+
+

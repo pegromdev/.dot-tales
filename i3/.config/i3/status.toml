@@ -1,0 +1,72 @@
+# Nerd Font Icon Graph Map
+# https://www.nerdfonts.com/cheat-sheet
+
+[icons]
+name = "awesome5"
+
+[icons.overrides]
+music = " "
+pomodoro = " "
+
+[theme]
+#name = "gruvbox-dark"
+name = "native"
+#name = 'bad-wolf'
+[theme.overrides]
+idle_bg = "#222222"
+idle_fg = "#BEB298"
+good_bg = "#222222"
+good_fg = "#BEB298"
+info_bg = "#222222"
+info_fg = "#BEB298"
+warning_bg = "#222222"
+warning_fg = "#BEB298"
+critical_bg = "#222222"
+critical_fg = "#BEB298"
+
+[[block]]
+block = "music"
+player = "spotify"
+dynamic_width = true
+max_width = 100
+
+[[block]]
+block = "maildir"
+interval = 600
+inboxes = ["/home/user/mail/local", "/home/niko/.local/share/mail/nicolas.villafan@gmail.com/INBOX",]
+threshold_warning = 100
+threshold_critical = 1000
+display_type = "all"
+
+[[block]]
+block = "taskwarrior"
+interval = 600
+format = "{count}"
+format_singular = "{count} open task"
+format_everything_done = "nothing to do!"
+warning_threshold = 40
+critical_threshold = 60
+#filter_tags = ["work", "Recovery"]
+
+[[block]]
+block = "pacman"
+interval = 6000
+format = "{both}"
+format_up_to_date = " 0"
+critical_updates_regex = "(linux |linux-lts|linux-zen)"
+# aur_command should output available updates to stdout (ie behave as echo -ne "update\n")
+aur_command = "yay -Qua"
+
+[[block]]
+block = "pomodoro"
+length = 25
+break_length = 5
+message = "Take a break!"
+break_message = "Back to work!"
+use_nag = true
+nag_path = "i3-nagbar"
+
+[[block]]
+block = "sound"
+format = "{volume}"
+

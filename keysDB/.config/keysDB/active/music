@@ -1,0 +1,39 @@
+music~+~show_clock
+music~=~volume_up
+music~j~scroll_down
+music~k~scroll_up
+music~ctrl-u~page_up	/ 	push_characters "kkkkkkkkkkkkkkk"
+music~ctrl-d~page_down/ 	push_characters "jjjjjjjjjjjjjjj"
+music~u~page_up /		push_characters "kkkkkkkkkkkkkkk"
+music~d~page_down / push_characters "jjjjjjjjjjjjjjj"
+music~h~previous_column
+music~l~next_column
+music~.~show_lyrics
+music~n~next_found_item	
+music~N~previous_found_item
+music~J~move_sort_order_down
+music~K~move_sort_order_up
+music~h~jump_to_parent_directory
+music~l~enter_directory
+music~l~run_action
+music~l~play_item
+music~S~stop
+music~m~show_media_library
+music~m~toggle_media_library_columns_mode
+music~t~show_tag_editor
+music~v~show_visualizer
+music~G~move_end
+music~g~move_home	 jump_to_position_in_song
+music~U~update_database
+music~s~reset_search_engine
+music~s~show_search_engine
+music~F~show_browser
+music~F~change_browse_mode
+music~x~delete_playlist_items
+music~P~show_playlist
+music~f~seek_fordward
+music~b~seek_backward
+
+
+
+

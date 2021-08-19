@@ -1,0 +1,143 @@
+#########General 
+ranger general~Q,<F10>~quit!
+ranger general~q~quit
+ranger general~Rd, <F5>~reload current working directorie
+ranger general~<C-r>~reset
+ranger general~Rw~redraw window ( Usefuul  when previwws disapier )
+ranger general~<C-c>~abort, cancel
+ranger general~<esc>~change mode to normal
+#########View,Help,Log,Taskview
+ranger general~vf,<F3>~display file in full screen 
+ranger general~?, <F1>~activate help menu 
+ranger general~W~display log in full screen
+ranger general~tv~taskview open, view current task
+ranger general~S~enter shell execution mode
+#########Console Basics
+ranger general~:~enter console
+ranger general~;~enter console
+ranger general~!~enter console  shell with a space 
+ranger general~@~enter shell with current file after cursor
+ranger general~<INSERT>~console touch Create a file!
+#########On the fly Settings 
+ranger general~zc~toggle collapse preview
+ranger general~zd~toggle sort directories first
+ranger general~zh, <C-h>~toggle show hidden
+ranger general~zi~toggle flushinput
+ranger general~zm~toggle	mouse_enabled
+ranger general~zp~toggle	preview_files
+ranger general~zP~toggle	preview_directories
+ranger general~zs~toggle	sort_case_insensitive
+ranger general~zu~toggle	autoupdate_cumulative_size
+ranger general~zv~toggle	use_preview_script
+ranger general~zf~console filter and space
+#########Tagging  ( t )
+ranger tag~tt~toggle Tags ( Creates a mark )
+ranger tag~tr~remove tag
+ranger tag~t"<any>~use a custom mark tag
+#########line mode( M )
+ranger mode~Mlf~filename
+ranger mode~Mli~fileinfo
+ranger mode~Mlp~permissions
+ranger mode~Mlt~metatitle
+ranger mode~Mld~devicons DEFAULT
+#########Sorting ( s )
+ranger sort~sr~reverse false
+ranger sort~sz~random false
+ranger sort~ss~size false
+ranger sort~sb~basename	false
+ranger sort~sn~natural false
+ranger sort~sm~mtime false
+ranger sort~sc~ctime false
+ranger sort~sa~atime false
+ranger sort~st~type false
+ranger sort~se~extension false
+ranger sort~sS~size	True
+ranger sort~sB~basename	True
+ranger sort~sN~natural True
+ranger sort~sM~mtime	True
+ranger sort~sC~ctime	True
+ranger sort~sA~atime	True
+ranger sort~sT~type	True
+ranger sort~sE~extension	True
+ranger sort~Z~Special cumulative size
+#########Bookmarks ( m )
+ranger bookmark~me<any>~enter bookmark %any
+ranger bookmark~mm<any>~set 	bookmark %any
+ranger bookmark~mu<any>~unset bookmark %any
+ranger bookmark~md~draw	bookmarks
+#########Searching
+ranger seacrh~/~console search%space
+ranger search~f~console find%
+#########FZF Integration
+ranger search~<C-l>~fzf selection
+ranger search~<C-g>~fzf location
+#########Movement
+ranger movement~<UP>,k~move up a space
+ranger movement~<DOWN>,j~move down a space
+ranger movement~<LEFT>,h~move lef a page
+ranger movement~<RIGHT>,l~move right a page
+ranger movement~<HOME>,gg~move to first line
+ranger movement~<END>,G~move to the bottom line
+ranger movement~<PAGEDOWN>,<C-f>~move down a page
+ranger movement~<PAGEUP>,<C-b>~move up a page
+ranger movement~<CR>~move right a space
+ranger movement~J,<C-d>~move down half screen
+ranger movement~K,<C-u>~move up half screen
+ranger movement~cdr~enters Ranger User root directorie
+#########Tabs
+ranger movement~<C-n>,gn~Create new tab
+ranger movement~<C-w>,Tc~Close current tab
+ranger movement~Tr~restore a Tab
+ranger movement~<TAB>,<A-Right>,Tn~move fordward a tab 
+ranger movement~<S-TAB>,<A-Left>,Tb~move backward a tab
+ranger movement~<a-number>~!
+#########Filesystem Operations
+ranger ops~an~console rename plus space
+ranger ops~aa~rename append
+ranger ops~aW~bulkrename
+ranger ops~pp~paste
+ranger ops~po~paste overwrite true 
+ranger ops~pP~paste append True
+ranger ops~pO~paste overwrite True append True
+ranger ops~pl~paste_symlink relative False
+ranger ops~pL~paste_symlink relative=True
+ranger ops~phl~paste_hardlink
+ranger ops~pht~paste_hardlinked_subtree
+ranger ops~pd~console paste dest=
+ranger ops~dc,<F6>~cut
+ranger ops~du~uncut
+ranger ops~da~cut add
+ranger ops~dr~cut remove
+ranger ops~dD, <F8>~console delete
+ranger ops~<DELETE>~console delete
+ranger ops~dd~send to trash
+ranger ops~dR~restore from trash 
+ranger ops~dE~empty trash
+ranger ops~dL~trash list
+ranger ops~yy,<F5>~copy
+ranger ops~ya~copy add
+ranger ops~yr~copy remove
+ranger ops~ysf~show a list of copy files in cache
+ranger ops~yp~Copy full file Path to system clipboard
+ranger ops~yd~Copy full Directory Path to system clipboard
+ranger ops~<Space>~mark a files 						
+ranger ops~va~mark all files  
+ranger ops~vA~unmark all files  
+ranger ops~vs~toggle visual_mode 
+ranger ops~vS~toggle visual_mode reverse True
+ranger ops~E,<F4>~edit
+ranger ops~V~Insert vim at console
+ranger ops~owv~Open with vim Main server					
+ranger ops~owo~Open With & choose
+ranger ops~X~extract
+ranger ops~Z~compresss
+ranger ops~mkd,<F7>~Create a directorie
+ranger ops~<INSERT>a~Create a file
+ranger ops~cm+~chmod +x  Add execution permission
+ranger ops~cm-~chmod -x  Remove execution permission
+#########Tools
+ranger tools~ep~cmus play
+ranger tools~el~cmus lib
+ranger tools~eq~cmus queue 
+ranger tools~bg~feh background
+ranger tools~br~rotate 90 Image

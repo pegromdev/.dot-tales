@@ -1,0 +1,166 @@
+# FZF functions
+
+#: zsh {{{
+
+# - repeat history
+fr() {
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) |
+	fzf +s --tac | sed -r 's/ *[0-9]*\*? *//' | 
+	sed -r 's/\\/\\\\/g')
+}
+
+#: }}}
+
+#: System tools {{{
+
+# Dmesg Search
+fdm() {
+  sudo dmesg | less | tee $HOME/.dmesg.txt
+  cat .dmesg.txt | fzf -e +s --tac --reverse --multi --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. "
+  rm -rf $HOME/.dmesg.txt
+}
+# fkill - kill processes - list only the ones you can kill. Modified the earlier script.
+fkill() {
+    local pid 
+    if [ "$UID" != "0" ]; then
+        pid=$(ps -f -u $UID | sed 1d | fzf -m | awk '{print $2}')
+    else
+        pid=$(ps -ef | sed 1d | fzf -m | awk '{print $2}')
+    fi  
+    if [ "x$pid" != "x" ]
+    then
+        echo $pid | xargs kill -${1:-9}
+    fi  
+}
+
+fcheat() {
+
+	given_folder="~/Documents/wiki/cheatsheets"
+	fzf --query="$given_folder" --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'
+  previous_file="$1"
+  file_to_edit=`select_file $previous_file`
+
+  if [ -n "$file_to_edit" ] ; then
+    "$EDITOR" "$file_to_edit"
+    main "$file_to_edit"
+  fi
+}
+
+#: }}}
+
+#: Custom searches {{{
+
+# fd - cd to selected directory
+fd() {
+	cd /
+  local dir
+  dir=$(find ${1:-.} -path '*/\.*' -prune \
+                  -o -type d -print 2> /dev/null | fzf +m) &&
+  cd "$dir"
+}
+
+# fda - including hidden directories
+fda() {
+	cd /
+  local dir
+  dir=$(find ${1:-.} -type d 2> /dev/null | fzf +m) && cd "$dir"
+}
+
+# Variable to be used on diferent cases
+select_file() {
+	given_file="$1"
+ 	fd -t f -H -I | fzf --query="$given_file" --reverse --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'
+}
+
+# Full system search with preview and EDITOR setup
+f/() {
+  cwd=$(pwd)
+	cd /
+  previous_file="$1"
+  file_to_edit=`select_file $previous_file`
+
+  if [ -n "$file_to_edit" ] ; then
+    "vim" "$file_to_edit"
+    main "$file_to_edit"
+  fi
+	cd $cdw
+}
+# Full home folder search with preview and EDITOR setup
+fh() {
+	cdh=$(pwd)
+	cd /home/niko
+  previous_file="$1"
+  file_to_edit=`select_file $previous_file`
+
+  if [ -n "$file_to_edit" ] ; then
+    "vim" "$file_to_edit"
+    main "$file_to_edit"
+  fi
+	cd $cdh
+}	
+
+# Full home folder search with preview and EDITOR setup
+f.() {
+
+select_dot() {
+	given_file="$1"
+ 	find -not -path "/home/niko/.manjaro-tales/.git/*" | fzf --query="$given_file" --reverse --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'
+}
+
+
+	cd /home/niko/.manjaro-tales/
+  previous_file="$1"
+  file_to_edit=`select_dot $previous_file`
+
+  if [ -n "$file_to_edit" ] ; then
+    "vim" "$file_to_edit"
+    main "$file_to_edit"
+  fi
+}
+
+cdf() {
+    cd $HOME && cd "$(fd -Ht d | fzf --preview="tree -L 1 {}" --bind="space:toggle-preview" --preview-window=:hidden)"
+}
+
+#: }}}
+
+#: Pacman {{{
+
+# Search Thru Pacman 
+pacs() {
+  sudo pacman -Syy $(pacman -Ssq | fzf -m --preview="pacman -Si {}" --preview-window=:hidden --bind=space:toggle-preview --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. ")
+}
+# Search Intalled Only
+installed() {
+	pacman -Qq | fzf -i --multi --reverse --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. " --preview ' pacman -Qi {} ' --no-unicode "$( if (( $(tput cols) >= 125 )); then echo "--preview-window=right:55%:wrap"; else echo "--preview-window=bottom:60%:wrap"; fi )"
+}
+#: }}}
+
+#: Logs {{{
+
+# Journalctl errors
+jrlerr() {
+	journalctl -p 3 -xb | fzf -e +s --tac --reverse --multi --info=inline --prompt="Enter String" --header="TAB key to (un)select. Enter to view selection. ESC to quit."
+}
+# Journalctl Live logs
+jrllive() {
+	journalctl --follow --full | fzf -e +s --tac --reverse --multi --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. "
+}
+# Pacman Logs
+paclog() {
+	cat /var/log/pacman.log | fzf -e +s --tac --multi --reverse --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. "
+}
+# Xorg Logs
+fxorg() {
+if [[ -f /var/log/Xorg.0.log ]]
+	then
+  	cat /var/log/Xorg.0.log | fzf -e +s --tac --reverse --multi --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. "
+  else
+  	if [[ -f $HOME/.local/share/xorg/Xorg.0.log ]]
+    	then
+				cat $HOME/.local/share/xorg/Xorg.0.log | fzf -e +s --tac --reverse --multi --info=inline --prompt="Enter string > " --header="TAB key to (un)select. ENTER to view selection. ESC to quit. "
+    fi
+fi
+}
+#: }}}
+

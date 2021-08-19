@@ -1,0 +1,252 @@
+##########Global
+vim global~h[elp]~Keyword - open help for keyword
+vim global~sav[eas]~File - save file as
+vim global~clo[se]~Close current pane
+vim global~ter[minal]~Open a terminal window
+vim global~K~Open man page for word under the cursor
+##########Exiting
+vim global~:w~write (save) the file, but don't exit
+vim global~:q~quit (fails if there are unsaved changes)
+vim global~:q! or ZQ~quit and throw away unsaved changes
+vim global~:wqa~write (save) and quit on all tabs
+vim global~:w !sudo tee %~write out the current file using sudo
+vim global~:wq or :x or ZZ~write (save) and quit
+##########Cursor movement
+vim movement~h~move cursor left
+vim movement~j~move cursor down
+vim movement~k~move cursor up
+vim movement~li~move cursor right
+vim movement~H~move to top of screen
+vim movement~M~move to middle of screen
+vim movement~L~move to bottom of screen
+vim movement~w~jump forwards to the start of a word
+vim movement~W~jump forwards to the start of a word (words can contain punctuation)
+vim movement~e~jump forwards to the end of a word
+vim movement~E~jump forwards to the end of a word (words can contain punctuation)
+vim movement~b~jump backwards to the start of a word
+vim movement~B~jump backwards to the start of a word (words can contain punctuation)
+vim movement~%~move to matching character 
+vim movement~0~jump to the start of the line
+vim movement~^~jump to the first non-blank character of the line
+vim movement~$~jump to the end of the line
+vim movement~g~jump to the last non-blank character of the line
+vim movement~gg~go to the first line of the document
+vim movement~G~go to the last line of the document
+vim movement~5gg or 5G~go to line 5
+vim movement~gd~move to local declaration
+vim movement~gD~move to global declaration
+vim movement~fx~jump to next occurrence of character x
+vim movement~tx~jump to before next occurrence of character x
+vim movement~Fx~jump to previous occurence of character x
+vim movement~Tx~jump to after previous occurence of character x
+vim movement~;~repeat previous f, t, F or T movement
+vim movement~,~repeat previous f, t, F or T movement, backwards
+vim movement~}~jump to next paragraph (or function/block, when editing code)
+vim movement~{~jump to previous paragraph (or function/block, when editing code)
+vim movement~zz~center cursor on screen
+vim movement~Ctrl + e~move screen down one line (without moving cursor)
+vim movement~Ctrl + y~- move screen up one line (without moving cursor)
+vim movement~Ctrl + b~move back one full screen
+vim movement~Ctrl + f~move forward one full screen
+vim movement~Ctrl + d~move forward 1/2 a screen
+vim movement~Ctrl + u~move back 1/2 a screen
+##########Vim Insert
+vim insert~i~insert before the cursor
+vim insert~I~insert at the beginning of the line
+vim insert~a~insert (append) after the cursor
+vim insert~A~insert (append) at the end of the line
+vim insert~o~append (open) a new line below the current line
+vim insert~O~append (open) a new line above the current line
+vim insert~ea~insert (append) at the end of the word
+vim insert~Ctrl + h~delete the character before the cursor during insert mode
+vim insert~Ctrl + w~delete word before the cursor during insert mode
+vim insert~Ctrl + j~begin new line during insert mode
+vim insert~Ctrl + t~indent (move right) line one shiftwidth during insert mode
+vim insert~Ctrl + d~de-indent (move left) line one shiftwidth during insert mode
+vim insert~Ctrl + n~insert (auto-complete) next match before the cursor during insert mode
+vim insert~Ctrl + p~insert (auto-complete) previous match before the cursor during insert mode
+vim insert~Ctrl + rx~insert the contents of register x
+vim insert~Esc~exit insert mode
+#########Editing
+vim edit~r~replace a single character
+vim edit~J~join line below to the current one with one space in between
+vim edit~gJ~join line below to the current one without space in between
+vim edit~gwip~reflow paragraph
+vim edit~gTilde~switch case up to motion
+vim edit~Tildegu~change to lowercase up to motion
+vim edit~gU~change to uppercase up to motion
+vim edit~cc~change (replace) entire line
+vim edit~C~change (replace) to the end of the line
+vim edit~c$~change (replace) to the end of the line
+vim edit~ciw~change (replace) entire word
+vim edit~cw~change (replace) to the end of the word
+vim edit~s~delete character and substitute text
+vim edit~S~delete line and substitute text (same as cc)
+vim edit~xp~transpose two letters (delete and paste)
+vim edit~u~undo
+vim edit~U~restore (undo) last changed line
+vim edit~Ctrl + r~redo
+vim edit~.~repeat last command
+#########Visual mode
+vim visual~v~start visual mode, mark lines, then do a command (like y-yank)
+vim visual~V~start linewise visual mode
+vim visual~o~move to other end of marked area
+vim visual~Ctrl + v~start visual block mode
+vim visual~O~move to other corner of block
+vim visual~aw~mark a word
+vim visual~ab~a block with ()
+vim visual~aB~a block with {}
+vim visual~at~a block with <> tags
+vim visual~ib~inner block with ()
+vim visual~iB~inner block with {}
+vim visual~it~inner block with <> tags
+vim visual~Esc~Exit visual mode
+#########Visual commands
+vim visual~>~shift text right
+vim visual~<~shift text left
+vim visual~y~yank (copy) marked text
+vim visual~d~delete marked text
+vim visual~Tilde~switch case
+vim visual~u~change marked text to lowercase
+vim visual~U~change marked text to uppercase
+#########Registers
+vim reg~:reg[isters]~show registers content
+vim reg~"xy~yank into register x
+vim reg~"xp~paste contents of register x
+vim reg~"+y~yank into the system clipboard register
+vim reg~"+p~paste from the system clipboard register
+#########Special registers
+vim reg~0~last yank
+vim reg~"~unnamed register, last delete or yank
+vim reg~%~current file name
+vim reg~#~alternate file name
+vim reg~*~clipboard contents (X11 primary)
+vim reg~+~clipboard contents (X11 clipboard)
+vim reg~/~last search pattern
+vim reg~:~last command-line
+vim reg~.~last inserted text
+vim reg~-~last small (less than a line) delete
+vim reg~=~expression register
+vim reg~_~black hole register
+#########Marks and positions
+vim marks~:marks~list of marks
+vim marks~ma~set current position for mark A
+vim marks~`a~jump to position of mark A
+vim marks~y`a~yank text to position of mark A
+vim marks~`0~go to the position where Vim was previously exited
+vim marks~`"~go to the position when last editing this file
+vim marks~`.~go to the position of the last change in this file
+vim marks~``~go to the position before the last jump
+vim marks~:ju[mps]~list of jumps
+vim marks~Ctrl + i~go to newer position in jump list
+vim marks~Ctrl + o~go to older position in jump list
+vim marks~:changes~list of changes
+vim marks~g,~go to newer position in change list
+vim marks~g;~go to older position in change list
+vim marks~Ctrl + ]~jump to the tag under cursor
+
+#########Macros
+vim macros~qa~record macro a
+vim macros~q~stop recording macro
+vim macros~@a~run macro a
+vim macros~@@~rerun last run macro
+
+#########Cut and paste
+vim cut&paste~yy~yank (copy) a line
+vim cut&paste~2yy~yank (copy) 2 lines
+vim cut&paste~yw~yank (copy) the characters of the word from the cursor position to the start of the next word
+vim cut&paste~y$~yank (copy) to end of line
+vim cut&paste~p~put (paste) the clipboard after cursor
+vim cut&paste~P~put (paste) before cursor
+vim cut&paste~dd~delete (cut) a line
+vim cut&paste~2dd~delete (cut) 2 lines
+vim cut&paste~dw~delete (cut) the characters of the word from the cursor position to the start of the next word
+vim cut&paste~D~delete (cut) to the end of the line
+vim cut&paste~d$~delete (cut) to the end of the line
+vim cut&paste~x~delete (cut) character
+#########Indent text
+vim indent~>>~indent (move right) line one shiftwidth
+vim indent~<<~de-indent (move left) line one shiftwidth
+vim indent~>%~indent a block with () or {} (cursor on brace)
+vim indent~>ib~indent inner block with ()
+vim indent~>at~indent a block with <> tags
+vim indent~3==~re-indent 3 lines
+vim indent~=%~re-indent a block with () or {} (cursor on brace)
+vim indent~=iB~re-indent inner block with {}
+vim indent~gg=G~re-indent entire buffer
+vim indent~]p~paste and adjust indent to current line
+#########Search and replace
+vim seacrh&replace~/pattern~search for pattern
+vim seacrh&replace~?pattern~search backward for pattern
+vim seacrh&replace~\vpattern~very magic pattern: non-alphanumeric characters are interpreted as special regex symbols 
+vim seacrh&replace~n~repeat search in same direction
+vim seacrh&replace~N~repeat search in opposite direction
+vim seacrh&replace~:%s/old/new/g~replace all old with new throughout file
+vim seacrh&replace~:%s/old/new/gc~replace all old with new throughout file with confirmations
+vim seacrh&replace~:noh[lsearch]~remove highlighting of search matches
+#########Search in multiple files
+vim search&replace~:vim[grep]~example:vim[grep] /foo/ **/*
+vim search&replace~:cn[ext]~jump to the next match
+vim search&replace~:cp[revious]~jump to the previous match
+vim search&replace~:cope[n]~open a window containing the list of matches
+vim search&replace~:ccl[ose]~close the quickfix window
+
+#########Tabs
+vim tabs~:tabnew~open a file in a new tab
+vim tabs~Ctrl + wT~move the current split window into its own tab
+vim tabs~gt or :tabn[ext]~move to the next tab
+vim tabs~gT or :tabp[revious]~move to the previous tab
+vim tabs~#gt~move to tab number #
+vim tabs~:tabm[ove]~move current tab to the #th position (indexed from 0)
+vim tabs~:tabc[lose]~close the current tab and all its windows
+vim tabs~:tabo[nly]~close all tabs except for the current one
+vim tabs~:tabdo command~run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
+#########Working with multiple files
+vim buffers~:e[dit] file~edit a file in a new buffer
+vim buffers~:bn[ext]~go to the next buffer
+vim buffers~:bp[revious]~go to the previous buffer
+vim buffers~:bd[elete]~delete a buffer (close a file)
+vim buffers~:b[uffer]#~go to a buffer by index #
+vim buffers~:b[uffer] file~go to a buffer by file
+vim buffers~:ls or :buffers~list all open buffers
+vim buffers~:sp[lit] file~open a file in a new buffer and split window
+vim buffers~:vs[plit] file~open a file in a new buffer and vertically split window
+vim buffers~:vert[ical] ba[ll]~edit all buffers as vertical windows
+vim buffers~:tab ba[ll]~edit all buffers as tabs
+vim windows~Ctrl + ws~split window
+vim windows~Ctrl + wv~split window vertically
+vim windows~Ctrl + ww~switch windows
+vim windows~Ctrl + wq~quit a window
+vim windows~Ctrl + wx~exchange current window with next one
+vim windows~Ctrl + w=~make all windows equal height & width
+vim windows~Ctrl + wh~move cursor to the left window (vertical split)
+vim windows~Ctrl + wl~move cursor to the right window (vertical split)
+vim windows~Ctrl + wj~move cursor to the window below (horizontal split)
+vim windows~Ctrl + wk~move cursor to the window above (horizontal split)
+#########Diff
+vim diff~zf~manually define a fold up to motion
+vim diff~zd~delete fold under the cursor
+vim diff~za~toggle fold under the cursor
+vim diff~zo~open fold under the cursor
+vim diff~zc~close fold under the cursor
+vim diff~zr~reduce (open) all folds by one level
+vim diff~zm~fold more (close) all folds by one level
+vim diff~zi~toggle folding functionality
+vim diff~]c~jump to start of next change
+vim diff~[c~jump to start of previous change
+vim diff~do or :diffg[et]~obtain (get) difference (from other buffer)
+vim diff~dp or :diffpu[t]~put difference (to other buffer)
+vim diff~:diffthis~make current window part of diff
+vim diff~:dif[fupdate]~update differences
+vim diff~:diffo[ff]~switch off diff mode for current window
+
+#########VIM SESSIONS
+vim sessions~":mksession /path"~Save the curren vim session.
+vim sessions~":source /path"~Load the specified vim session.
+#########VIM COMMAND LINE
+vim command line~iab~Insert timestamp
+vim command line~$q~Delete until the last slash
+#########VIM ALIASES 
+vim alias~Today~Inserts current date and time
+
+
