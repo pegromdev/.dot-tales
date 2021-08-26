@@ -3,7 +3,7 @@
 # Systemd
 export XDG_RUNTIME_DIR=/run/user/`id -u`
 # Adds `~/.scripts` and all subdirectories to $PATH
-export PATH="$PATH:$(du "$HOME/.scripts/" "$HOME/.npm-packages" "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 export PATH=~/.npm-global/bin:$PATH
 export EDITOR="nvim" 
 export TERMINAL="kitty"
