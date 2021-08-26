@@ -77,19 +77,19 @@ mode "$volume_system" {
 set $rofi  (l)auncher  | ﳳ (p)ass  |   (w)indows  |  (b)oku  |  loca(t)e  |  (r)ecent  |  (s)hortcut
 mode "$rofi" {
 		# App launcher
-		bindsym l exec $nsi rofi -modi drun -show drun -width 50 -location 2 -lines 10 -bw -yoffset 22 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 10", mode "default"
+		bindsym l exec $nsi rofi -modi drun -show drun -width 50 -location 2 -lines 10 -bw -yoffset 0 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 12", mode "default"
 		# Pass
-		bindsym p	exec $nsi ~/.scripts/apps/rofi/rofi-pass -font "Terminess 7", mode "default"
+		bindsym p	exec $nsi rofi-pass -font "Terminess 7", mode "default"
 		# Window Selector
 		bindsym w	exec $nsi	rofi -show window -font "Terminess 12" , mode "default"
 		# Buku Bookmark manager
-		bindsym b	exec $nsi	~/.scripts/apps/rofi/buku_run -font "Terminess 5", mode "default"
+		bindsym b	exec $nsi	buku_run -font "Terminess 5", mode "default"
 		# File Finder
 		bindsym t	exec $nsi	locate home media | rofi -threads 0 -width 60 -dmenu -i -p "locate:" | xargs -r -0 xdg-open, mode "default"
  		# Recent Files
-		bindsym r exec $nsi ~/.scripts/apps/rofi/Scripts_recent-rofi -font "Terminess 7", mode "default"
+		bindsym r exec $nsi recent-rofi -font "Terminess 7", mode "default"
 		# Shortcuts
-		bindsym s exec $nsi ~/.scripts/apps/dmenu/dCuts, mode "default"
+		bindsym s exec $nsi dCuts, mode "default"
 	
 
 		# exit system mode: "Enter" or "Escape"
