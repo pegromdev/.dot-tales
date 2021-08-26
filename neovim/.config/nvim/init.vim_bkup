@@ -1,5 +1,5 @@
-
-"#: vim-pug {{{
+"# vim:foldmethod=marker
+"#: vim-plug {{{
 "#: Load VimPlug {{{
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -7,6 +7,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 "#: }}}
+
 "#: Pluging List {{{
 
 call plug#begin('~/.vim/plugged')
@@ -235,7 +236,7 @@ map <C-l> <C-w>l
 :nnoremap <C-n> :bnext<CR>  
 :nnoremap <C-b> :bprevious<CR>
 " Markdown preview
-:nnoremap <C-p> :! markdown_previewer <C-r> %
+:nnoremap <C-p> :! glow % <C-r> %
 " Commands
 :command Today pu=strftime('%c')
 "#:}}}

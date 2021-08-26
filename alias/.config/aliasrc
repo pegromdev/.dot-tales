@@ -31,13 +31,16 @@ alias rest-clean='restic cache --cleanup'
 alias rest-prune='restic forget --keep-last 1 --prune'
 	
 # Vim
-alias	vm="vim -S Main.vim --servername "Main"" 
-alias	vt="vim -c :TW --servername "Task"" 
-alias	vl="vim --serverlist" 
+alias	vm="nvim"  
 # bpytop
 alias status="bpytop"
 # Pacman
 alias pau="pacui 3"
+
+# source
+alias svim="source ~/.dot-tales/neovim/.config/nvim/init.vim"
+alias szsh="source ~/.zshrc"
+alias stmux="source ~/.tmux.conf"
 #: }}}
 
 #: Tools {{{
