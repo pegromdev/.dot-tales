@@ -16,7 +16,8 @@ font xft:Source-Code-Pro 11
 set $nsi 					--no-startup-id
 set $term					$TERMINAL
 set $term2				kitty --class dropdown
-set $term3				kitty --class vserver	
+set $term3				kitty --class vserver
+set $term4        kitty --class tg		
 set $mod 					Mod4
 set $sup 					Mod1
 set $shutdown 		sudo -A shutdown -h now
@@ -213,7 +214,9 @@ exec $nsi	$term -e tmux new-session -A -s Main
 # Dropdown Terminal
 exec $nsi "sleep 2; $term2"  	 
 # Vim server
-exec $nsi "sleep 3; $term3 -e vim -S Main.vim --servername 'Main'"  	 
+exec $nsi "sleep 3; $term3 -e nvim"  	 
+# tg
+exec $nsi "sleep 4; $term4 -e tg"	
 # Ranger
 exec $nsi	"sleep 5; $term --class ranger -e ranger"
 
@@ -342,7 +345,9 @@ bindsym $mod+Return					exec $nsi $term
 # Dropdown
 bindsym $mod+Shift+Return  	[instance="dropdown"] scratchpad show
 # vserver 
-bindsym $sup+Return  	[instance="vserver"] scratchpad show
+bindsym $sup+Return  				[instance="vserver"] scratchpad show
+# vserver 
+bindsym $mod+t  						[instance="tg"] scratchpad show
 # Categorized menu
 bindsym $mod+z 							exec $nsi morc_menu
 # Dmenu
@@ -453,8 +458,8 @@ bindsym Shift+Home	exec $nsi maimpick
 #: Windows Settings {{{
 
 #: Instances {{{
-# Dropdown Terminal 2
 
+# Dropdown Terminal 2
 for_window [class="dropdown"]	floating enable
 for_window [class="dropdown"]	resize set  1345 375
 for_window [class="dropdown"]	move position 10 395
@@ -462,12 +467,20 @@ for_window [class="dropdown"] border pixel 1
 for_window [class="dropdown"] move scratchpad	
 
 # vserver Terminal 3
-
 for_window [class="vserver"]	floating enable
 for_window [class="vserver"]	resize set  1340 650
 for_window [class="vserver"]	move position center
 for_window [class="vserver"] border pixel 1
 for_window [class="vserver"] move scratchpad	
+# }}}
+
+# tg Terminal 3
+for_window [class="tg"]	floating enable
+for_window [class="tg"]	resize set  1340 650
+for_window [class="tg"]	move position center
+for_window [class="tg"] border pixel 1
+for_window [class="tg"] move scratchpad	
+
 # }}}
 
 #: General {{{

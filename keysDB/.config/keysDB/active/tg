@@ -1,0 +1,46 @@
+
+tg~!~open_msg_with_cmd Open msg or file with cmd: less %s
+tg~?~show_msg_help   
+tg~A~write_long_msg  
+tg~D~download_current_file   
+tg~G~bottom_msg      
+tg~I~write_long_msg  
+tg~J~jump_10_msgs_down       
+tg~K~jump_10_msgs_up 
+tg~O~save_file_in_folder     
+tg~R~reply_with_long_message 
+tg~S~choose_and_send_file    Call file picker and send chosen file based on mimetype
+tg~[~prev_chat       
+tg~]~next_chat       
+tg~^@~toggle_select_msg_up    Select and jump to previous msg with ctrl+<space>
+tg~^B~next_msg        
+tg~^C~prev_msg        
+tg~^D~back    
+tg~^G~discard_selected_msgs   
+tg~^J~open_current_msg        Open msg or file with cmd in mailcap
+tg~^N~next_msg        
+tg~^P~prev_msg        
+tg~^[~discard_selected_msgs   
+tg~a~write_short_msg 
+tg~bp~breakpoint      
+tg~c~show_chat_info  Show chat information
+tg~dd~delete_msgs     
+tg~e~edit_msg        
+tg~h~back    
+tg~i~write_short_msg 
+tg~j~next_msg        
+tg~k~prev_msg        
+tg~l~open_current_msg        Open msg or file with cmd in mailcap
+tg~m~jump_to_reply_msg       
+tg~o~open_url        
+tg~p~forward_msgs    Paste yanked msgs
+tg~q~quit    
+tg~r~reply_message   
+tg~sa~send_audio      Enter file path and send as audio
+tg~sd~send_document   Enter file path and send uncompressed
+tg~sn~send_animation  Enter file path and send as animation
+tg~sp~send_picture    Enter file path and send compressed image
+tg~sv~send_video      Enter file path and send compressed video
+tg~u~show_user_info  Show user profile
+tg~v~record_voice    
+tg~y~yank_msgs       Copy msgs to clipboard and internal buffer to forward

@@ -64,6 +64,9 @@ alias	tm="tmux new-session -A -s Main"
 alias kv="kitty --class vserver </dev/null &>/dev/null &"
 # Dropdown  
 alias drop="kitty --class dropdown </dev/null &>/dev/null &"
+# tg
+alias ftg="kitty --class tg </dev/null &>/dev/null &"
+
 # NCDU ( Ncurses disk space analizer )
 alias	disk="ncdu" 
 # Mutt Wizard

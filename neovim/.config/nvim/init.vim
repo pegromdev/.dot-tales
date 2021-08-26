@@ -1,4 +1,3 @@
-
 "#: vim-pug {{{
 "#: Load VimPlug {{{
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -7,6 +6,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 "#: }}}
+
 "#: Pluging List {{{
 
 call plug#begin('~/.vim/plugged')

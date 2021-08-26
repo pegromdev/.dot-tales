@@ -70,3 +70,9 @@ nag_path = "i3-nagbar"
 block = "sound"
 format = "{volume}"
 
+[[block]]
+block = "time"
+format = "%a %d/%m %R"
+timezone = "America/Montevideo"
+interval = 60
+locale = "en_US"
