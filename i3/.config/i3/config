@@ -365,7 +365,7 @@ bindsym $mod+Ctrl+f 				exec $nsi	$term --class ranger -e ranger
 # hide/unhide i3status bar
 bindsym $mod+Shift+m bar mode toggle
 # rofi shortcuts
-bindsym $mod+p 							exec $nsi ~/.scripts/apps/rofi/rofi-shortcuts
+bindsym $mod+p 							exec $nsi rofi-shortcuts
 #: }}}
 
 
