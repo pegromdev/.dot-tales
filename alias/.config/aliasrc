@@ -16,7 +16,7 @@ alias free='free -m'                                            # Show sizes in 
 # Better Tools
 alias ping="prettyping"
 #Places
-alias dot="cd /home/niko/.dot_tale"
+alias dot="cd /home/niko/.dot-tales"
 #: }}}
 
 #: System Administration {{{
