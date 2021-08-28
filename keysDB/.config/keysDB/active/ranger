@@ -62,7 +62,7 @@ ranger sort~sE~extension	True
 ranger sort~Z~Special cumulative size
 #########Bookmarks ( m )
 ranger bookmark~me<any>~enter bookmark %any
-ranger bookmark~mm<any>~set 	bookmark %any
+ranger bookmark~mn<any>~set 	bookmark %any
 ranger bookmark~mu<any>~unset bookmark %any
 ranger bookmark~md~draw	bookmarks
 #########Searching

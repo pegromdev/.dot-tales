@@ -28,3 +28,4 @@ context.Inbox=projects:Inbox
 
 # My Modify Color theme
 include ~/.mytask.theme
+context=Inbox

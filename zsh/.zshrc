@@ -131,6 +131,6 @@ zplugin load zsh-users/zsh-autosuggestions
 #: }}}
 
 
-source /home/niko/.config/broot/launcher/bash/br
 
-eval $(thefuck --alias)
+
+

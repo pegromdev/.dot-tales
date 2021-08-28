@@ -440,8 +440,6 @@ bindsym $mod+g		gaps inner current set 8; gaps outer current set 4
 #: }}}
 
 #: screenshots and recording {{{
-#bindsym Home				exec $nsi scrot -s "$(date '+%y%m%d-%H%M-%S').png"
-bindsym ctrl+Shift+s	exec $nsi scrot 
 bindsym Shift+Home	exec $nsi maimpick
 
 #: }}}
