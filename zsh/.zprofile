@@ -4,7 +4,7 @@
 export XDG_RUNTIME_DIR=/run/user/`id -u`
 # Adds `~/.scripts` and all subdirectories to $PATH
 export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
-export PATH=~/.npm-global/bin:$PATH
+export PATH="~/.npm-global/bin:$PATH"
 export EDITOR="nvim" 
 export TERMINAL="kitty"
 export BROWSER="firefox"
@@ -63,3 +63,6 @@ export RESTIC_PASSWORD_COMMAND="pass show restic"
 export UCOLLAGE_COLUMNS="-7"
 export UCOLLAGE_LINES="-1"
 export UCOLLAGE_EXPAND_DIR="-1"
+
+
+

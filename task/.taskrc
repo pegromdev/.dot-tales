@@ -24,8 +24,9 @@ context.Server=project:Server
 context.Books=project:Books
 context.Personal=projects:Personal
 context.Inbox=projects:Inbox
+context.Tui=projects:Tui
 
 
 # My Modify Color theme
 include ~/.mytask.theme
-context=Inbox
+context=Tui

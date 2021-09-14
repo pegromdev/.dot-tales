@@ -1,0 +1,42 @@
+Seafoam Pastel
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#243335
+*.background:#243335
+*foreground:#d3e6d3
+*.foreground:#d3e6d3
+*color0:#747474
+*.color0:#747474
+*color8:#8a8a8a
+*.color8:#8a8a8a
+*color1:#825d4c
+*.color1:#825d4c
+*color9:#cf9279
+*.color9:#cf9279
+*color2:#718b62
+*.color2:#718b62
+*color10:#98d9aa
+*.color10:#98d9aa
+*color3:#aca06d
+*.color3:#aca06d
+*color11:#fae69c
+*.color11:#fae69c
+*color4:#4c7b82
+*.color4:#4c7b82
+*color12:#79c3cf
+*.color12:#79c3cf
+*color5:#8a7166
+*.color5:#8a7166
+*color13:#d6b2a0
+*.color13:#d6b2a0
+*color6:#719494
+*.color6:#719494
+*color14:#acdfdf
+*.color14:#acdfdf
+*color7:#dfdfdf
+*.color7:#dfdfdf
+*color15:#dfdfdf
+*.color15:#dfdfdf

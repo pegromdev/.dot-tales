@@ -1,0 +1,42 @@
+Idle Toes
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#323232
+*.background:#323232
+*foreground:#ffffff
+*.foreground:#ffffff
+*color0:#323232
+*.color0:#323232
+*color8:#535353
+*.color8:#535353
+*color1:#d25252
+*.color1:#d25252
+*color9:#f07070
+*.color9:#f07070
+*color2:#7fe173
+*.color2:#7fe173
+*color10:#9dff90
+*.color10:#9dff90
+*color3:#ffc66d
+*.color3:#ffc66d
+*color11:#ffe48b
+*.color11:#ffe48b
+*color4:#4098ff
+*.color4:#4098ff
+*color12:#5eb7f7
+*.color12:#5eb7f7
+*color5:#f57fff
+*.color5:#f57fff
+*color13:#ff9dff
+*.color13:#ff9dff
+*color6:#bed6ff
+*.color6:#bed6ff
+*color14:#dcf4ff
+*.color14:#dcf4ff
+*color7:#eeeeec
+*.color7:#eeeeec
+*color15:#ffffff
+*.color15:#ffffff

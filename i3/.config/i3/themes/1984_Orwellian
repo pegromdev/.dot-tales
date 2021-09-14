@@ -1,0 +1,44 @@
+1984 Orwellian
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # 1984 orwellian theme by Bertie Blackman, https://github.com/covertbert/iterm2-1984/
+
+*foreground:#f1f1f1
+*.foreground:#f1f1f1
+*background:#2e2923
+*.background:#2e2923
+*color0:#000000
+*.color0:#000000
+*color1:#e74946
+*.color1:#e74946
+*color2:#4cb605
+*.color2:#4cb605
+*color3:#fcd395
+*.color3:#fcd395
+*color4:#356fe4
+*.color4:#356fe4
+*color5:#fcbe95
+*.color5:#fcbe95
+*color6:#3fc4ce
+*.color6:#3fc4ce
+*color7:#f1f1f1
+*.color7:#f1f1f1
+*color8:#000000
+*.color8:#000000
+*color9:#e74946
+*.color9:#e74946
+*color10:#4cb605
+*.color10:#4cb605
+*color11:#fcd395
+*.color11:#fcd395
+*color12:#356fe4
+*.color12:#356fe4
+*color13:#fcbe95
+*.color13:#fcbe95
+*color14:#3fc4ce
+*.color14:#3fc4ce
+*color15:#f1f1f1
+*.color15:#f1f1f1

@@ -1,0 +1,53 @@
+Tokyo Night Day
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+
+! ## name: Tokyo Night Day
+! ## license: MIT
+! ## author: Folke Lemaitre
+! ## upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/kitty_tokyonight_day.conf
+
+
+*background:#e1e2e7
+*.background:#e1e2e7
+*foreground:#3760bf
+*.foreground:#3760bf
+*color0:#e9e9ed
+*.color0:#e9e9ed
+*color1:#f52a65
+*.color1:#f52a65
+*color2:#587539
+*.color2:#587539
+*color3:#8c6c3e
+*.color3:#8c6c3e
+*color4:#2e7de9
+*.color4:#2e7de9
+*color5:#9854f1
+*.color5:#9854f1
+*color6:#007197
+*.color6:#007197
+*color7:#6172b0
+*.color7:#6172b0
+*color8:#a1a6c5
+*.color8:#a1a6c5
+*color9:#f52a65
+*.color9:#f52a65
+*color10:#587539
+*.color10:#587539
+*color11:#8c6c3e
+*.color11:#8c6c3e
+*color12:#2e7de9
+*.color12:#2e7de9
+*color13:#9854f1
+*.color13:#9854f1
+*color14:#007197
+*.color14:#007197
+*color15:#3760bf
+*.color15:#3760bf
+*color16: #b15c00
+*.color16: #b15c00
+*color17: #c64343
+*.color17: #c64343

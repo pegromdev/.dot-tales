@@ -1,0 +1,42 @@
+Vibrant Ink
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#000000
+*.background:#000000
+*foreground:#ffffff
+*.foreground:#ffffff
+*color0:#868686
+*.color0:#868686
+*color8:#545454
+*.color8:#545454
+*color1:#ff6600
+*.color1:#ff6600
+*color9:#ff0000
+*.color9:#ff0000
+*color2:#ccff04
+*.color2:#ccff04
+*color10:#00ff00
+*.color10:#00ff00
+*color3:#ffcc00
+*.color3:#ffcc00
+*color11:#ffff00
+*.color11:#ffff00
+*color4:#44b3cc
+*.color4:#44b3cc
+*color12:#0000ff
+*.color12:#0000ff
+*color5:#9933cc
+*.color5:#9933cc
+*color13:#ff00ff
+*.color13:#ff00ff
+*color6:#44b3cc
+*.color6:#44b3cc
+*color14:#00ffff
+*.color14:#00ffff
+*color7:#f4f4f4
+*.color7:#f4f4f4
+*color15:#e5e5e5
+*.color15:#e5e5e5

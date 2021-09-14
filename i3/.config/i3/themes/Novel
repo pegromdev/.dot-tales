@@ -1,0 +1,44 @@
+Novel
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Theme ported from the Mac Terminal application.
+
+*background:#dfdbc3
+*.background:#dfdbc3
+*foreground:#3b2322
+*.foreground:#3b2322
+*color0:#000000
+*.color0:#000000
+*color8:#7f7f7f
+*.color8:#7f7f7f
+*color1:#cc0000
+*.color1:#cc0000
+*color9:#cc0000
+*.color9:#cc0000
+*color2:#009600
+*.color2:#009600
+*color10:#009600
+*.color10:#009600
+*color3:#d06b00
+*.color3:#d06b00
+*color11:#d06b00
+*.color11:#d06b00
+*color4:#0000cc
+*.color4:#0000cc
+*color12:#0000cc
+*.color12:#0000cc
+*color5:#cc00cc
+*.color5:#cc00cc
+*color13:#cc00cc
+*.color13:#cc00cc
+*color6:#0087cc
+*.color6:#0087cc
+*color14:#0086cb
+*.color14:#0086cb
+*color7:#cccccc
+*.color7:#cccccc
+*color15:#ffffff
+*.color15:#ffffff

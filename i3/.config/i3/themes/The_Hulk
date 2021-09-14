@@ -1,0 +1,42 @@
+The Hulk
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1b1d1e
+*.background:#1b1d1e
+*foreground:#b4b4b4
+*.foreground:#b4b4b4
+*color0:#1b1d1e
+*.color0:#1b1d1e
+*color8:#505354
+*.color8:#505354
+*color1:#259d1a
+*.color1:#259d1a
+*color9:#8dff2a
+*.color9:#8dff2a
+*color2:#13ce2f
+*.color2:#13ce2f
+*color10:#48ff76
+*.color10:#48ff76
+*color3:#62e456
+*.color3:#62e456
+*color11:#3afe15
+*.color11:#3afe15
+*color4:#2424f4
+*.color4:#2424f4
+*color12:#4f6a95
+*.color12:#4f6a95
+*color5:#641e73
+*.color5:#641e73
+*color13:#72579d
+*.color13:#72579d
+*color6:#378ca9
+*.color6:#378ca9
+*color14:#3f85a5
+*.color14:#3f85a5
+*color7:#d8d8d0
+*.color7:#d8d8d0
+*color15:#e5e5e0
+*.color15:#e5e5e0

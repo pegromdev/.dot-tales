@@ -1,0 +1,42 @@
+Spiderman
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1b1d1e
+*.background:#1b1d1e
+*foreground:#e2e2e2
+*.foreground:#e2e2e2
+*color0:#1b1d1e
+*.color0:#1b1d1e
+*color8:#505354
+*.color8:#505354
+*color1:#e60712
+*.color1:#e60712
+*color9:#ff0325
+*.color9:#ff0325
+*color2:#e22828
+*.color2:#e22828
+*color10:#ff3238
+*.color10:#ff3238
+*color3:#e24655
+*.color3:#e24655
+*color11:#fe3935
+*.color11:#fe3935
+*color4:#2b3fff
+*.color4:#2b3fff
+*color12:#1d4fff
+*.color12:#1d4fff
+*color5:#2435db
+*.color5:#2435db
+*color13:#737bff
+*.color13:#737bff
+*color6:#3255ff
+*.color6:#3255ff
+*color14:#6083ff
+*.color14:#6083ff
+*color7:#fffef6
+*.color7:#fffef6
+*color15:#fefff9
+*.color15:#fefff9

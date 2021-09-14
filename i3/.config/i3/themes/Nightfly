@@ -1,0 +1,46 @@
+Nightfly
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Based on nightfly vim colorscheme by @bluz71
+! # URL:     github.com/bluz71/vim-nightfly-guicolors
+! # License: MIT (https://opensource.org/licenses/MIT)
+
+*background:#011627
+*.background:#011627
+*foreground:#c3ccdc
+*.foreground:#c3ccdc
+*color0:#1d3b53
+*.color0:#1d3b53
+*color1:#fc514e
+*.color1:#fc514e
+*color2:#a1cd5e
+*.color2:#a1cd5e
+*color3:#e7d37a
+*.color3:#e7d37a
+*color4:#82aaff
+*.color4:#82aaff
+*color5:#c792ea
+*.color5:#c792ea
+*color6:#7fdbca
+*.color6:#7fdbca
+*color7:#a1aab8
+*.color7:#a1aab8
+*color8:#7c8f8f
+*.color8:#7c8f8f
+*color9:#ff5874
+*.color9:#ff5874
+*color10:#21c7a8
+*.color10:#21c7a8
+*color11:#ecc48d
+*.color11:#ecc48d
+*color12:#82aaff
+*.color12:#82aaff
+*color13:#ae81ff
+*.color13:#ae81ff
+*color14:#7fdbca
+*.color14:#7fdbca
+*color15:#d6deeb
+*.color15:#d6deeb

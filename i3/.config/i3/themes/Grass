@@ -1,0 +1,44 @@
+Grass
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Theme ported from the Mac Terminal application.
+
+*background:#12773d
+*.background:#12773d
+*foreground:#fff0a4
+*.foreground:#fff0a4
+*color0:#000000
+*.color0:#000000
+*color8:#545454
+*.color8:#545454
+*color1:#ba0000
+*.color1:#ba0000
+*color9:#ba0000
+*.color9:#ba0000
+*color2:#00ba00
+*.color2:#00ba00
+*color10:#00ba00
+*.color10:#00ba00
+*color3:#e6af00
+*.color3:#e6af00
+*color11:#e6af00
+*.color11:#e6af00
+*color4:#0000a3
+*.color4:#0000a3
+*color12:#0000ba
+*.color12:#0000ba
+*color5:#950062
+*.color5:#950062
+*color13:#ff54ff
+*.color13:#ff54ff
+*color6:#00baba
+*.color6:#00baba
+*color14:#54ffff
+*.color14:#54ffff
+*color7:#bababa
+*.color7:#bababa
+*color15:#ffffff
+*.color15:#ffffff

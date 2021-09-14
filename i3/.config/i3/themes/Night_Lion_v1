@@ -1,0 +1,42 @@
+Night Lion v1
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#000000
+*.background:#000000
+*foreground:#bbbbbb
+*.foreground:#bbbbbb
+*color0:#4c4c4c
+*.color0:#4c4c4c
+*color8:#545454
+*.color8:#545454
+*color1:#bb0000
+*.color1:#bb0000
+*color9:#ff5555
+*.color9:#ff5555
+*color2:#5ede8f
+*.color2:#5ede8f
+*color10:#55ff55
+*.color10:#55ff55
+*color3:#f2f067
+*.color3:#f2f067
+*color11:#ffff55
+*.color11:#ffff55
+*color4:#266ad7
+*.color4:#266ad7
+*color12:#5555ff
+*.color12:#5555ff
+*color5:#bb00bb
+*.color5:#bb00bb
+*color13:#ff55ff
+*.color13:#ff55ff
+*color6:#00d9df
+*.color6:#00d9df
+*color14:#55ffff
+*.color14:#55ffff
+*color7:#bbbbbb
+*.color7:#bbbbbb
+*color15:#ffffff
+*.color15:#ffffff

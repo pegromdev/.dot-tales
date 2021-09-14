@@ -52,8 +52,6 @@ alias	tiempo="curl wttr.in"
 alias wall="cd /home/niko/Images/wall &&  fzfimg --bind 'enter:execute-silent(wal -i {} -st)'" 
 # simple-mtpfs ( Android Mounting)
 alias android="simple-mtpfs --device 1 /home/niko/Storage/Cell/"
-# curl cheat sheat script 
-alias cheat="cheatsh" 
 # npm list all packages
 alias npmlist="npm list -g --depth=0"
 
@@ -64,11 +62,11 @@ alias npmlist="npm list -g --depth=0"
 # Tmux
 alias	tm="tmux new-session -A -s Main" 
 # Kitty vim server 
-alias kv="kitty --class vserver </dev/null &>/dev/null &"
+alias kv="kitty --class vimpad -e nvim </dev/null &>/dev/null &"
 # Dropdown  
 alias drop="kitty --class dropdown </dev/null &>/dev/null &"
 # tg
-alias ftg="kitty --class tg </dev/null &>/dev/null &"
+alias ftg="kitty --class telegram -e tg </dev/null &>/dev/null &"
 
 # NCDU ( Ncurses disk space analizer )
 alias	disk="ncdu" 
@@ -95,6 +93,12 @@ alias passgen="pass generate -c"
 alias music="ncmpcpp"
 # Mind mapping
 alias mind="mm /run/media/hdd/Documents/mindmaps/lifeOn2021"
+
+alias kt="kitty +kitten themes"
+
+# Nvim
+alias vim="nvim"
+
 #: }}}	
 
 #: Places {{{

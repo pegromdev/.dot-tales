@@ -29,7 +29,8 @@ Plug 'dbeniamine/cheat.sh-vim'
 
 
 " Adding Functionallitty 
-
+" Colorizer all text in the form #rgb, #rgba, #rrggbb, #rrgbbaa, rgb(...), rgba(...)
+Plug 'lilydjwg/colorizer'
 " Persisten session recorder
 Plug 'mhinz/vim-startify'
 " Fuzzy Finder

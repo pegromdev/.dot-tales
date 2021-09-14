@@ -1,0 +1,42 @@
+Solarized Light
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#fdf6e3
+*.background:#fdf6e3
+*foreground:#52676f
+*.foreground:#52676f
+*color0:#e4e4e4
+*.color0:#e4e4e4
+*color8:#ffffd7
+*.color8:#ffffd7
+*color1:#d70000
+*.color1:#d70000
+*color9:#d75f00
+*.color9:#d75f00
+*color2:#5f8700
+*.color2:#5f8700
+*color10:#585858
+*.color10:#585858
+*color3:#af8700
+*.color3:#af8700
+*color11:#626262
+*.color11:#626262
+*color4:#0087ff
+*.color4:#0087ff
+*color12:#808080
+*.color12:#808080
+*color5:#af005f
+*.color5:#af005f
+*color13:#5f5faf
+*.color13:#5f5faf
+*color6:#00afaf
+*.color6:#00afaf
+*color14:#8a8a8a
+*.color14:#8a8a8a
+*color7:#262626
+*.color7:#262626
+*color15:#1c1c1c
+*.color15:#1c1c1c

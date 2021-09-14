@@ -1,0 +1,33 @@
+! Colors 0-15.
+*.color0: #32302f
+*color0:  #32302f
+*.color1:	#BDACDF
+*color1:	#BDACDF
+*.color2:	#ffffff
+*color2:	#ffffff
+*.color3:	#fdf6e3
+*color3:	#fdf6e3
+*.color4:	#7E3EBD
+*color4:	#7E3EBD
+*.color5:	#454948
+*color5:	#454948
+*.color6:	#404552 
+*color6:	#404552 
+*.color7: #cc241d
+*color7: 	#cc241d
+*.color8:	#504945
+*color8:	#504945
+*.color9: #268BD2
+*color9: 	#268BD2
+*.color10:#000000
+*color10: #000000
+*.color11:#0c0c0c
+*color11: #0c0c0c
+*.color12:#ffffff
+*color12:	#ffffff
+*.color13:#d3869b
+*color13: #d3869b
+*.color14:#8ec07c
+*color14: #8ec07c
+*.color15:#fbf1c7
+*color15: #fbf1c7

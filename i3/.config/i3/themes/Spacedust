@@ -1,0 +1,42 @@
+Spacedust
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#0a1e24
+*.background:#0a1e24
+*foreground:#ecefc1
+*.foreground:#ecefc1
+*color0:#6e5246
+*.color0:#6e5246
+*color8:#674c31
+*.color8:#674c31
+*color1:#e35a00
+*.color1:#e35a00
+*color9:#ff8a39
+*.color9:#ff8a39
+*color2:#5cab96
+*.color2:#5cab96
+*color10:#adcab8
+*.color10:#adcab8
+*color3:#e3cd7b
+*.color3:#e3cd7b
+*color11:#ffc777
+*.color11:#ffc777
+*color4:#0e548b
+*.color4:#0e548b
+*color12:#67a0cd
+*.color12:#67a0cd
+*color5:#e35a00
+*.color5:#e35a00
+*color13:#ff8a39
+*.color13:#ff8a39
+*color6:#06afc7
+*.color6:#06afc7
+*color14:#83a6b3
+*.color14:#83a6b3
+*color7:#f0f1ce
+*.color7:#f0f1ce
+*color15:#fefff0
+*.color15:#fefff0

@@ -4,30 +4,60 @@
 
 #: fonts {{{
 
-#font pango:Iconsolata 11
-#font xft:URWGothic-Book 11
-font xft:Source-Code-Pro 11
-#font pango:Noto Sans Regular 10
+# Status bar fonts
+set $rustbar	Noto Sans Regular 10, FontAwesome 10
+# i3 enviroment fonts
+set $i3fonts	xft:Source-Code-Pro 9
+# In this example the variable call fot the Source-Code-Pro Font Above
 
+font $i3fonts
 #: }}}
 
-#: Definitions {{{
+#: Global Definitions {{{
 
 set $nsi 					--no-startup-id
+# Main terminal mod+return
 set $term					$TERMINAL
-set $term2				kitty --class dropdown
-set $term3				kitty --class vserver
-set $term4        kitty --class tg		
+# Kitty Terminal
+set $kitty 				kitty
+# Main I3 control Key ( Windows Key )
 set $mod 					Mod4
+# Secundary if needed, call it by using $sup+"Your custom Key" ( Alt Key )
 set $sup 					Mod1
+# bluetoothctl interface
+set $blue 			  kitty -e bluetoothctl
+# Used by i3exit mode
 set $shutdown 		sudo -A shutdown -h now
+# Used by ie3xit mode
 set $netrefresh 	sudo -A systemctl restart NetworkManager
+# Executed to sync neomuut mail service
 set $mail 				$syncmail
-# set $hibernate 		sudo -A systemctl suspend
+# Fonts for launcher, pass & window picker.
+set $rofifont			"Noto Sans Regular 12"	
+# Fotns for boku, search, & recent
+set $rofifont2		"Noto Sans Regular 8"
+
+# Settings for theming apps individualy.
+# Keep your chossen apps with static themes by swithcin to Override
+
+# Mian Tui File Manager Used in Files workspace by default. mod+Ctrl+f
+#set $ranger		kitty --override include=~/.config/i3/themes/YourPreferTheme
+set $ranger		kitty 	
+# Floating Terminal mod+Shift+return
+#set $dropdown	 kitty --class dropdown --override include=~/.config/kitty/YourPreferTheme
+set $dropdown		kitty --class dropdown 
+# Floating Always on demand neovim session Alt+retun
+#set $vim				 kitty --class vimpad --override include=~/.config/kitty/YourPreferTheme
+set $vim				kitty --class vimpad 
+# Floating acces to cheatsheets mod+z
+#set $cheat		   kitty --class cheatsheet --override include=~/.config/kitty/YourPreferTheme
+set $cheat			kitty --class cheatsheet 
+# Floating Telegram client mod+t
+#set $telegram	 kitty --class social --override incluede=~/.config/kitty/YourPreferTheme
+set $telegram 	kitty --class social 
 #: }}}
 
 #: Modes {{{
-
 
 #: Set shut down, restart and locking features {{{
 
@@ -51,11 +81,11 @@ mode "$mode_system" {
 
 # icons from https://www.nerdfonts.com/cheat-sheet
 
-set $volume_system Volume: ﱛ(u)p | ﱜ(d)own | (t)op | 墳(f)ull | 奔(h)alf | (l)ow |  (c)ontrol |  (e)xit
+set $volume_system Volume: ﱛ (u)p | ﱜ (d)own |  (t)op | 墳(f)ull | 奔(h)alf |  (l)ow |  (c)ontrol |  (e)xit
 mode "$volume_system" {
     bindsym u exec $nsi  pulsemixer --change-volume +5
     bindsym d exec $nsi  pulsemixer --change-volume -5
-		bindsym t exec $nsi  pulsemixer --set-volume 150 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "150% Killer Volume", mode "default"
+		bindsym t exec $nsi  pulsemixer --set-volume 150 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "150% Max Volume", mode "default"
     bindsym f exec $nsi  pulsemixer --set-volume 100 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "Full Volume", mode "default"
 		bindsym h exec $nsi  pulsemixer --set-volume 50 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-medium-symbolic.symbolic.png "Medium Volume", mode "default"
     bindsym l exec $nsi  pulsemixer --set-volume 25 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-low-symbolic.symbolic.png "Low Volume", mode "default"
@@ -69,7 +99,6 @@ mode "$volume_system" {
 }
 #: }}}
 #: }}}
-
 #: Rofi {{{
 
 # icons from https://www.nerdfonts.com/cheat-sheet
@@ -77,17 +106,17 @@ mode "$volume_system" {
 set $rofi  (l)auncher  | ﳳ (p)ass  |   (w)indows  |  (b)oku  |  loca(t)e  |  (r)ecent  |  (s)hortcut
 mode "$rofi" {
 		# App launcher
-		bindsym l exec $nsi rofi -modi drun -show drun -width 50 -location 2 -lines 10 -bw -yoffset 0 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 12", mode "default"
+		bindsym l exec $nsi rofi -modi drun -show drun -width 50 -location 2 -lines 10 -bw -yoffset 0 -show-icons -drun-icon-theme "Arc-X-D" -font $rofifont, mode "default"
 		# Pass
-		bindsym p	exec $nsi rofi-pass -font "Terminess 7", mode "default"
+		bindsym p	exec $nsi rofi-pass -font $rofifont , mode "default"
 		# Window Selector
-		bindsym w	exec $nsi	rofi -show window -font "Terminess 12" , mode "default"
+		bindsym w	exec $nsi	rofi -show window -font $rofifont , mode "default"
 		# Buku Bookmark manager
-		bindsym b	exec $nsi	buku_run -font "Terminess 5", mode "default"
+		bindsym b	exec $nsi	buku_run -font $rofifont2, mode "default"
 		# File Finder
-		bindsym t	exec $nsi	locate home media | rofi -threads 0 -width 60 -dmenu -i -p "locate:" | xargs -r -0 xdg-open, mode "default"
+		bindsym t	exec $nsi	locate home media | rofi -threads 0 -width 60 -dmenu -i -p "locate:" -font $rofifont2 | xargs -r -0 xdg-open, mode "default"
  		# Recent Files
-		bindsym r exec $nsi recent-rofi -font "Terminess 7", mode "default"
+		bindsym r exec $nsi recent-rofi -font $rofifont2, mode "default"
 		# Shortcuts
 		bindsym s exec $nsi dCuts, mode "default"
 	
@@ -147,7 +176,8 @@ mode "$mode_options" {
         bindsym o      mode "$mode_gaps_outer"
         bindsym i      mode "$mode_gaps_inner"
 				bindsym b			 mode "$mode__border"
-				bindsym c      mode "$mode_picom"
+				bindsym c      exec $nsi picomtoggle, mode "default"
+
         bindsym Return mode "default"
         bindsym Escape mode "default"
 } 
@@ -183,53 +213,44 @@ mode "$mode__border" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-mode "$mode_picom" {
-
-			bindsym s 			exec $nsi picom --experimental-backends --config .config/picom.conf -b && notify-send "Picom Started"
-			bindsym k 			exec $nsi pkill picom && notify-send "Picom has been kill", mode "default"
-			
-			bindsym Return mode "default"
-      bindsym Escape mode "default"
-
-}
-
 
 set $mode_options Options   | Gaps: (o)uter, (i)nner, |  Borders:  (b)orders & Title bar | Picom: (C)ompositor swicth  |
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)  
 set $mode__border Borders:  n(o)ne, (n)ormal, (t)title 
-set $mode_picom Picom Compositor switch state: (s) ON  (k) OFF
+
 
 #: }}}
-
 
 #: }}}
 
 # Startup Settings {{{
-
-#:applications & Scrips {{{
-
-# Tmux  
-exec $nsi	$term -e tmux new-session -A -s Main
+# i3tui first steps
+#exec $nsi $term -e w3m ~/i3tuiTips.html
+# Tmux
+exec $nsi	"sleep 1; $term -e tmux new-session -A -s Main"
 # Dropdown Terminal
-exec $nsi "sleep 2; $term2"  	 
+exec $nsi $dropdown 	 
 # Vim server
-exec $nsi "sleep 3; $term3 -e nvim"  	 
+exec $nsi $vim -e nvim  	 
 # tg
-exec $nsi "sleep 4; $term4 -e tg"	
+exec $nsi $telegram -e tg
+# Cheatsheets
+exec $nsi $cheat -e cht.sh --shell
 # Ranger
-exec $nsi	"sleep 5; $term --class ranger -e ranger"
-
+exec $nsi	"sleep 3; $ranger --class ranger -e ranger"
 # Polkit
 exec $nsi /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Wallpaper
 exec $nsi feh --bg-scale ~/.config/wall.png
 # Compositor
-exec $nsi picom --experimental-backends --config .config/picom.conf -b && notify-send "Picom Started"
+exec $nsi picom --experimental-backends --config .config/picom.conf -b
 # clipboard Manager
 exec $nsi clipit
 # I3 Lock
 exec $nsi xautolock -time 30 -locker blurlock
+# Polybar 
+exec_always $nsi polybarLaunch
 # Sdcard Mounting
 exec $nsi mountsd
 # Playerctl daemon
@@ -238,52 +259,64 @@ exec $nsi playerctld daemon
 exec $nsi 	"sleep 6; tmux kill-session -t 0"
 # Keyboard Keys custom changes
 exec_always $nsi	remaps
-# Newsboat full sync
-exec_always $nsi newsboat -x reload && notify-send "Newsboat sync done!"
 # Mutt wizard sync
-exec_always $nsi mw -Y && notify-send "Mail Sync done!"
+exec $nsi mw -Y && notify-send "Mail Sync done!"
 # Desktop notifications
 exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
 #: }}}
 
 #: Start i3bar to display a workspace bar (plus the system information i3status if available) {{{
-bar {
 
-	i3bar_command i3bar 
-	position top
-#	i3bar_command i3bar --transparency
+#bar {
 
-# Rust status
-status_command /usr/bin/i3status-rs ~/.config/i3/status.toml
+#	i3bar_command i3bar 
+#	position top
+#	colors {
 
-#	font pango:DejaVu Sans Mono 10.5
-# font pango:NotoSansMono Nerd Font 9
-	font pango:Noto Sans Regular 10, FontAwesome 10
-#font pango:Source-code-pro 10.5
+#set_from_resource $barbackground 		background
+#set_from_resource $barforeground 		foreground
+#set_from_resource $barcolor0     		color0
+#set_from_resource $barcolor1     	 	color1
+#set_from_resource $barcolor2     	 	color2
+#set_from_resource $barcolor3     	 	color3
+#set_from_resource $barcolor4     	 	color4
+#set_from_resource $barcolor5     	 	color5
+#set_from_resource $barcolor6     	 	color6
+#set_from_resource $barcolor7     	 	color7
 
-	colors {
-        separator #666666
-        background #222222
-        statusline #dddddd
-        focused_workspace #d79921 #FFAF00 #666666
-        active_workspace #d72921 #333333 #ffffff
-        inactive_workspace #333333 #333333 #888888
-        urgent_workspace #d79921 #FFAF00 #666666
-    }
+# i3bar , statusline, desktop Colors
+# If you like to use your custom color edit next Variables and uncomment set_from_resource colors:
+
+#set $i3bar1 #404552
+#set $i3bar2 #222222
+#set $i3bar3	#BDACDF
+#set $i3bar4 #ffffff
+#set $i3bar5 #333333
+#set $i3bar6 #7E3EBD
+#set $i3bar7 #FD7E7E
+#set $i3bar8 #7E7EFD
+
+#				separator 	$barcolor0
+#        background 	$barbackground
+#        statusline 	$barforeground
+#				                    #Border 		 	Back     				Text 
+#        focused_workspace 	$ibarcolor1 	$barcolor4 			$barforeground
+#        active_workspace 		$barcolor0 		$barcolor6 			$barforegound     
+#        inactive_workspace 	$barcolor0 		$barbackground 	$barforeground
+#        urgent_workspace 		$barcolor0 		$barcolor7 			$barcolor0
+#   }
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
-tray_output LDVS-1
+#tray_output LDVS-1
 
-	bindsym button4 nop
-	bindsym button5 nop
+#	bindsym button4 nop
+#	bindsym button5 nop
 
-	strip_workspace_numbers yes
-}
+#	strip_workspace_numbers yes
+#}
 #:}}}
-
-#: }}}
 
 #: Bindings {{{
 
@@ -299,18 +332,25 @@ bindsym $mod+F2					restart
 bindsym $mod+Shift+F2		reload
 # Moltimonitor selector if any
 bindsym $mod+F3					exec $nsi displayselect
+# Bluetooth
+bindsym $mod+Shift+F3		exec $nsi $blue
 # Newsboat
-bindsym $mod+F4					exec $nsi $term --class newsboat -e newsboat
+bindsym $mod+F4					exec $nsi $term --class newsboat -e newslauncher
 # Refresh network
 bindsym $mod+F5					exec $nsi $netrefresh && notify-send "Refreshing Network"
 # Toogle tochpad
 bindsym $mod+F6					exec $nsi tpToogle	
 # Neomutt
 bindsym $mod+F7					exec $nsi $term -e 'neomutt'
+# Calculator
 bindsym $mod+F8					exec $nsi tcalc
+# if mounting drives available will execute
 bindsym $mod+F9					exec $nsi dmenumount
+# if umnounting drives available will execute 
 bindsym $mod+F10				exec $nsi dmenuumount
+# Toggle camara is available trhu mpv
 bindsym $mod+F11				exec $nsi camtoggle
+# ncurses newwork interface manager
 bindsym $mod+F12				exec $nsi $term -e nmtui
 #: }}}
 
@@ -344,14 +384,14 @@ bindsym XF86MonBrightnessDown					exec "xbacklight -dec 10; notify-send 'brightn
 bindsym $mod+Return					exec $nsi $term
 # Dropdown
 bindsym $mod+Shift+Return  	[instance="dropdown"] scratchpad show
-# vserver 
-bindsym $sup+Return  				[instance="vserver"] scratchpad show
-# vserver 
-bindsym $mod+t  						[instance="tg"] scratchpad show
-# Categorized menu
-bindsym $mod+z 							exec $nsi morc_menu
-# Dmenu
-bindsym $mod+d							exec $nsi dmenu_recency
+# Vimpad 
+bindsym $sup+Return  				[instance="vimpad"] scratchpad show
+# Telegram 
+bindsym $mod+t  						[instance="social"] scratchpad show
+# Cheatsheets
+bindsym $mod+z 							[instance="cheatsheet"] scratchpad show 
+# Dmenuhandler
+bindsym $mod+d							exec $nsi xclip -o | dmenuhandler
 # rofi
 bindsym $mod+r							mode "$rofi"
 # Conky
@@ -361,13 +401,12 @@ bindsym $mod+Insert				exec $nsi showclip
 # Lock screen
 bindsym $mod+9 							exec $nsi i3lock-fancy -t 'DO MORE'
 # Ranger
-bindsym $mod+Ctrl+f 				exec $nsi	$term --class ranger -e ranger
+bindsym $mod+Ctrl+f 				exec $nsi	$ranger --class ranger -e ranger
 # hide/unhide i3status bar
 bindsym $mod+Shift+m bar mode toggle
 # rofi shortcuts
 bindsym $mod+p 							exec $nsi rofi-shortcuts
 #: }}}
-
 
 #: Kill Commands {{{
 
@@ -380,14 +419,10 @@ bindsym --release $mod+ctrl+x 			exec 	$nsi xkill
 #: Volume system Controls {{{
 
 bindsym $mod+v 				mode "$volume_system"
-# Toofle  sound outputs
+# Toogle  sound outputs
 #bindsym $mod+Shift+o exec PLEASE FIND PULSE AUDIO WAY TO IT
-
-
-
+bindsym $mod+m  			exec $nsi  pactl set-sink-mute 0 toggle
 #: }}}
-
-bindsym $mod+m  exec $nsi  pactl set-sink-mute 0 toggle
 
 #: PlayerCtl Controls {{{
 
@@ -425,7 +460,6 @@ bindsym $mod+Shift+r 	mode "resize"
 #--Mode Gaps Borders and Picom --#
 bindsym $mod+o				mode "$mode_options"
 # Needed for always using-gaps
-for_window [class="^.*"] border pixel 1
 for_window [class="^.*"] gaps inner all set 8
 for_window [class="^.*"] gaps outer all set 4
 # if allways is disable maybe use smart_gaps choice 
@@ -457,39 +491,45 @@ bindsym Shift+Home	exec $nsi maimpick
 
 #: Instances {{{
 
-# Dropdown Terminal 2
+# Dropdown 
 for_window [class="dropdown"]	floating enable
 for_window [class="dropdown"]	resize set  1345 375
 for_window [class="dropdown"]	move position 10 395
 for_window [class="dropdown"] border pixel 1
 for_window [class="dropdown"] move scratchpad	
 
-# vserver Terminal 3
-for_window [class="vserver"]	floating enable
-for_window [class="vserver"]	resize set  1340 650
-for_window [class="vserver"]	move position center
-for_window [class="vserver"] border pixel 1
-for_window [class="vserver"] move scratchpad	
-# }}}
+# vimpad
+for_window [class="vimpad"]	floating enable
+for_window [class="vimpad"]	resize set  1340 650
+for_window [class="vimpad"]	move position center
+for_window [class="vimpad"] border pixel 1
+for_window [class="vimpad"] move scratchpad	
 
-# tg Terminal 3
-for_window [class="tg"]	floating enable
-for_window [class="tg"]	resize set  1340 650
-for_window [class="tg"]	move position center
-for_window [class="tg"] border pixel 1
-for_window [class="tg"] move scratchpad	
+# telegram
+for_window [class="social"]	floating enable
+for_window [class="social"]	resize set  1340 650
+for_window [class="social"]	move position center
+for_window [class="social"] border pixel 1
+for_window [class="social"] move scratchpad	
 
+# Cheatsheet
+for_window [class="cheatsheet"]	floating enable
+for_window [class="cheatsheet"]	resize set  1340 650
+for_window [class="cheatsheet"]	move position center
+for_window [class="cheatsheet"] border pixel 1
+for_window [class="cheatsheet"] move scratchpad	
 # }}}
 
 #: General {{{
-
+# Bornders=Normal tiny without title bar=pixel "numeber in pixels" Nothing=none
+for_window [class="^.*"] border pixel normal
 # Text in title bar
 title_align center
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window								none
-new_float									none
+#new_window								none
+#new_float									none
 # Hide borders
-hide_edge_borders					both
+#hide_edge_borders					both
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 # Change focus
@@ -603,7 +643,7 @@ for_window [urgent=latest] focus
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-# Icon COnfig
+# Icon Config
 #set $ws1 "1:"
 #set $ws2 "2:"
 #set $ws3 "3:"
@@ -616,8 +656,8 @@ for_window [urgent=latest] focus
 set $ws1 "1:SHELL"
 set $ws2 "2:WEB"
 set $ws3 "3:FILES"
-set $ws4 "4:RSS"
-set $ws5 "5:MAIL"
+set $ws4 "4:GAMMING"
+set $ws5 "5:OFFICE"
 set $ws6 "MULTIMEDIA"
 set $ws7 "LIBRARY"
 set $ws8 "SYSTEM"
@@ -636,16 +676,12 @@ assign [class="ranger"] $ws3
 assign [class="(?i)firefox"] $ws2
 assign [class="thunar"] $ws3
 assign [class="newsboat"] $ws4
+assign [class="blue"] $ws8
 
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=ranger] focus
 for_window [class=(?i)firefox] focus
-#for_window [class=Thunar] focus
-#for_window [class=Thunderbird] focus
-#for_window [class=TelegramDesktop] focus
-
-
 
 #: }}}
 
@@ -679,6 +715,12 @@ for_window [class="gl"]								move position center
 # Firefox Downloads
 for_window [title="Places"] 					floating enable border pixel 1
 for_window [title="Places"] 					move position center
+# Pulsemixer
+for_window [class="pulsemixer"]					floating enable
+for_window [class="pulsemixer"]					border pixel 1
+for_window [class="pulsemixer"]					resize set 800 250 
+for_window [class="pulsemixer"]					move position 550 30
+for_window [class="pulsemixer"] 				sticky enable
 
 ##### For Title
 
@@ -728,40 +770,41 @@ for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
 
 #: }}}
 
-#: Other Settings {{{
-
 #: Theme {{{
 # Color palette used for the terminal ( ~/.Xresources file )
-set_from_resource $term_background background
-set_from_resource $term_foreground foreground
-set_from_resource $term_color0     color0
-set_from_resource $term_color1     color1
-set_from_resource $term_color2     color2
-set_from_resource $term_color3     color3
-set_from_resource $term_color4     color4
-set_from_resource $term_color5     color5
-set_from_resource $term_color6     color6
-set_from_resource $term_color7     color7
-set_from_resource $term_color8     color8
-set_from_resource $term_color9     color9
-set_from_resource $term_color10    color10
-set_from_resource $term_color11    color11
-set_from_resource $term_color12    color12
-set_from_resource $term_color13    color13
-set_from_resource $term_color14    color14
-set_from_resource $term_color15    color15
 
+set_from_resource $i3background background
+set_from_resource $i3foreground foreground
+set_from_resource $i3color0     color0
+set_from_resource $i3color1     	 color1
+set_from_resource $i3color2     	 color2
+set_from_resource $i3color3     	 color3
+set_from_resource $i3color4     	 color4
+set_from_resource $i3color5     	 color5
+set_from_resource $i3color6     	 color6
+set_from_resource $i3color7     	 color7
 
-# class                   border  backgr. text    indic.   child_border
-  client.focused          #458588 #458588 #ebdbb2	#FDF6E3  
-  client.focused_inactive #83a598 #83a598 #ebdbb2 #454948
-  client.unfocused        #504945 #504945 #ebdbb2 #454948
-  client.urgent           #cc241d #cc241d #504945 #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+# i3wm title, borders, desktop Colors
+# If you like to use your custom color edit next Variables and uncomment set_from_resource colors:
 
-  client.background       #2B2C2B
+#set $i3background		#000000
+#set $i3foreground 		#ffffff
+#set $i3color1				#BDACDF
+#set $i3color2				#0c0c0c
+#set $i3color3				#FDF6E3
+#set $i3color4				#7E3EBD
+#set $i3color5				#454948
+#set $i3color6				#268BD2 
+#set $i3color7 				#cc241d
 
-#: }}}
+# class                   border  		backgr. 		text    		indic.   				child_border
+  client.focused          $i3color4 	$i3color4 	$i3color0		$i3color1  
+  client.focused_inactive $i3color1 	$i3color1 	$i3color0 	$i3color6
+  client.unfocused        $i3color6 	$i3color6		$i3color0 	$i3color7
+  client.urgent           $i3color7 	$i3color7 	$i3color0 	$i3color3
+  client.placeholder      $i3color3 	$i3color3		$i3color0		$i3color4
+
+#  client.background       #2B2C2B
 
 #: }}}
 

@@ -1,0 +1,42 @@
+Misterioso
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#2d3743
+*.background:#2d3743
+*foreground:#e1e1e0
+*.foreground:#e1e1e0
+*color0:#000000
+*.color0:#000000
+*color8:#545454
+*.color8:#545454
+*color1:#ff4141
+*.color1:#ff4141
+*color9:#ff3241
+*.color9:#ff3241
+*color2:#74ae68
+*.color2:#74ae68
+*color10:#74cc68
+*.color10:#74cc68
+*color3:#ffac28
+*.color3:#ffac28
+*color11:#ffb928
+*.color11:#ffb928
+*color4:#338e86
+*.color4:#338e86
+*color12:#23d6d6
+*.color12:#23d6d6
+*color5:#9413e5
+*.color5:#9413e5
+*color13:#ff37ff
+*.color13:#ff37ff
+*color6:#23d6d6
+*.color6:#23d6d6
+*color14:#00ece1
+*.color14:#00ece1
+*color7:#e1e1df
+*.color7:#e1e1df
+*color15:#ffffff
+*.color15:#ffffff

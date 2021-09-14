@@ -1,0 +1,42 @@
+Bright Lights
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#191919
+*.background:#191919
+*foreground:#b2c8d6
+*.foreground:#b2c8d6
+*color0:#191919
+*.color0:#191919
+*color8:#191919
+*.color8:#191919
+*color1:#ff355b
+*.color1:#ff355b
+*color9:#ff355b
+*.color9:#ff355b
+*color2:#b6e875
+*.color2:#b6e875
+*color10:#b6e875
+*.color10:#b6e875
+*color3:#ffc150
+*.color3:#ffc150
+*color11:#ffc150
+*.color11:#ffc150
+*color4:#75d3ff
+*.color4:#75d3ff
+*color12:#75d4ff
+*.color12:#75d4ff
+*color5:#b975e6
+*.color5:#b975e6
+*color13:#b975e6
+*.color13:#b975e6
+*color6:#6cbeb5
+*.color6:#6cbeb5
+*color14:#6cbeb5
+*.color14:#6cbeb5
+*color7:#c1c8d6
+*.color7:#c1c8d6
+*color15:#c1c8d6
+*.color15:#c1c8d6

@@ -1,0 +1,42 @@
+Oceanic Material
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1c262b
+*.background:#1c262b
+*foreground:#c1c8d6
+*.foreground:#c1c8d6
+*color0:#000000
+*.color0:#000000
+*color8:#767676
+*.color8:#767676
+*color1:#ee2a29
+*.color1:#ee2a29
+*color9:#dc5b60
+*.color9:#dc5b60
+*color2:#3fa33f
+*.color2:#3fa33f
+*color10:#70be71
+*.color10:#70be71
+*color3:#fee92e
+*.color3:#fee92e
+*color11:#fef063
+*.color11:#fef063
+*color4:#1d80ef
+*.color4:#1d80ef
+*color12:#53a4f3
+*.color12:#53a4f3
+*color5:#8800a0
+*.color5:#8800a0
+*color13:#a94dbb
+*.color13:#a94dbb
+*color6:#16aec9
+*.color6:#16aec9
+*color14:#42c6d9
+*.color14:#42c6d9
+*color7:#a4a4a4
+*.color7:#a4a4a4
+*color15:#fffefe
+*.color15:#fffefe

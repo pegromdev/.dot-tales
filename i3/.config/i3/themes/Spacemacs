@@ -1,0 +1,42 @@
+Spacemacs
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*foreground:#bfbfbf
+*.foreground:#bfbfbf
+*background:#282a2e
+*.background:#282a2e
+*color0:#292b2d
+*.color0:#292b2d
+*color8:#68717b
+*.color8:#68717b
+*color1:#ce527a
+*.color1:#ce527a
+*color9:#ce527a
+*.color9:#ce527a
+*color2:#2d9474
+*.color2:#2d9474
+*color10:#84d82f
+*.color10:#84d82f
+*color3:#bfa325
+*.color3:#bfa325
+*color11:#edad0d
+*.color11:#edad0d
+*color4:#4e97d6
+*.color4:#4e97d6
+*color12:#4c91cc
+*.color12:#4c91cc
+*color5:#bb6dc3
+*.color5:#bb6dc3
+*color13:#bb6dc3
+*.color13:#bb6dc3
+*color6:#299ba2
+*.color6:#299ba2
+*color14:#299ba2
+*.color14:#299ba2
+*color7:#e4e4e4
+*.color7:#e4e4e4
+*color15:#f2f2f2
+*.color15:#f2f2f2

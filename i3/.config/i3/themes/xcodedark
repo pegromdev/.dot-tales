@@ -1,0 +1,46 @@
+xcodedark
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # xcodedark by arzg, https://github.com/arzg/vim-colors-xcode
+! # This work is licensed under the terms of the MIT license.
+! # For a copy, see https://opensource.org/licenses/MIT.
+
+*background:#292a30
+*.background:#292a30
+*foreground:#dfdfe0
+*.foreground:#dfdfe0
+*color0:#292a30
+*.color0:#292a30
+*color8:#53606e
+*.color8:#53606e
+*color1:#ff8170
+*.color1:#ff8170
+*color9:#ff7ab2
+*.color9:#ff7ab2
+*color2:#78c2b3
+*.color2:#78c2b3
+*color10:#acf2e4
+*.color10:#acf2e4
+*color3:#ffa14f
+*.color3:#ffa14f
+*color11:#d9c97c
+*.color11:#d9c97c
+*color4:#4eb0cc
+*.color4:#4eb0cc
+*color12:#6bdfff
+*.color12:#6bdfff
+*color5:#b281eb
+*.color5:#b281eb
+*color13:#dabaff
+*.color13:#dabaff
+*color6:#84b360
+*.color6:#84b360
+*color14:#b0e687
+*.color14:#b0e687
+*color7:#a3b1bf
+*.color7:#a3b1bf
+*color15:#53606e
+*.color15:#53606e

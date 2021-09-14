@@ -1,0 +1,42 @@
+Fun Forrest
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#241200
+*.background:#241200
+*foreground:#ddc165
+*.foreground:#ddc165
+*color0:#000000
+*.color0:#000000
+*color8:#7e6954
+*.color8:#7e6954
+*color1:#d5252b
+*.color1:#d5252b
+*color9:#e4591b
+*.color9:#e4591b
+*color2:#909b00
+*.color2:#909b00
+*color10:#bfc659
+*.color10:#bfc659
+*color3:#bd8a13
+*.color3:#bd8a13
+*color11:#ffca1b
+*.color11:#ffca1b
+*color4:#4698a2
+*.color4:#4698a2
+*color12:#7cc9ce
+*.color12:#7cc9ce
+*color5:#8c4231
+*.color5:#8c4231
+*color13:#d16349
+*.color13:#d16349
+*color6:#d98112
+*.color6:#d98112
+*color14:#e6a96b
+*.color14:#e6a96b
+*color7:#ddc165
+*.color7:#ddc165
+*color15:#ffe9a3
+*.color15:#ffe9a3

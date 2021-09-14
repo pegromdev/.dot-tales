@@ -1,0 +1,45 @@
+Sierra
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Sierra Colorscheme for Kitty
+! # Based on https://www.reddit.com/r/unixporn/comments/dgx7gk/bspwm_nostalgic_days/
+! #i3theme*foreground: #cacbb9
+
+*.foreground:#cacbb9
+*background:#1c1a14
+*.background:#1c1a14
+*color0:#0e0e04
+*.color0:#0e0e04
+*color1:#515a45
+*.color1:#515a45
+*color2:#68694f
+*.color2:#68694f
+*color3:#7f7f60
+*.color3:#7f7f60
+*color4:#989876
+*.color4:#989876
+*color5:#897c5b
+*.color5:#897c5b
+*color6:#a18e60
+*.color6:#a18e60
+*color7:#bb7774
+*.color7:#bb7774
+*color8:#a85e5d
+*.color8:#a85e5d
+*color9:#475a2e
+*.color9:#475a2e
+*color10:#676938
+*.color10:#676938
+*color11:#7f7f41
+*.color11:#7f7f41
+*color12:#98984e
+*.color12:#98984e
+*color13:#897645
+*.color13:#897645
+*color14:#a17140
+*.color14:#a17140
+*color15:#c9cbac
+*.color15:#c9cbac

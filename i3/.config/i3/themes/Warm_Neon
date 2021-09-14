@@ -1,0 +1,42 @@
+Warm Neon
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#3f3f3f
+*.background:#3f3f3f
+*foreground:#afdab6
+*.foreground:#afdab6
+*color0:#000000
+*.color0:#000000
+*color8:#fdfcfc
+*.color8:#fdfcfc
+*color1:#e24345
+*.color1:#e24345
+*color9:#e86f71
+*.color9:#e86f71
+*color2:#38b139
+*.color2:#38b139
+*color10:#9bc08f
+*.color10:#9bc08f
+*color3:#dae145
+*.color3:#dae145
+*color11:#ddd979
+*.color11:#ddd979
+*color4:#4260c5
+*.color4:#4260c5
+*color12:#7a90d5
+*.color12:#7a90d5
+*color5:#f81ffb
+*.color5:#f81ffb
+*color13:#f674b9
+*.color13:#f674b9
+*color6:#29bad3
+*.color6:#29bad3
+*color14:#5ed1e4
+*.color14:#5ed1e4
+*color7:#d0b8a3
+*.color7:#d0b8a3
+*color15:#d8c8bb
+*.color15:#d8c8bb

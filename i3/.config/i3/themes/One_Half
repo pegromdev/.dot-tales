@@ -1,0 +1,46 @@
+One Half
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Onehalf Colorscheme for Kitty
+! # Based on https://github.com/sonph/onehalf
+! # By https://github.com/dbinary
+
+*foreground:#dcdfe4
+*.foreground:#dcdfe4
+*background:#282c34
+*.background:#282c34
+*color0:#282c34
+*.color0:#282c34
+*color8:#282c36
+*.color8:#282c36
+*color1:#e06c75
+*.color1:#e06c75
+*color9:#e06c75
+*.color9:#e06c75
+*color2:#98c379
+*.color2:#98c379
+*color10:#98c379
+*.color10:#98c379
+*color3:#e5c07b
+*.color3:#e5c07b
+*color11:#e5c07b
+*.color11:#e5c07b
+*color4:#61afef
+*.color4:#61afef
+*color12:#61afef
+*.color12:#61afef
+*color5:#c678dd
+*.color5:#c678dd
+*color13:#c678dd
+*.color13:#c678dd
+*color6:#56b6c2
+*.color6:#56b6c2
+*color14:#56b6c2
+*.color14:#56b6c2
+*color7:#dcdfe4
+*.color7:#dcdfe4
+*color15:#dcdfe4
+*.color15:#dcdfe4

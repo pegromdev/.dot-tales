@@ -1,0 +1,42 @@
+Flat
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#002240
+*.background:#002240
+*foreground:#2bc45d
+*.foreground:#2bc45d
+*color0:#212c3e
+*.color0:#212c3e
+*color8:#202b3b
+*.color8:#202b3b
+*color1:#a72320
+*.color1:#a72320
+*color9:#d3302e
+*.color9:#d3302e
+*color2:#32a448
+*.color2:#32a448
+*color10:#2c9440
+*.color10:#2c9440
+*color3:#e58d11
+*.color3:#e58d11
+*color11:#e5bd0c
+*.color11:#e5bd0c
+*color4:#3066ab
+*.color4:#3066ab
+*color12:#3b7cd2
+*.color12:#3b7cd2
+*color5:#7819a0
+*.color5:#7819a0
+*color13:#822fa7
+*.color13:#822fa7
+*color6:#2b9270
+*.color6:#2b9270
+*color14:#35b286
+*.color14:#35b286
+*color7:#afb6b9
+*.color7:#afb6b9
+*color15:#e6ecec
+*.color15:#e6ecec

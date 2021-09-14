@@ -1,0 +1,42 @@
+Rippedcasts
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#2b2b2b
+*.background:#2b2b2b
+*foreground:#ffffff
+*.foreground:#ffffff
+*color0:#000000
+*.color0:#000000
+*color8:#666666
+*.color8:#666666
+*color1:#ccae95
+*.color1:#ccae95
+*color9:#edcbac
+*.color9:#edcbac
+*color2:#a7ff60
+*.color2:#a7ff60
+*color10:#bced68
+*.color10:#bced68
+*color3:#beba1f
+*.color3:#beba1f
+*color11:#e5e500
+*.color11:#e5e500
+*color4:#74a4af
+*.color4:#74a4af
+*color12:#86bdc8
+*.color12:#86bdc8
+*color5:#ff73fd
+*.color5:#ff73fd
+*color13:#e500e5
+*.color13:#e500e5
+*color6:#5a637e
+*.color6:#5a637e
+*color14:#8b9bc4
+*.color14:#8b9bc4
+*color7:#bebebe
+*.color7:#bebebe
+*color15:#e5e5e5
+*.color15:#e5e5e5

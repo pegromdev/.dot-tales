@@ -1,0 +1,42 @@
+Monokai Pro (Filter Spectrum)
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#363537
+*.background:#363537
+*foreground:#f7f1ff
+*.foreground:#f7f1ff
+*color0:#363537
+*.color0:#363537
+*color8:#69676c
+*.color8:#69676c
+*color1:#fc618d
+*.color1:#fc618d
+*color9:#fc618d
+*.color9:#fc618d
+*color2:#7bd88f
+*.color2:#7bd88f
+*color10:#7bd88f
+*.color10:#7bd88f
+*color3:#fce566
+*.color3:#fce566
+*color11:#fce566
+*.color11:#fce566
+*color4:#fd9353
+*.color4:#fd9353
+*color12:#fd9353
+*.color12:#fd9353
+*color5:#948ae3
+*.color5:#948ae3
+*color13:#948ae3
+*.color13:#948ae3
+*color6:#5ad4e6
+*.color6:#5ad4e6
+*color14:#5ad4e6
+*.color14:#5ad4e6
+*color7:#f7f1ff
+*.color7:#f7f1ff
+*color15:#f7f1ff
+*.color15:#f7f1ff

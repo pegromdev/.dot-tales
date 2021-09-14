@@ -1,0 +1,43 @@
+Jackie Brown
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#2c1c15
+*.background:#2c1c15
+*foreground:#ffcc2f
+*.foreground:#ffcc2f
+*color0:#2c1d16
+*.color0:#2c1d16
+*color8:#666666
+*.color8:#666666
+*color1:#ef5734
+*.color1:#ef5734
+*color9:#e50000
+*.color9:#e50000
+*color2:#2baf2b
+*.color2:#2baf2b
+*color10:#86a83e
+*.color10:#86a83e
+*color3:#bdbe00
+*.color3:#bdbe00
+*color11:#e5e500
+*.color11:#e5e500
+*color4:#246db2
+*.color4:#246db2
+*color12:#0000ff
+*.color12:#0000ff
+*color5:#cf5ec0
+*.color5:#cf5ec0
+*color13:#e500e5
+*.color13:#e500e5
+*color6:#00acee
+*.color6:#00acee
+*color14:#00e5e5
+*.color14:#00e5e5
+*color7:#bfbfbf
+*.color7:#bfbfbf
+*color15:#e5e5e5
+*.color15:#e5e5e5
+

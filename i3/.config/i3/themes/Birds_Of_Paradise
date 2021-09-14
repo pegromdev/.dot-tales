@@ -1,0 +1,42 @@
+Birds Of Paradise
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#2a1e1d
+*.background:#2a1e1d
+*foreground:#dfdab7
+*.foreground:#dfdab7
+*color0:#573d25
+*.color0:#573d25
+*color8:#9a6b49
+*.color8:#9a6b49
+*color1:#be2d26
+*.color1:#be2d26
+*color9:#e84526
+*.color9:#e84526
+*color2:#6ba08a
+*.color2:#6ba08a
+*color10:#94d7ba
+*.color10:#94d7ba
+*color3:#e99c29
+*.color3:#e99c29
+*color11:#d0d04f
+*.color11:#d0d04f
+*color4:#5a86ac
+*.color4:#5a86ac
+*color12:#b8d3ed
+*.color12:#b8d3ed
+*color5:#ab80a6
+*.color5:#ab80a6
+*color13:#d09dca
+*.color13:#d09dca
+*color6:#74a5ac
+*.color6:#74a5ac
+*color14:#92ced6
+*.color14:#92ced6
+*color7:#dfdab7
+*.color7:#dfdab7
+*color15:#fff9d4
+*.color15:#fff9d4

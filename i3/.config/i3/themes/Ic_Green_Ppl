@@ -1,0 +1,42 @@
+Ic Green Ppl
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#3a3c3e
+*.background:#3a3c3e
+*foreground:#d9eed2
+*.foreground:#d9eed2
+*color0:#1e1e1e
+*.color0:#1e1e1e
+*color8:#03260f
+*.color8:#03260f
+*color1:#fb0029
+*.color1:#fb0029
+*color9:#a6ff3e
+*.color9:#a6ff3e
+*color2:#329b24
+*.color2:#329b24
+*color10:#9fff6d
+*.color10:#9fff6d
+*color3:#649a25
+*.color3:#649a25
+*color11:#d1ff6d
+*.color11:#d1ff6d
+*color4:#149b45
+*.color4:#149b45
+*color12:#72ffb5
+*.color12:#72ffb5
+*color5:#53b82b
+*.color5:#53b82b
+*color13:#50ff3d
+*.color13:#50ff3d
+*color6:#2bb767
+*.color6:#2bb767
+*color14:#22ff71
+*.color14:#22ff71
+*color7:#dffeee
+*.color7:#dffeee
+*color15:#daeed0
+*.color15:#daeed0

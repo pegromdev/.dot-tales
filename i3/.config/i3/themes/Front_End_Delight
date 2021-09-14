@@ -1,0 +1,42 @@
+Front End Delight
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1b1b1d
+*.background:#1b1b1d
+*foreground:#acacac
+*.foreground:#acacac
+*color0:#242426
+*.color0:#242426
+*color8:#5eac6c
+*.color8:#5eac6c
+*color1:#f8501a
+*.color1:#f8501a
+*color9:#f64319
+*.color9:#f64319
+*color2:#565746
+*.color2:#565746
+*color10:#74eb4c
+*.color10:#74eb4c
+*color3:#f9761d
+*.color3:#f9761d
+*color11:#fcc224
+*.color11:#fcc224
+*color4:#2c70b7
+*.color4:#2c70b7
+*color12:#3393c9
+*.color12:#3393c9
+*color5:#f02d4e
+*.color5:#f02d4e
+*color13:#e75e4e
+*.color13:#e75e4e
+*color6:#3ba0a5
+*.color6:#3ba0a5
+*color14:#4ebce5
+*.color14:#4ebce5
+*color7:#acacac
+*.color7:#acacac
+*color15:#8b735a
+*.color15:#8b735a

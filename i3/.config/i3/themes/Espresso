@@ -1,0 +1,44 @@
+Espresso
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Theme ported from the Mac Terminal application.
+
+*background:#323232
+*.background:#323232
+*foreground:#ffffff
+*.foreground:#ffffff
+*color0:#353535
+*.color0:#353535
+*color8:#535353
+*.color8:#535353
+*color1:#d25252
+*.color1:#d25252
+*color9:#f00c0c
+*.color9:#f00c0c
+*color2:#a4c161
+*.color2:#a4c161
+*color10:#c1df74
+*.color10:#c1df74
+*color3:#ffc56d
+*.color3:#ffc56d
+*color11:#e1e48a
+*.color11:#e1e48a
+*color4:#6c99ba
+*.color4:#6c99ba
+*color12:#8ab6d9
+*.color12:#8ab6d9
+*color5:#d096d9
+*.color5:#d096d9
+*color13:#efb5f7
+*.color13:#efb5f7
+*color6:#bdd6ff
+*.color6:#bdd6ff
+*color14:#dbf4ff
+*.color14:#dbf4ff
+*color7:#ededec
+*.color7:#ededec
+*color15:#ffffff
+*.color15:#ffffff

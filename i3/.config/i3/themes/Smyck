@@ -1,0 +1,42 @@
+Smyck
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1b1b1b
+*.background:#1b1b1b
+*foreground:#f7f7f7
+*.foreground:#f7f7f7
+*color0:#000000
+*.color0:#000000
+*color8:#7a7a7a
+*.color8:#7a7a7a
+*color1:#b74131
+*.color1:#b74131
+*color9:#d6837b
+*.color9:#d6837b
+*color2:#7da900
+*.color2:#7da900
+*color10:#c4f036
+*.color10:#c4f036
+*color3:#c4a400
+*.color3:#c4a400
+*color11:#fee14d
+*.color11:#fee14d
+*color4:#62a3c4
+*.color4:#62a3c4
+*color12:#8dcff0
+*.color12:#8dcff0
+*color5:#b98acc
+*.color5:#b98acc
+*color13:#f799ff
+*.color13:#f799ff
+*color6:#207383
+*.color6:#207383
+*color14:#69d9cf
+*.color14:#69d9cf
+*color7:#a0a0a0
+*.color7:#a0a0a0
+*color15:#f7f7f7
+*.color15:#f7f7f7

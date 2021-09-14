@@ -1,0 +1,45 @@
+Desert Night
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # DesertNight by sainnhe
+! # License: MIT && Anti-996
+ 
+*foreground:#d4b07b
+*.foreground:#d4b07b
+*background:#24221c
+*.background:#24221c
+*color0:#473f31
+*.color0:#473f31
+*color8:#473f31
+*.color8:#473f31
+*color1:#e56b55
+*.color1:#e56b55
+*color9:#e56b55
+*.color9:#e56b55
+*color2:#99b05f
+*.color2:#99b05f
+*color10:#99b05f
+*.color10:#99b05f
+*color3:#e18245
+*.color3:#e18245
+*color11:#e5a440
+*.color11:#e5a440
+*color4:#949fb4
+*.color4:#949fb4
+*color12:#949fb4
+*.color12:#949fb4
+*color5:#d261a5
+*.color5:#d261a5
+*color13:#d261a5
+*.color13:#d261a5
+*color6:#bfab36
+*.color6:#bfab36
+*color14:#bfab36
+*.color14:#bfab36
+*color7:#87765d
+*.color7:#87765d
+*color15:#87765d
+*.color15:#87765d

@@ -1,0 +1,42 @@
+Wombat
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#171717
+*.background:#171717
+*foreground:#ded9ce
+*.foreground:#ded9ce
+*color0:#000000
+*.color0:#000000
+*color8:#313131
+*.color8:#313131
+*color1:#ff605a
+*.color1:#ff605a
+*color9:#f58b7f
+*.color9:#f58b7f
+*color2:#b1e869
+*.color2:#b1e869
+*color10:#dcf88f
+*.color10:#dcf88f
+*color3:#ead89c
+*.color3:#ead89c
+*color11:#eee5b2
+*.color11:#eee5b2
+*color4:#5da9f6
+*.color4:#5da9f6
+*color12:#a5c7ff
+*.color12:#a5c7ff
+*color5:#e86aff
+*.color5:#e86aff
+*color13:#ddaaff
+*.color13:#ddaaff
+*color6:#82fff6
+*.color6:#82fff6
+*color14:#b6fff9
+*.color14:#b6fff9
+*color7:#ded9ce
+*.color7:#ded9ce
+*color15:#fefffe
+*.color15:#fefffe

@@ -1,0 +1,46 @@
+Alucard
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Apprentice by Romain Lafourcade, https://github.com/romainl
+! # This work is licensed under the terms of the MIT license.
+! # For a copy, see https://opensource.org/licenses/MIT.
+
+*foreground:#c8c8c8
+*.foreground:#c8c8c8
+*background:#323232
+*.background:#323232
+*color0:#252525
+*.color0:#252525
+*color8:#555555
+*.color8:#555555
+*color1:#be7472
+*.color1:#be7472
+*color9:#ff9900
+*.color9:#ff9900
+*color2:#709772
+*.color2:#709772
+*color10:#97bb98
+*.color10:#97bb98
+*color3:#989772
+*.color3:#989772
+*color11:#fefdbc
+*.color11:#fefdbc
+*color4:#7199bc
+*.color4:#7199bc
+*color12:#9fbdde
+*.color12:#9fbdde
+*color5:#727399
+*.color5:#727399
+*color13:#989abc
+*.color13:#989abc
+*color6:#719899
+*.color6:#719899
+*color14:#6fbbbc
+*.color14:#6fbbbc
+*color7:#7f7f7f
+*.color7:#7f7f7f
+*color15:#feffff
+*.color15:#feffff

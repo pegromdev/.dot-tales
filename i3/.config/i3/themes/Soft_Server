@@ -1,0 +1,42 @@
+Soft Server
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#242626
+*.background:#242626
+*foreground:#99a3a2
+*.foreground:#99a3a2
+*color0:#000000
+*.color0:#000000
+*color8:#666c6b
+*.color8:#666c6b
+*color1:#a16869
+*.color1:#a16869
+*color9:#dc5b5f
+*.color9:#dc5b5f
+*color2:#99a569
+*.color2:#99a569
+*color10:#bfde54
+*.color10:#bfde54
+*color3:#a29069
+*.color3:#a29069
+*color11:#deb35f
+*.color11:#deb35f
+*color4:#6a8fa3
+*.color4:#6a8fa3
+*color12:#62b1df
+*.color12:#62b1df
+*color5:#6971a3
+*.color5:#6971a3
+*color13:#5f6ede
+*.color13:#5f6ede
+*color6:#6ba48f
+*.color6:#6ba48f
+*color14:#64e39c
+*.color14:#64e39c
+*color7:#99a3a2
+*.color7:#99a3a2
+*color15:#d1dfde
+*.color15:#d1dfde

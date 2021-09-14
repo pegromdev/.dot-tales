@@ -1,0 +1,42 @@
+Renault Style
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#3a3a3a
+*.background:#3a3a3a
+*foreground:#e9cb7b
+*.foreground:#e9cb7b
+*color0:#000000
+*.color0:#000000
+*color1:#990000
+*.color1:#990000
+*color2:#00A600
+*.color2:#00A600
+*color3:#999900
+*.color3:#999900
+*color4:#0000B2
+*.color4:#0000B2
+*color5:#B200B2
+*.color5:#B200B2
+*color6:#00A6B2
+*.color6:#00A6B2
+*color7:#BFBFBF
+*.color7:#BFBFBF
+*color8:#666666
+*.color8:#666666
+*color9:#E50000
+*.color9:#E50000
+*color10:#00d800
+*.color10:#00d800
+*color11:#E5E500
+*.color11:#E5E500
+*color12:#0000FF
+*.color12:#0000FF
+*color13:#E500E5
+*.color13:#E500E5
+*color14:#00e5e5
+*.color14:#00e5e5
+*color15:#E5E5E5
+*.color15:#E5E5E5

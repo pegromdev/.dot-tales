@@ -1,0 +1,44 @@
+Red Sands
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # Theme ported from the Mac Terminal application.
+
+*background:#79241d
+*.background:#79241d
+*foreground:#d6c8a7
+*.foreground:#d6c8a7
+*color0:#000000
+*.color0:#000000
+*color8:#545454
+*.color8:#545454
+*color1:#ff3e00
+*.color1:#ff3e00
+*color9:#ba0000
+*.color9:#ba0000
+*color2:#00ba00
+*.color2:#00ba00
+*color10:#00ba00
+*.color10:#00ba00
+*color3:#e6af00
+*.color3:#e6af00
+*color11:#e6af00
+*.color11:#e6af00
+*color4:#0071ff
+*.color4:#0071ff
+*color12:#0071ae
+*.color12:#0071ae
+*color5:#ba00ba
+*.color5:#ba00ba
+*color13:#ff54ff
+*.color13:#ff54ff
+*color6:#00baba
+*.color6:#00baba
+*color14:#54ffff
+*.color14:#54ffff
+*color7:#bababa
+*.color7:#bababa
+*color15:#ffffff
+*.color15:#ffffff

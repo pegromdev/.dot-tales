@@ -1,0 +1,45 @@
+Gruvbox Material Dark Medium
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+! # GruvboxMaterial theme by sainnhe
+! # License: [MIT License](https://opensource.org/licenses/MIT).
+
+*background:#282828
+*.background:#282828
+*foreground:#dfbf8e
+*.foreground:#dfbf8e
+*color0:#665c54
+*.color0:#665c54
+*color8:#928374
+*.color8:#928374
+*color1:#ea6962
+*.color1:#ea6962
+*color9:#ea6962
+*.color9:#ea6962
+*color2:#a9b665
+*.color2:#a9b665
+*color10:#a9b665
+*.color10:#a9b665
+*color3:#e78a4e
+*.color3:#e78a4e
+*color11:#e3a84e
+*.color11:#e3a84e
+*color4:#7daea3
+*.color4:#7daea3
+*color12:#7daea3
+*.color12:#7daea3
+*color5:#d3869b
+*.color5:#d3869b
+*color13:#d3869b
+*.color13:#d3869b
+*color6:#89b482
+*.color6:#89b482
+*color14:#89b482
+*.color14:#89b482
+*color7:#dfbf8e
+*.color7:#dfbf8e
+*color15:#dfbf8e
+*.color15:#dfbf8e

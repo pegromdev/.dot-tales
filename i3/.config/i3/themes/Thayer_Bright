@@ -1,0 +1,42 @@
+Thayer Bright
+
+! I3 Themes color are base on Kitty Terminal colors and ported to be Xresources compatible
+! Source https://github.com/kovidgoyal/kitty-themes
+! # maintainer: nicolas villafan <pegromdev@gmail.com>
+
+*background:#1b1d1e
+*.background:#1b1d1e
+*foreground:#f8f8f8
+*.foreground:#f8f8f8
+*color0:#1b1d1e
+*.color0:#1b1d1e
+*color8:#505354
+*.color8:#505354
+*color1:#f92672
+*.color1:#f92672
+*color9:#ff5995
+*.color9:#ff5995
+*color2:#4df740
+*.color2:#4df740
+*color10:#b6e354
+*.color10:#b6e354
+*color3:#f3fd21
+*.color3:#f3fd21
+*color11:#feed6c
+*.color11:#feed6c
+*color4:#2656d6
+*.color4:#2656d6
+*color12:#3f78ff
+*.color12:#3f78ff
+*color5:#8c54fe
+*.color5:#8c54fe
+*color13:#9e6ffe
+*.color13:#9e6ffe
+*color6:#37c8b4
+*.color6:#37c8b4
+*color14:#23ced4
+*.color14:#23ced4
+*color7:#ccccc6
+*.color7:#ccccc6
+*color15:#f8f8f2
+*.color15:#f8f8f2
