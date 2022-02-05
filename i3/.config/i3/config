@@ -522,7 +522,8 @@ for_window [class="cheatsheet"] move scratchpad
 
 #: General {{{
 # Bornders=Normal tiny without title bar=pixel "numeber in pixels" Nothing=none
-for_window [class="^.*"] border pixel normal
+#for_window [class="^.*"] border pixel normal
+for_window [class="^.*"] border pixel 1
 # Text in title bar
 title_align center
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
