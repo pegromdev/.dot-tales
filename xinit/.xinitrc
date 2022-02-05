@@ -58,3 +58,5 @@ get_session(){
 }
 #
 exec $(get_session)
+
+autorandr --change docked
