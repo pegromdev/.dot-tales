@@ -653,14 +653,14 @@ for_window [urgent=latest] focus
 #set $ws7 "7"
 #set $ws8 "8"
 # Name Config
-set $ws1 "1:SHELL"
-set $ws2 "2:WEB"
-set $ws3 "3:FILES"
-set $ws4 "4:GAMMING"
-set $ws5 "5:OFFICE"
-set $ws6 "MULTIMEDIA"
-set $ws7 "LIBRARY"
-set $ws8 "SYSTEM"
+#set $ws1 "1:SHELL"
+#set $ws2 "2:WEB"
+#set $ws3 "3:FILES"
+#set $ws4 "4:GAMMING"
+#set $ws5 "5:OFFICE"
+#set $ws6 "MULTIMEDIA"
+#set $ws7 "LIBRARY"
+#set $ws8 "SYSTEM"
 # use workspaces on different displays:
 # where you have to replace VGA-0/HDMI-0 with the names for your displays 
 # you can get from xrandr command
