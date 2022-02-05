@@ -22,7 +22,7 @@ setopt INC_APPEND_HISTORY																				# Append into history file
 setopt EXTENDED_HISTORY   																			# Add timestamp for each entry
 setopt HIST_IGNORE_DUPS																					# Save only one command if 2 common are same and consistent
 HISTFILE=~/.zhistory																						# History file
-HISTSIZE=10000																										# Set history size
+HISTSIZE=20000																										# Set history size
 SAVEHIST=1000																										# Ssave history after logout
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 
