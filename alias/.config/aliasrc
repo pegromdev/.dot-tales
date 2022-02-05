@@ -23,7 +23,8 @@ alias dot="cd /home/niko/.dot-tales"
 
 # SystemWide
 alias ip='ip -color=auto'
-
+# Screen
+alias screenoff='xset dpms force off && i3lock-fancy -t 'Do MORE''
 # Restic 
 alias rest-backup='restic backup --files-from /home/niko/.restic_include.txt'
 alias rest-snap='restic snapshots'
@@ -36,7 +37,7 @@ alias	vm="nvim"
 alias status="bpytop"
 # Pacman
 alias pau="pacui 3"
-
+alias update="sudo paru -Syu"	
 # source
 alias svim="source ~/.dot-tales/neovim/.config/nvim/init.vim"
 alias szsh="source ~/.zshrc"
@@ -48,8 +49,8 @@ alias stmux="source ~/.tmux.conf"
 alias grep="grep --color=auto" 
 # Curl ( Real time execution )
 alias	tiempo="curl wttr.in" 
-# pywal
-alias wall="cd /home/niko/Images/wall &&  fzfimg --bind 'enter:execute-silent(wal -i {} -st)'" 
+# Wallpaper fzfScript
+alias wall="ls /run/media/hdd/Pictures/wall/* | fzfimg --bind 'enter:execute-silent(feh --bg-scale {} && cp {} ~/.config/wall.png )'" 
 # simple-mtpfs ( Android Mounting)
 alias android="simple-mtpfs --device 1 /home/niko/Storage/Cell/"
 # npm list all packages
@@ -104,7 +105,11 @@ alias vim="nvim"
 #: Places {{{
 
 alias hdd="cd /run/media/hdd"
+alias	books="/run/media/hdd/Books/"
+alias fbooks="ls * /run/media/hdd/Books/ | fzf"
 alias usb="cd /run/media/usb"
 alias dwn="cd /home/niko/Downloads"
+alias gdrive="rclone mount --daemon drive: /home/niko/gdrive"
+
 
 #: }}}
