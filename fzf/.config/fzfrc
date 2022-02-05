@@ -45,7 +45,6 @@ fcheat() {
     main "$file_to_edit"
   fi
 }
-
 #: }}}
 
 #: Custom searches {{{
@@ -104,11 +103,9 @@ f.() {
 
 select_dot() {
 	given_file="$1"
- 	find -not -path "/home/niko/.manjaro-tales/.git/*" | fzf --query="$given_file" --reverse --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'
+ 	find -not -path "/home/niko/.dot-tales/.git/*" | fzf --query="$given_file" --reverse --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'
 }
-
-
-	cd /home/niko/.manjaro-tales/
+	cd /home/niko/.dot-tales/
   previous_file="$1"
   file_to_edit=`select_dot $previous_file`
 
@@ -122,6 +119,12 @@ cdf() {
     cd $HOME && cd "$(fd -Ht d | fzf --preview="tree -L 1 {}" --bind="space:toggle-preview" --preview-window=:hidden)"
 }
 
+fb() {
+	ls * /run/media/hdd/Books/* | fzf
+	if [[ "$program" =~ ^( zathura )$ ]]; then
+		arguments="$arguments &"
+	fi
+}
 #: }}}
 
 #: Pacman {{{
