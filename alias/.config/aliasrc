@@ -42,6 +42,10 @@ alias update="sudo paru -Syu"
 alias svim="source ~/.dot-tales/neovim/.config/nvim/init.vim"
 alias szsh="source ~/.zshrc"
 alias stmux="source ~/.tmux.conf"
+
+# Mount
+alias sdc="sudo mount /dev/sdc /mnt -o uid=niko -o gid=niko"
+
 #: }}}
 
 #: Tools {{{
