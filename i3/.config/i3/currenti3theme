@@ -3,40 +3,43 @@
 ! Source https://github.com/kovidgoyal/kitty-themes
 ! # maintainer: nicolas villafan <pegromdev@gmail.com>
 
+! # gruvbox dark by morhetz, https://github.com/morhetz/gruvbox
+! # This work is licensed under the terms of the MIT license.
+! # For a copy, see https://opensource.org/licenses/MIT.
 
-*foreground:#BDACDF
-*.foreground:#BDACDF
-*background:#383C4A
-*.background:#383C4A
-*.color0:#000000
-*color0:#000000
-*.color1:#BDACDF
-*color1:#BDACDF
-*.color2:#0c0c0c
-*color2:#0c0c0c
-*.color3:#fdf6e3
-*color3:#fdf6e3
-*.color4:#7E3EBD
-*color4:#7E3EBD
-*.color5:#454948
-*color5:#454948
-*.color6:#268BD2 
-*color6:#268BD2 
-*.color7:#cc241d
-*color7:#cc241d
-*.color8:#000000
-*color8:#000000
-*.color9:#BDACDF
-*color9:#BDACDF
-*.color10:#0c0c0c
-*color10:#0c0c0c
-*.color11:#fdf6e3
-*color11:#fdf6e3
-*.color12:#7E3EBD
-*color12:#7E3EBD
-*.color13:#454948
-*color13:#454948
-*.color14:#268BD2
-*color14:#268BD2
-*.color15:#cc241d
-*color15:#cc241d
+*background:#282828
+*.background:#282828
+*foreground:#ebdbb2
+*.foreground:#ebdbb2
+*color0:#282828
+*.color0:#282828
+*color8:#928374
+*.color8:#928374
+*color1:#cc241d
+*.color1:#cc241d
+*color9:#fb4934
+*.color9:#fb4934
+*color2:#98971a
+*.color2:#98971a
+*color10:#b8bb26
+*.color10:#b8bb26
+*color3:#d79921
+*.color3:#d79921
+*color11:#fabd2f
+*.color11:#fabd2f
+*color4:#458588
+*.color4:#458588
+*color12:#83a598
+*.color12:#83a598
+*color5:#b16286
+*.color5:#b16286
+*color13:#d3869b
+*.color13:#d3869b
+*color6:#689d6a
+*.color6:#689d6a
+*color14:#8ec07c
+*.color14:#8ec07c
+*color7:#a89984
+*.color7:#a89984
+*color15:#928374
+*.color15:#928374
