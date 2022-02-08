@@ -23,6 +23,7 @@ alias dot="cd /home/niko/.dot-tales"
 
 # SystemWide
 alias ip='ip -color=auto'
+alias date2="date '+%F'" 
 # Screen
 alias screenoff='xset dpms force off && i3lock-fancy -t 'Do MORE''
 # Restic 
@@ -71,7 +72,7 @@ alias kv="kitty --class vimpad -e nvim </dev/null &>/dev/null &"
 # Dropdown  
 alias drop="kitty --class dropdown </dev/null &>/dev/null &"
 # tg
-alias ftg="kitty --class telegram -e tg </dev/null &>/dev/null &"
+alias ftg="kitty --class social -e tg </dev/null &>/dev/null &"
 
 # NCDU ( Ncurses disk space analizer )
 alias	disk="ncdu" 
