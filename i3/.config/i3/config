@@ -233,7 +233,7 @@ exec $nsi	"sleep 1; $term -e tmux new-session -A -s Main"
 exec $nsi $dropdown 	 
 # Vim server
 exec $nsi $vim -e nvim  	 
-# tg
+# telegram
 exec $nsi $telegram -e tg
 # Cheatsheets
 exec $nsi $cheat -e cht.sh --shell
