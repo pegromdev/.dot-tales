@@ -12,6 +12,9 @@ export READER="zathura"
 export FILE="ranger"
 
 
+## ssh agent
+eval $(ssh-agent-s)
+
 #Fuzzy Finder with fd colored folders, hideen files and not git directories. 
 
 #export FZF_ALT_C_COMMAND="fd --type d --exclude .git --follow --hidden"
