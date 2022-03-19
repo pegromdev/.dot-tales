@@ -89,7 +89,8 @@ mode "$volume_system" {
     bindsym f exec $nsi  pulsemixer --set-volume 100 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "Full Volume", mode "default"
 		bindsym h exec $nsi  pulsemixer --set-volume 50 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-medium-symbolic.symbolic.png "Medium Volume", mode "default"
     bindsym l exec $nsi  pulsemixer --set-volume 25 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-low-symbolic.symbolic.png "Low Volume", mode "default"
-		bindsym c	exec $nsi  $term -e 'pulsemixer', mode "default"	
+#		bindsym c	exec $nsi  $term -e 'pulsemixer', mode "default"	
+		bindsym c	exec $nsi  pavucontrol
  
    
  # exit system mode: "Enter" or "Escape"
@@ -225,22 +226,10 @@ set $mode__border Borders:  n(o)ne, (n)ormal, (t)title
 #: }}}
 
 # Startup Settings {{{
+
 # i3tui first steps
 # xrandr Monitor check script
-exec_always $nsi	monitors
-#exec $nsi $term -e w3m ~/i3tuiTips.html
-# Tmux
-exec $nsi	"sleep 10; $term -e tmux new-session -A -s Main"
-# Dropdown Terminal
-exec $nsi $dropdown 	 
-# Vim server
-exec $nsi $vim -e nvim  	 
-# telegram
-exec $nsi $telegram -e tg
-# Cheatsheets
-exec $nsi $cheat -e cht.sh --shell
-# Ranger
-exec $nsi	"sleep 8; $ranger --class ranger -e ranger"
+#exec_always $nsi	monitors
 # Polkit
 exec $nsi /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Wallpaper
@@ -251,20 +240,37 @@ exec $nsi picom --experimental-backends --config .config/picom.conf -b
 exec $nsi clipit
 # I3 Lock
 exec $nsi xautolock -time 30 -locker blurlock
-# Polybar 
-exec_always $nsi "sleep 5; polybarLaunch"
 # Sdcard Mounting
 exec $nsi mountsd
 # Playerctl daemon
 exec $nsi playerctld daemon
-# Kill tmux 0 session
-exec $nsi 	"sleep 20; tmux kill-session -t 0"
 # Keyboard Keys custom changes
 exec_always $nsi	remaps
 # Mutt wizard sync
 exec $nsi mw -Y && notify-send "Mail Sync done!"
 # Desktop notifications
 exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
+
+# Polybar 
+exec_always $nsi "sleep 4; polybarLaunch"
+# Dropdown Terminal
+exec $nsi "sleep 5; $dropdown" 	 
+# Vim server
+exec $nsi "sleep 6; $vim -e nvim" 	 
+# telegram
+exec $nsi "sleep 7; $telegram -e tg"
+# Tmux
+exec $nsi	"sleep 8; $term -e tmux new-session -A -s Main"
+# Cheat
+exec $nsi "sleep 9; $cheat -e cht.sh --shell"
+# Ranger
+exec $nsi	"sleep 10; $ranger --class ranger -e ranger"
+# Firefox
+exec $nsi	"sleep 11; firefox"
+# Newsboat
+exec $nsi "sleep 12; $term --class newsboat -e newslauncher"
+# Kill tmux 0 session
+exec $nsi 	"sleep 20; tmux kill-session -t 0"
 
 #: }}}
 
@@ -325,9 +331,9 @@ exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 #: Function Buttons {{{
 
 # Wallpaper chooser
-bindsym $mod+F1					exec $nsi $term -e ucollage ~/Pictures/wall/*	
+bindsym $mod+F1					exec $nsi polybarLaunch	
 # cheetsheet
-bindsym $mod+Shift+F1		exec $nsi sxiv ~/Pictures/cheetsheets/* 
+#bindsym $mod+Shift+F1		exec $nsi sxiv ~/Pictures/cheetsheets/* 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+F2					restart
 # reload the configuration file
@@ -423,7 +429,8 @@ bindsym --release $mod+ctrl+x 			exec 	$nsi xkill
 bindsym $mod+v 				mode "$volume_system"
 # Toogle  sound outputs
 #bindsym $mod+Shift+o exec PLEASE FIND PULSE AUDIO WAY TO IT
-bindsym $mod+m  			exec $nsi  pactl set-sink-mute 0 toggle
+#bindsym $mod+m  			exec $nsi  pactl set-sink-mute 0 toggle
+bindsym $mod+m  			exec $nsi amixer set "Master" "toggle"
 #: }}}
 
 #: PlayerCtl Controls {{{
@@ -435,7 +442,7 @@ bindsym $mod+End						exec $nsi playerctl -p spotify play-pause
 bindsym $mod+Shift+Next			exec $nsi playerctl -p spotify position 15+
 bindsym $sup+Shift+Prior		exec $nsi playerctl -p spotify position 15-
 
-bindsym $mod+Shift+End			exec $nsi playerctl -p firefox.instance3084 play-pause 
+
 
 #: }}}
 
@@ -495,28 +502,30 @@ bindsym Shift+Home	exec $nsi maimpick
 
 # Dropdown 
 for_window [class="dropdown"]	floating enable
-for_window [class="dropdown"]	resize set  1345 375
-for_window [class="dropdown"]	move position 10 395
+#for_window [class="dropdown"]	resize set  1345 375
+#for_window [class="dropdown"]	move position 10 395
+for_window [class="dropdown"]	move position center
 for_window [class="dropdown"] border pixel 1
 for_window [class="dropdown"] move scratchpad	
 
 # vimpad
 for_window [class="vimpad"]	floating enable
-for_window [class="vimpad"]	resize set  1340 650
+#for_window [class="vimpad"]	resize set  1340 650
 for_window [class="vimpad"]	move position center
+#for_window [class="dropdown"]	move position 10 395
 for_window [class="vimpad"] border pixel 1
 for_window [class="vimpad"] move scratchpad	
 
 # telegram
 for_window [class="social"]	floating enable
-for_window [class="social"]	resize set  1340 650
+#for_window [class="social"]	resize set  1340 650
 for_window [class="social"]	move position center
 for_window [class="social"] border pixel 1
 for_window [class="social"] move scratchpad	
 
 # Cheatsheet
 for_window [class="cheatsheet"]	floating enable
-for_window [class="cheatsheet"]	resize set  1340 650
+#for_window [class="cheatsheet"]	resize set  1340 650
 for_window [class="cheatsheet"]	move position center
 for_window [class="cheatsheet"] border pixel 1
 for_window [class="cheatsheet"] move scratchpad	
@@ -673,18 +682,25 @@ workspace $ws3 output LVDS-1
 workspace $ws4 output HDMI-1-2
 workspace $ws5 output LVDS-1
 workspace $ws6 output HDMI-1-2
+workspace $ws7 output LVDS-1
+workspace $ws8 output HDMI-1-2
 
 # bind program to workspace and focus to them on startup:
 assign [class="ranger"] $ws3
-assign [class="(?i)firefox"] $ws2
-assign [class="thunar"] $ws3
+assign [class="(?i)firefox"]$ws2
+assign [class="Thunar"] $ws3
 assign [class="newsboat"] $ws4
-assign [class="blue"] $ws8
+assign [class="Spotify"] $ws4
+assign [class="Transmission-gtk"] $ws6
+assign [class="kodi"] $ws8
 
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=ranger] focus
+for_window [class=Spotify] focus
 for_window [class=(?i)firefox] focus
+for_window [class=Thunar] focus
+for_window [class=Transmission-gtk] focus
 
 #: }}}
 

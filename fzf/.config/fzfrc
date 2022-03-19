@@ -79,7 +79,7 @@ f/() {
   file_to_edit=`select_file $previous_file`
 
   if [ -n "$file_to_edit" ] ; then
-    "vim" "$file_to_edit"
+    "nvim" "$file_to_edit"
     main "$file_to_edit"
   fi
 	cd $cdw
@@ -87,12 +87,12 @@ f/() {
 # Full home folder search with preview and EDITOR setup
 fh() {
 	cdh=$(pwd)
-	cd /home/niko
+	cd ~
   previous_file="$1"
   file_to_edit=`select_file $previous_file`
 
   if [ -n "$file_to_edit" ] ; then
-    "vim" "$file_to_edit"
+    "nvim" "$file_to_edit"
     main "$file_to_edit"
   fi
 	cd $cdh
@@ -110,7 +110,7 @@ select_dot() {
   file_to_edit=`select_dot $previous_file`
 
   if [ -n "$file_to_edit" ] ; then
-    "vim" "$file_to_edit"
+    "nvim" "$file_to_edit"
     main "$file_to_edit"
   fi
 }

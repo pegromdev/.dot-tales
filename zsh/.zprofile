@@ -13,7 +13,7 @@ export FILE="ranger"
 
 
 ## ssh agent
-eval $(ssh-agent-s)
+eval $(ssh-agent)
 
 #Fuzzy Finder with fd colored folders, hideen files and not git directories. 
 

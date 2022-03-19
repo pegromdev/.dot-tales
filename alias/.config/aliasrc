@@ -24,6 +24,7 @@ alias dot="cd /home/niko/.dot-tales"
 # SystemWide
 alias ip='ip -color=auto'
 alias date2="date '+%F'" 
+alias mem="cat /proc/meminfo"
 # Screen
 alias screenoff='xset dpms force off && i3lock-fancy -t 'Do MORE''
 # Restic 
@@ -60,7 +61,10 @@ alias wall="ls /run/media/hdd/Pictures/wall/* | fzfimg --bind 'enter:execute-sil
 alias android="simple-mtpfs --device 1 /home/niko/Storage/Cell/"
 # npm list all packages
 alias npmlist="npm list -g --depth=0"
-
+# copy with progress details
+alias copy="rsync -avh --progress"
+# get keyboard key
+alias keys=" xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'\n"
 #: }}}
 
 #: Apps {{{
@@ -99,7 +103,10 @@ alias passgen="pass generate -c"
 alias music="ncmpcpp"
 # Mind mapping
 alias mind="mm /run/media/hdd/Documents/mindmaps/lifeOn2021"
+# nb Bash Note Taking
+alias nb="bash /home/niko/.npm-global/bin/nb shell"
 
+# Kitty Themes
 alias kt="kitty +kitten themes"
 
 # Nvim
