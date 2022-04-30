@@ -1,24 +1,23 @@
 #! /bin/bash
 
-#	Update
+# Better Stock Ubuntu Server Defaultts by pegromdev 
+#	Run:
+#			touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/serverFirstRun.sh >> freshRun.sh
+#	Then execute:
+#			chmod +x freshRun.sh && ./freshRun.sh 
+
+
 apt upgrade
-#	Apps
-apt install -y taskwarrior vim ranger tmux git stow xclip trash-cli make
-# Establishing where to work.
+apt install -y vim ranger tmux git xsel stow xclip trash-cli make
 cd ~/
-# Better Promp
 curl -sS https://starship.rs/install.sh | sh
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
-# Better Configs
 git clone https://github.com/pegromdev/.dot-tales.git
 cd .dot-tales
 stow server
-apt uninstall -y stow
-cd ~/
-rm -R .dot-tales
-#	Setuping up Ranger DevIcons
+rm -vR !("server")
 cd ~
 cd .config/ranger/plugins/ranger_devicons
 make install
-cd ~/
+cd ~
 
