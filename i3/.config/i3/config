@@ -80,15 +80,14 @@ mode "$mode_system" {
 
 # icons from https://www.nerdfonts.com/cheat-sheet
 
-set $volume_system Volume: ﱛ (u)p | ﱜ (d)own |  (t)op | 墳(f)ull | 奔(h)alf |  (l)ow |  (c)ontrol |  (e)xit
+set $volume_system Volume: (u)p | (d)own | (t)op | (f)ull | (h)alf | (l)ow | (c)ontrol | (e)xit
 mode "$volume_system" {
-    bindsym u exec $nsi  pulsemixer --change-volume +5
-    bindsym d exec $nsi  pulsemixer --change-volume -5
-		bindsym t exec $nsi  pulsemixer --set-volume 150 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "150% Max Volume", mode "default"
-    bindsym f exec $nsi  pulsemixer --set-volume 100 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-high-symbolic.symbolic.png "Full Volume", mode "default"
-		bindsym h exec $nsi  pulsemixer --set-volume 50 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-medium-symbolic.symbolic.png "Medium Volume", mode "default"
-    bindsym l exec $nsi  pulsemixer --set-volume 25 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-low-symbolic.symbolic.png "Low Volume", mode "default"
-#		bindsym c	exec $nsi  $term -e 'pulsemixer', mode "default"	
+    bindsym u exec $nsi  amixer -q sset Master 5%+
+    bindsym d exec $nsi  amixer -q sset Master 5%-
+		bindsym t exec $nsi  amixer sset 'Master' 150%, mode "default"
+		bindsym f exec $nsi  amixer sset 'Master' 100%, mode "default"
+		bindsym h exec $nsi  amixer sset 'Master' 50%, mode "default"
+    bindsym l exec $nsi  amixer sset 'Master' 25%, mode "default"
 		bindsym c	exec $nsi  pavucontrol, mode "default"
  
    
@@ -122,27 +121,6 @@ mode "$rofi" {
 	
 
 		# exit system mode: "Enter" or "Escape"
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-#: }}}
-#: Conky {{{
-
-# icons from https://www.nerdfonts.com/cheat-sheet
-set $conky  (s)tickyTime   (f)astTime   (c)pu   (d)isk 糖 tem(p)erature
-mode "$conky" {
-		# Conky 60 second Time
-		bindsym s							exec $nsi "sh -c 'timeout 60 conky -c ~/.config/conky/conkyTime.conf'", mode "default"
-		# Conky 1 second Time
-		bindsym f							exec $nsi "sh -c 'timeout 3 conky -c ~/.config/conky/conkyTime.conf'", mode "default"
-		# Conky Cpu & Ram
-		bindsym c							exec $nsi	"sh -c 'timeout 15 conky -c ~/.config/conky/conkyCpuRam.conf'", mode "default"
-		# Conky Disk
-		bindsym d							exec $nsi	"sh -c 'timeout 60 conky -c ~/.config/conky/conkyDisk.conf'", mode "default"
-		# Dnust notification from sensors command
-		bindsym p 						exec $nsi systemp, mode "default"
-
- # exit system mode: "Enter" or "Escape"
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
@@ -250,8 +228,6 @@ exec $nsi xautolock -time 30 -locker i3lock-fancy-dualmonitor
 # Desktop notifications
 #exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
-# Polybar 
-#exec_always $nsi "sleep 4; polybarLaunch"
 # Dropdown Terminal
 exec $nsi "sleep 5; $dropdown" 	 
 # Vim server
@@ -277,6 +253,9 @@ exec $nsi 	"sleep 20; tmux kill-session -t 0"
 
 bar {
 #	output primary 
+  mode hide
+	hidden_state hide   
+	modifier Mod4
 	status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 	position top
 #		colors {
@@ -365,7 +344,6 @@ bindsym $mod+F12				exec $nsi $term -e nmtui
 
 # These are the extra media keys that some keyboards have.
 # Audio
-bindsym XF86AudioMute									exec $nsi amixer sset "Master" mute
 bindsym XF86AudioLowerVolume					exec $nsi lmc down 5
 bindsym XF86AudioRaiseVolume					exec $nsi lmc up 5
 bindsym Shift+XF86AudioLowerVolume		exec $nsi lmc down 10
@@ -410,7 +388,7 @@ bindsym $mod+9 							exec $nsi i3lock-fancy-dualmonitor
 # Ranger
 bindsym $mod+Ctrl+f 				exec $nsi	$ranger --class ranger -e ranger
 # hide/unhide i3status bar
-bindsym $mod+Shift+m bar mode toggle
+bindsym $mod+Ctrl+b bar hidden_state toggle 
 # rofi shortcuts
 bindsym $mod+p 							exec $nsi rofi-shortcuts
 #: }}}
@@ -427,9 +405,10 @@ bindsym --release $mod+ctrl+x 			exec 	$nsi xkill
 
 bindsym $mod+v 				mode "$volume_system"
 # Toogle  sound outputs
-#bindsym $mod+Shift+o exec PLEASE FIND PULSE AUDIO WAY TO IT
-#bindsym $mod+m  			exec $nsi  pactl set-sink-mute 0 toggle
-bindsym $mod+m  			exec $nsi amixer set "Master" "toggle"
+#bindsym $mod+Shift+o				exec PLEASE FIND PULSE AUDIO WAY TO IT
+#bindsym $mod+m							exec $nsi  pactl set-sink-mute 0 toggle
+bindsym $mod+Ctrl+m					exec $nsi amixer set "Master" "mute"
+bindsym $mod+Shift+m				exec $nsi amixer set "Master" "unmute"
 #: }}}
 
 #: PlayerCtl Controls {{{
