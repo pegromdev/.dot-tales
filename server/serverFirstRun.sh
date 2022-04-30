@@ -3,7 +3,7 @@
 #	Update
 apt upgrade
 #	Apps
-apt install -y taskwarrior neovim ranger tmux git stow xclip 
+apt install -y taskwarrior neovim ranger tmux git stow xclip trash-cli
 # Establishing where to work.
 cd ~/
 # Better Promp
