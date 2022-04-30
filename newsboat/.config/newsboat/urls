@@ -1,0 +1,824 @@
+# My RSS Feeds
+
+#	Creating News Feed to X Tags
+# "query:NewsMix:tags # \"N\"" "NewsMix"
+
+
+#: Computers {{{
+
+#### Hacking & Cybersec
+# Blackhat
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg *Tech*	 							 "~Hacking           Black Hat                     YT"
+# Hackernews
+https://news.ycombinator.com//rss *Tech*																													 "~Hacking           Hacker News                   WB"
+# George Hotz
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwgKmJM4ZJQRJ-U5NjvR2dg *Tech*                "~Hacking           George Hotz                   YT"
+# DC cybersec
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3sccPO4v8YqCTn8sezZGTw *Tech*                "~Hacking           DC CyberSeca                  YT"
+# DEFCONConference
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw *Tech*                "~Hacking           DEFCONConference              YT"
+# HackerOne
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsgzmECky2Q9lQMWzDwMhYw *Tech*                "~Hacking           HackerOne                     YT"
+# NetworkChuck
+http://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ	*Tech*								 "~Hacking					NetworkChuck									 YT"
+
+# STÖK
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQN2DsjnYH60SFBIA6IkNwg *Tech*                "~CyberSec          STÖK                          YT"
+# Dion Training
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEJy7bKsMJqyb_z75V1fAsg *Tech*                "~Cyber-Sec         Dion Training                 YT"
+# Cyber_security
+https://www.reddit.com/r/cyber_security.rss *Tech*                                                 "~CyberSec          Cyber_security                REDDIT"
+# Cybersecurity
+https://www.reddit.com/r/cybersecurity.rss *Tech*                                                  "~CyberSec          Cybersecurity                 REDDIT"
+# Cyber Security
+https://www.reddit.com/r/security.rss *Tech*                                                       "~CyberSec          Security                      REDDIT"
+
+##### IT & DevOps
+# School of Devops
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBYuGbHeNk_y4AKk3Ea0geA *Tech* 	             "~DevOps            School of Devops              YT"
+# I.T. Career Questions
+https://www.youtube.com/feeds/videos.xml?channel_id=UCt-Pwe2fODjH4Wuwf5VqE7A *Tech*                "~IT                IT Career Questions           YT"
+# Engineer Man
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrUL8K81R4VBzm-KOYwrcxQ *Tech*                "~IT                Engineer Man                  YT"
+# ITProTV
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-8Ba047kFinfgp3sO53qcA *Tech*                "~IT                ITProTV                       YT"
+# Techno Tim
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOk-gHyjcWZNj3Br4oxwh0A *Tech*                "~IT-DevOps         Techno Tim                    YT"
+# Homelab
+https://www.reddit.com/r/homelab.rss *Tech*                                                        "~IT                Homelab                       REDDIT"
+# Home Networking
+https://www.reddit.com/r/HomeNetworking.rss *Tech*                                                 "~IT                Home Networking               REDDIT"
+# IT Career Questions
+https://www.reddit.com/r/ITCareerQuestions.rss *Tech*                                              "~IT                IT Career Questions           REDDIT"
+# Linux admin
+https://www.reddit.com/r/linuxadmin.rss *Tech*                                                     "~IT                Linux Admin                   REDDIT"
+# Linux Questions
+https://www.reddit.com/r/linuxquestions.rss *Tech*                                                 "~IT                Linux Questions               REDDIT"
+# Networking
+https://www.reddit.com/r/networking.rss *Tech*                                                     "~IT                Networking                    REDDIT"
+# Usefull Scripts
+https://www.reddit.com/r/usefulscripts.rss *Tech*                                                  "~IT                Usefull Scripts               REDDIT"
+# DevbaseMedia
+https://www.youtube.com/feeds/videos.xml?channel_id=UCx6M2DGOBSOwj6-e-ToPPGw *Tech*                "~DevOps            DevbaseMedia                  YT"
+
+##### Programming
+#  Automation
+https://www.youtube.com/feeds/videos.xml?channel_id=UCosFqIt2ejM08YrM4Bc7leQ *Tech*                "~Programming       Automation with Scripting     YT"
+# Joshua Fluke
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-91UA-Xy2Cvb98deRXuggA *Tech*                "~Programming       Joshua Fluke                  YT"
+# LevelUpTuts
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyU5wkjgQYGRB0hIHMwm2Sg *Tech*                "~Programming       LevelUpTuts                   YT"
+# Pluralsight
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbrXRQHV4TOU4Pqzw325Z1A *Tech*                "~Programming       Pluralsight                   YT"
+# The Coding Train
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvjgXvBlbQiydffZU7m1_aw *Tech*                "~Programming       The Coding Train              YT"
+# The Net Ninja
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuERMmlnqo4oq8vwUpg *Tech*                "~Programming       The Net Ninja                 YT"
+# thenewboston
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw *Tech*                "~Programming       Thenewboston                  YT"
+# The Lucid Mystic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEgAgMmyDXzPqvz6nOy6gOA *Tech*                "~Progamming        The Lucid Mystic              YT"
+# Wes BOs
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoebwHSTvwalADTJhps0emA *Tech*                "~Programming       Wes Bos                       YT"
+# Bashscript
+https://www.reddit.com/r/bashscripts.rss *Tech*                                                    "~Programming       bashscripts                   REDDIT"
+# CSS
+https://www.reddit.com/r/css.rss *Tech*                                                            "~Programming       CSS                           REDDIT"
+# Home Automatition
+https://www.reddit.com/r/homeautomation.rss *Tech*                                                 "~Programming       Home Automatition             REDDIT"
+
+##### Computer Science
+#Computerphile
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA *Tech*                "~Programming       Computerphile                 YT"
+# Course Report
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB9W1F-TkcriKx3w7C8eLeg *Tech*                "~Programming       Course Report                 YT"
+# Derek Banas
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwRXb5dUK4cvsHbx-rGzSgw *Tech*                "~Programming       Derek Banas                   YT"
+# Algorithms
+https://www.reddit.com/r/algorithms.rss *Tech*                                                     "~Programming       Algorithms                    REDDIT"
+# CS50
+https://www.reddit.com/r/cs50.rss *Tech*                                                           "~Programming       CS50                          REDDIT"
+# HTML
+https://www.reddit.com/r/HTML.rss *Tech*                                                           "~Programming       Html                          REDDIT"
+# Javascript
+https://www.reddit.com/r/javascript.rss *Tech*                                                     "~Programming       Javascript                    REDDIT"
+# NODEJS
+https://www.reddit.com/r/node.rss *Tech*                                                           "~Programming       Node js                       REDDIT"
+
+##### Gral Tech
+# Avelx
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAFoT4MTlbGSXdJOaQrsbMg *Tech*                "~GralTech          Avelx                         YT"
+# CSS Tricks
+https://www.youtube.com/feeds/videos.xml?user=realcsstricks *Tech*                                 "~GralTech          CSS Tricks                    YT"
+#Codecourse
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpOIUW62tnJTtpWFABxWZ8g *Tech*                "~GralTech          Code Course                   YT"
+# Colt Steel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrqAGUPPMOdo0jfQ6grikZw *Tech*                "~GralTech          Colt Steel                    YT"
+# DesignCourse
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVyRiMvfUNMA1UPlDPzG5Ow *Tech*                "~GralTech          DesignCourse                  YT"
+# DevTips
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyIe-61Y8C4_o-zZCtO4ETQ *Tech*                "~GralTech          DevTips                       YT"
+# ForrestKnight
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg *Tech*                "~GralTech          ForrestKnight                 YT"
+# freeCodeCamp.org
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ *Tech*                "~GralTech          freeCodeCamp.org              YT"
+# Hak5
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ *Tech*                "~GralTech          Hak5                          YT"
+# Level1Techs
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ *Tech*                "~GralTech          Level1Techs                   YT"
+# Linus Tech Tips
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw *Tech*                "~GralTech          Linus Tech Tips               YT"
+# Lon.TV
+https://www.youtube.com/feeds/videos.xml?channel_id=UCymYq4Piq0BrhnM18aQzTlg *Tech*                "~GralTech          Lon.TV                        YT"
+# MaidSafe
+https://www.youtube.com/feeds/videos.xml?channel_id=UChDck5R_C9i6XTrS66tbwOw *Tech*                "~GralTech          MaidSafe                      YT"
+# ProxmoxVE
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG8gozAhzORUdfEQMuz_HjQ *Tech*                "~GralTech          ProxmoxVE                     YT"
+# Qt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsyT1C1M-QoHQREjsixgayQ *Tech*                "~GralTech          Qt                            YT"
+# Arch Linux
+https://www.reddit.com/r/archlinux.rss *Tech*                                                      "~GralTech          Arch Linux                    REDDIT"
+
+###### Tech And Tech History
+# ColdFusion
+https://www.youtube.com/feeds/videos.xml?channel_id=UCM9KEEuzacwVlkt9JfJad7g *Tech*                "~GralTech          Cold Fusion                   YT"
+# Motherboard
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB6PV0cvJpzlcXRG7nz6PpQ *Tech*                "~GralTech          Motherboard                   YT"
+# Data is beatifull
+https://www.reddit.com/r/dataisbeautiful.rss *Tech*                                                "~GralTech          DataIsBeatifull               REDDIT"
+
+##### APPS
+# Conky
+https://www.reddit.com/r/conky.rss *Tech*                                                          "~APPS              Conky                         REDDIT"
+# Conkyporn
+https://www.reddit.com/r/Conkyporn.rss *Tech* 																										 "~APPS              Conkyporn                     REDDIT"
+# Dmenu
+https://www.reddit.com/r/dmenu.rss *Tech*                                                          "~APPS              Dmenu                         REDDIT"
+# Fzf
+https://www.reddit.com/r/fzf.rss *Tech*                                                            "~APPS              FZF                           REDDIT"
+# I3Wm
+https://www.reddit.com/r/i3wm.rss *Tech*                                                           "~APPS              I3Wm                          REDDIT"
+# Linux 4 Noobs
+https://www.reddit.com/r/linux4noobs.rss *Tech*                                                    "~Linux             Linux 4 noobs                 REDDIT"
+# PfSense
+https://www.reddit.com/r/PFSENSE.rss *Tech*                                                        "~Linux             PFSense                       REDDIT"
+# Ranger
+https://www.reddit.com/r/ranger.rss *Tech*                                                         "~APPS              Ranger                        REDDIT"
+# TaskWarrior
+https://www.reddit.com/r/taskwarrior.rss *Tech*                                                    "~APPS              Task Warrior                  REDDIT"
+# Tmux
+https://www.reddit.com/r/tmux.rss *Tech*                                                           "~APPS              Tmux                          REDDIT"
+# URXVT
+https://www.reddit.com/r/urxvt.rss *Tech*                                                          "~APPS              Urxvt                         REDDIT"
+# Vim
+https://www.reddit.com/r/vim.rss *Tech*                                                            "~APPS              Vim                           REDDIT"
+# Webpack
+https://www.reddit.com/r/webpack.rss *Tech*                                                        "~APPS              Webpack                       REDDIT"
+# Newsboat
+https://www.reddit.com/r/newsboat.rss *Tech*                                                       "~APPS              Newsboat                      REDDIT"
+
+##### Digital Desing
+# Pixivu
+https://www.youtube.com/feeds/videos.xml?channel_id=UCD62HXUGfvATXqG4-oFatTg *Tech*                "~Digital-Desing    Pixivu                        YT"
+# Quixel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNTZFGRsyqNtvI4T2syNkIw *Tech*                "~Digital-Desing    Quixel                        YT"
+# Unreal Engine
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBobmJyzsJ6Ll7UbfhI4iwQ *Tech*                "~Digital-Desing    Unreal Engine                 YT"
+# Wallpaper
+https://www.reddit.com/r/wallpaper.rss *Tech*                                                      "~Digital-Desing    Wallpaper                     REDDIT"
+# Wallpapers
+https://www.reddit.com/r/wallpapers.rss *Tech*                                                     "~Digital-Desing    Wallpapers                    REDDIT"
+
+##### Android
+# MXQ PROJECT
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe5fEqT6etLbeOhxUdjlBww *Tech*                "~Androif           MXQ PROJECT                   YT"
+# XDA 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCk1SpWNzOs4MYmr0uICEntg *Tech*                "~Android           XDA                           YT"
+
+#: }}}
+
+#: News {{{
+
+#### Uruguay
+# En Perspectiva
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzj1iuImjo-Eb8JMELC1Jwg *News*                "~Uruguay           En Perspectiva                YT" 
+# AUF
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0jQd1_qQAT4an-dDaG1Sww *News*	               "~Uruguay           AUF                           YT"
+# Canal ministerio de Vivienda
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzXXuA6EPAI5NDKYAzs2ljw *News*                "~Uruguay           Canal MVOTMA                  YT"
+# Buscadores
+https://www.youtube.com/feeds/videos.xml?channel_id=UCypc162nVxUZf1LJFYFNauw *News*	               "~Uruguay           Buscadores                    YT"
+# Comunicacion Presidencial
+https://www.youtube.com/feeds/videos.xml?channel_id=UCz1Li9JcQB9XP-HfgN0IYLQ *News*                "~Uruguay	         Comunicacion Presidencial     YT"
+# Cámara de Senadores
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyM7oro5NhR5oPyMEFB_rUA *News*                "~Uruguay           Camara de Senadores           YT"
+# Montevideo Portal
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLQQSgMrLAcWIXWHk9XkBKA *News*                "~Uruguay           Montevideo Portal             YT"
+# Prensa Sindical
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTeTztS7qLUedYmeGC20VsA *News*                "~Uruguay           Prensa Sindical               YT"
+# reportes uy
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEg8OEPkQuvaH7009ZmFLfA *News*                "~Uruguay           Reportes uy                   YT"
+# Televisión Nacional Uruguay
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMHQqhtbpxfcnPPYpryapHA *News*                "~Uruguay           Televisión Nacional           YT"
+# ZIN TV
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaPyWAVh3oSKSXO8la0BCsg *News*                "~Uruguay           ZIN TV                        YT"
+# ElEspectador 810
+http://rsshub.app/twitter/user/ElEspectador810	*News*                                             "~Uruguay           El Espectador 10              WEB"
+# Bajo la lupa Odysee
+https://odysee.com/$/rss/@bajolalupauy:b	*News*                                                   "~Uruguay           Bajo la lupa                  ODY"
+
+##### Diarios
+# El Pais
+https://www.elpais.com.uy/rss/ *News*                                                              "~Uruguay           El pais                       Diario"
+# El Observador
+https://rss.app/feeds/cgle5sFt1dD4qA36.xml *News*                                                  "~Uruguay           El Observador                 Diario"
+# La Republica
+https://www.republica.com.uy/feed/ *News*                                                          "~Uruguay           La republica                  Diario"
+
+##### Programacion TV Nacional
+# Arriba Gente
+https://www.youtube.com/feeds/videos.xml?user=arribagente10 *News*                                 "~Uruguay           Arriba Gente                  YT"
+# Desayunos Informales
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFFAin85cmlgsKj8c6mNP9w *News*                "~Uruguay           Desayunos Infromaleso         YT"
+
+###### Argentina
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnejI42HK6cKapzJRWZXCbQ *News*                "~Argentina         Agarra la pala                YT"
+# Canal 22"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE_eiR_8usK9i0hHapkyWSg *News*                "~Argentina         Canal 22                      YT"
+
+###### Global
+# Rt America
+https://www.youtube.com/feeds/videos.xml?channel_id=UCczrL-2b-gYK3l4yDld4XlQ *News*	               "~Global            RT AMERICA                    YT"
+# Rt Latino America
+https://www.youtube.com/feeds/videos.xml?user=ActualidadRT *News*                                  "~Global            RT LatinoAmerica              YT"
+# RT en Español
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2mtXUpAYLYJIZ2deSPhlqw *News*                "~Global            RT en Español                 YT"
+# CaspianReport
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwnKziETDbHJtx78nIkfYug *News*                "~Gloabl            Caspian Report                YT"
+# The Newsmakers
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiDyg5GUMxZiHiwiQ29Nwhw *News*                "~Global            The Newsmakers                YT"
+# VICE News
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZaT_X_mc0BI-djXOlfhqWQ *News*                "~Global            VICE News                     YT"
+# Endeavouros
+https://endeavouros.com/feed/                                                *News*                "~Linux             Endeavouros                  WEB"
+https://endeavouros.com/comments/feed/																			 *News*                "~Linux             Endeavouros                  WEB"	
+#: }}}
+
+#: Variety Information {{{
+
+
+###### Politics & Social Matters
+# Computing Forever
+https://www.youtube.com/feeds/videos.xml?channel_id=UCT9D87j5W7PtE7NHOR5DUOQ *Variety*             "~Politics-Social   Computing Forever             YT"
+# Daniel Esturlin
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJxANI_P2Dhyai2ZiBS_C_A *Variety*             "~Politics-Social   Daniel Esturlin               YT"
+# DarkJournalist
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqOdHprLVQnHhE8FmIY3Yzg *Variety*             "~Politics-Social   DarkJournalist                YT"
+# El Mercurio
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2gAzwr0o9-fNZmnbPLj-uw *Variety*             "~Politics-Social   El Mercurio                   YT"
+# El Otro Angulo
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2ucZmgAZuETI5tNjWce_wA *Variety*             "~Politics-Social   El otro angulo                YT"
+# Fade To Black
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfSqR4o1H9P_gC8SXix4OvA *Variety*             "~Politics-Social   Fade to Black                 YT"
+# John Acquaviva
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuTIiHyNqELu6RNtB4AahAA *Variety*             "~Politics-Social   John Acquaviva                YT"
+# Kim Iversen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoJTOwZxbvq8Al8Qat2zgTA *Variety*             "~Politics-Social   Kim Iversen                   YT"
+# London Real
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCZVmatSqIMTTB8uExk8xEg *Variety*             "~Politics-Social   London Real                   YT"
+# Mark Christopher
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_tkU-N-PEvddh4GRM1rkAg *Variety*             "~Politics-Social   Mark Christopher              YT"
+# Project Camelot
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2na0DRywwQrXeodGmCt63Q *Variety*             "~Politics-Social   Project Camelot               YT"
+
+###### Oraculos
+# Deseret Tavarez
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFMwVG1p6-tJ7THF7q-6Pzw *Variety*             "~Oraculos          Deseret Tavarez               YT"
+# Patrizia 1111
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkhTW9LYzTqAAh2JIX1YI6A *Variety*             "~Oraculos          Patrizia 1111                 YT"
+# Galactic Historian
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzFVqSMX3EuPGjA_WCnhy_A *Variety*             "~Oraculos          Galactic Historian            YT"
+# Patrizia 1111
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkhTW9LYzTqAAh2JIX1YI6A *Variety*             "~Oraculos          Patrizia 1111                 YT"
+# Ramblin Mike's Tarot
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTKLByHY0hgeRnIk0XsfFWw *Variety*             "~Oraculos          Ramblin Mike's Tarot          YT"
+# Truth Well Told Tarot
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4sUs98ggtE_XfTIZ69FCag *Variety*             "~Oraculos          Truth Well Told Tarot         YT"
+#	Stargirl the Practical Witch					
+http://www.youtube.com/feeds/videos.xml?channel_id=UC48SY--ei1_Z6Ij70Kkr1Ww	*Variety*              "~Oraculos					 Stargirl the Practical Witch  YT"
+
+
+###### Flat Earth
+# FLAT EARTH BROTHERS
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtu2THvit1LjLONLqvD8uAQ *Variety* 						 "~FlatEarth        FLAT EARTH BROTHERS           YT"
+# Nur Para Todos Respaldo
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZA8o36RG1HAEb78xEMBaFA *Variety*             "~FlatEarth        Nur Para Todos Respaldo       YT"
+# Nur Para Todos
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLc18B2Tfn1C_suWOCKsMew *Variety*             "~FlatEarth        Nur Para Todos                YT"
+#	NurDigital
+https://odysee.com/$/rss/@NurParaTodos:1	*Variety*                                                "~FlatEarth        NurDigital                   ODY"
+# Somos Grandeza y LA TIERRA ES PLANA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAaXJVk6-2VCssoqhnG4M1w *Variety*             "~FlatEarth        Somos Grandeza                YT"
+
+##### Life Hacks
+# Julian 545
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeDwIiXM9qgjWA38VqO-Onw *Variety*             "~LifeHacks        Julian 545                     YT"
+# EDC
+https://www.reddit.com/r/EDC.rss *Variety*                                                         "~LifeHacks        EDC                            REDDIT"
+
+##### General
+# Mundo Desconocido
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnOAynBmYKA1neozHQNF0mA *Variety*              "~Geneal          Mundo Desconocido              YT"
+# MythVision Podcast
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWVCimOe67LOfyi9PjUeGgA *Variety*              "~General         MythVision Podcast             YT"
+# NAOV
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-GeBX8ZDZnwL-tKuymWewg *Variety*              "~General         NAOV                           YT"
+# Truthstream Media
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVEaFSr-jdTa_QE4PPSkVJw *Variety*              "~General         Truthstream Media              YT"
+# WoodwardTV
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8-LhLmfkg0KStfM5qUuhyw *Variety*              "~General         WoodwardTV                     YT"
+
+#: }}}
+
+#: Vloggers {{{
+
+###### Travel
+# Roberto el Viajero
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYm1vJoG1Jfi5sdLfjNs1iQ *Vlog*                "~Travel            Roberto Viajero               YT"
+#Charly Sinewan
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqZQXbQTF6VI_i5QWFaVxSQ *Vlog*                "~Travel            Charly Sinewan                YT"
+
+###### Self-Impruve
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgeicB5AuF3MyyUto0-M5Lw *Vlog*                "~SelfImpruve       Actualized.org                YT"
+
+###### Salud Y Bienestar
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-2PGzzS1Ggq_cvZan_hqpA *Vlog*                 "~BienEstar        Alexis Tejada                 YT"
+
+###### Alpha Men
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1KbedtKa3d5dleFR6OjQMg *Vlog*                 "~Alpha            alpha m                       YT"
+# Real Men Real Style
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmRfQHc3U4fV1-i8Ry1HmtA *Vlog*                 "~Alpha            Real Men Real Style           YT"
+# Universal Man
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6gyVlwXwtqkn4KLjx3nDHg *Vlog*                 "~Alpha            Universal Man                 YT"
+#FarFromAverage
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6Iaz96RkYE-MOjnq5NPgqw *Vlog*                 "~Alpha            Far from avarage              YT"
+# Alternativo# https://www.youtube.com/channel/UC6Iaz96RkYE-MOjnq5NPgqw *Vlog*                                     "~Alpha            Far from avarage              YT"
+###### Truth Seekers
+
+# Asser The Duke
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAoi-I6LqYBguKZ2ZidV_Lw *Vlog*                "~Truth-Seekers     Aseer The Duke Of Tiers       YT"
+# Change Truth
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvLheAt4vkRL-LhCxFFU25g *Vlog*                "~Truth-Seekers     Change Truth                  YT"
+# Jeff P
+https://www.youtube.com/feeds/videos.xml?channel_id=UCi62JvN-lUn7hVL3ffofADA *Vlog*                "~Truth-Seekers     Jeff P                        YT"
+# MrAstrotheology
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfhYKxfb_JaIz2aNT-2ZdaQ *Vlog*                "~Truth-Seekers     MrAstrotheology               YT"
+# MrThriveAndSurvive
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4ooWpHkJWKjDN7YverX2iw *Vlog*                "~Truth-Seekers     MrThriveAndSurvive            YT"
+# PINEAL FOUNDATION
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs0651l2SUf4k9TG7R6YAkg *Vlog*                "~Truth-Seekers     PINEAL FOUNDATION             YT"
+# Decode your reality
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbTAKtS7ummQRaQpqIMFMrQ *Vlog*                "~Truth-Seekers     Decode Your Reality           YT"
+# David Icke
+https://odysee.com/$/rss/@DavidIcke:6	*Vlog*																											 "~Truth-Seeker			 David Icke                   ODY"
+
+###### Linux
+# HexDsl
+https://www.youtube.com/feeds/videos.xml?user=hexdsl *Vlog*                                        "~Linux             HexDsl                        YT"
+# Gotbletu
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA *Vlog*                "~Linux             gotbletu                      YT"
+# Greg Hurrell
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXPHFM88IlFn68OmLwtPmZA *Vlog*                "~Linux             Greg Hurrell                  YT"
+# Brodie Robertson
+http://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA *Vlog*                 "~Linux             Brodie Robertson              YT"
+# Bryan Jenks 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfhSB16X9MXhzSFe_H7XbHg *Vlog*                "~Linux             Bryan Jenks                   YT"
+# Linux News Vlog
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZWadyLVO4ZnMgLrRVtS6VA *Vlog*                "~Linux             Baby WOGUE                    YT" 
+# BryanLunduke
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA *Vlog*                "~Linux             Bryan Lunduke                 YT"
+# Budlabs
+https://www.youtube.com/feeds/videos.xml?channel_id=UCi8XrDg1bK_MJ0goOnbpTMQ *Vlog*                "~Linux             Budlabs                       YT"
+# Chris Titus Tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ *Vlog*                "~Linux             Chris Titus Tech              YT"
+# Devon Crawford
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDrekHmOnkptxq3gUU0IyfA *Vlog*                "~Linux             evon Crawford                 YT" 
+# Distro Tube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg *Vlog*                "~Linux             DistroTube                    YT"
+# HolaMundo
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4FHiPgS1KXkUMx3dxBUtPg *Vlog*                "~Linux             HolaMundo                     YT"
+# Irishluck Linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCq2QwnKW79w4a55ZQqOBReg *Vlog*                "~Linux             Linux                         YT"
+# Kai Hendry
+https://www.youtube.com/feeds/videos.xml?user=kaihendry *Vlog*                                     "~Linux             Kai Hendry                    YT"
+# JacktasticTech
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvbWRzrzCj786BClpQL1JmQ *Vlog*                "~Linux             JacktasticTech                YT"
+# LearnLinuxTV
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA *Vlog*                "~Linux             LearnLinuxTV                  YT"
+# Level1Linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w *Vlog*                "~Linux             Level1Linux                   YT"
+# Luke Smith
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA *Vlog*                "~Linux             Luke Smith                    YT"
+# MAKC
+https://www.youtube.com/feeds/videos.xml?user=mackenziegcriswell *Vlog*                            "~Linux             MAKC                          YT"
+# msjche
+https://www.youtube.com/feeds/videos.xml?user=msjche *Vlog*                                        "~Linux             msjche                        YT"
+# Pelado Nerd
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrBzBOMcUVV8ryyAU_c6P5g *Vlog*                "~Linux             Pelado Nerd                   YT"
+# Switched to Linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoryWpk4QVYKFCJul9KBdyw *Vlog*                "~Linux             Switched to Linux             YT"
+# Ranger
+https://www.reddit.com/r/ranger.rss *Vlog*                                                         "~Linux             Ranger                        REDDIT"
+# Unixporn
+https://www.reddit.com/r/unixporn.rss *Vlog*                                                       "~Linux             Unixporn                      REDDIT"
+# Vim Porn
+https://www.reddit.com/r/vimporn.rss *Vlog*                                                        "~Linux             VimPorn                       REDDIT"
+# Endeavouros
+https://www.reddit.com/r/EndeavourOS.rss                                                           "~Linux             Endeavouros                   REDDIT"  
+
+###### Cardistri & magick tricks
+# Chris Ramsay
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrPUg54jUy1T_wII9jgdRbg *Vlog*                "~Magic             Chris Ramsay                  YT"
+# Derren brown
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZFjYOyCdMxbt59vZNuqBpw *Vlog*                "~Magic             Derren Brown                  YT"
+
+##### Photography
+# Parker Walbeck
+https://www.youtube.com/feeds/videos.xml?channel_id=UCw9zJ3qnebPPGsutiEAvu5Q *Vlog*                "~Fotografia        Parker Walbeck                YT"
+# Peter McKinnon
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3DkFux8Iv-aYnTRWzwaiBA *Vlog*                "~Fotografia        Peter McKinnon                YT"
+# Robert Rodriguez Jr
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzG1tFKXaZp0QwhATJcX9Bg *Vlog*                "~Fotografia        Robert Rodriguez Jr           YT"
+
+#: }}}
+
+#:  Science {{{
+
+###### Alternative Underground Scientiest 
+# FVP Angel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHjbGaekh_mfYzMx4b39oEQ *Science*            "~Alternative        FPV Angel                     YT"
+# Theoria Apophasis
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVcxJ9k14bi__-uA1cGkEcA *Science*            "~Alternative        Theoria Apophasis             YT"
+
+###### Phd sience
+# Bruce H. Lipton, Ph.D
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUeE7Tm5TVgy0q9hxfBRi1Q *Science*            "~Phd-Science       Bruce H. Lipton               YT"
+#: }}}
+
+#: Spirituality {{{
+
+##### Ocultism
+# The Lucid Mystic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEgAgMmyDXzPqvz6nOy6gOA *Spirituality*        "~Ocultism          The Lucid Mystic              YT"
+
+###### Manifestation
+# Matt Hurtado
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMVf0Tv_KUCRgDqcwfBPNhg *Spirituality*        "~Manifestation     Matthew-David: Hurtado        YT"
+
+###### Magick
+# Adventures in Woo Woo
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvhAf27ZdF9mGA1znaTQQEA *Spirituality*        "~Magick            Adventures In Woo Woo         YT"
+# Jason Louv
+https://www.youtube.com/feeds/videos.xml?channel_id=UCA2qo46N3BBzYYMwWQ7xJFQ *Spirituality*        "~Magick            Jason Louv                    YT"
+# Pedro Poch
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeZsTrR42ZJKzuKPcfsAf4w *Spirituality*        "~Magick            Pedro Poch                    YT"
+# The Alkemist Lab
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu-tLYo21hHXC9Noi_6hzSw *Spirituality*        "~Magick            The Alkemist Lab              YT"
+# Witchcraft
+https://www.reddit.com/r/witchcraft.rss *Spirituality*                                             "~Magick            Witchcraft                    REDDIT"
+# Chaos Magick
+https://www.reddit.com/r/chaosmagick.rss *Spirituality*                                            "~Magick            Chaos Magick                  REDDIT"
+# E.A. Koetting
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3PbU2BsHFjySvk3sdBltpA *Spirituality*        "~Magick            E.A. Koetting                 YT"
+#	Damien Echols
+http://www.youtube.com/feeds/videos.xml?channel_id=UCnRyoC6Oww6FrYVc-BxKyDg *Spirituality*				 "~Magick						 Damien Echols								 YT"
+#	Foolish fish
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVtWVX2xirq6Nybf5bumqwg *Spirituality*        "~Magick            Foolish Fish                  YT"
+
+###### Medium Channeling
+# Brad Johnson
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQeHcVNo6CPWpgJaqEObrqA *Spirituality*        "~Medium            Brad Johnson                  YT"
+# KRYON - Channelling
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbzZmC-cvS57cWbeBe7XPoA *Spirituality*        "~Medium            KRYON - Channelling           YT"
+# Kryon Lee Carroll
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMiuw8FLujKn06dnlxpbWGQ *Spirituality*        "~Medium            Kryon Lee Carroll             YT"
+# Xom TV Kryon
+http://www.youtube.com/feeds/videos.xml?channel_id=UCLSfzJylY-JINanBXyYJ0Kg *Spirituality*        "~Medium            Kryon - Channeling NEW        YT"
+
+###### Mindfullness
+# DandapaniLLC
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrX8UBoue01aj4s0aHmgeQg *Spirituality*        "~Mindfull          DandapaniLLC                  YT" 
+# Eckhart Tolle
+https://www.youtube.com/feeds/videos.xml?channel_id=UCj9fPezLH1HUh7mSo-tB1Mg *Spirituality*        "~Mindfull          Eckhart Tolle                 YT"
+# Shivagam
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGqb6__-SAw30ZZcG1JIoGw *Spirituality*        "~Mindfull          Shivagam                      YT"
+# Theosophical Society
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKn8UXvcvWW9Dql2ppPDtEQ *Spirituality*        "~Mindfull          Theosophical Society          YT"
+# Stoicism
+https://www.reddit.com/r/Stoicism.rss *Spirituality*                                               "~Mindfull          Stoicism                      REDDIT"
+
+######General spirituality
+
+# Yuttadhammo Bhikkhu
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQJ6ESCWQotBwtJm0Ff_gyQa *Spirituality*       "~General           Yuttadhammo Bhikkhu           YT"
+# OSHO International
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0s6BFzIcvC2gTH52_vBEA  *Spirituality*       "~General           OSHO International            YT"
+# Gaia
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFVqzO9_qHVckKqNC95o9tw  *Spirituality*       "~General           Gaia                          YT"
+# in5d
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcqvCEZZLvq1pn58DMNR0Qw *Spirituality*        "~General           in5d                          YT"
+# Infinite Waters
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjt7bEwtlk6A6f_CiY2ZOlQ *Spirituality*        "~General           Infinite Waters               YT"
+# Innerstanding
+https://www.youtube.com/feeds/videos.xml?channel_id=UCj5syBRsjuLG-u7PCuua_Qw *Spirituality*        "~General           Innerstanding                 YT"
+# Innerstanding Odysee
+https://odysee.com/$/rss/@innerstanding:1 *Spirituality*        																	 "~General           Innerstanding                ODY"
+# Naty Faviano
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMhZon3tOXWi_YYuVLbGT_g *Spirituality*        "~General           Naty Faviano                  YT"
+# Michelle Walling
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm2hlECql-dEO_Q-eytNbdg *Spirituality*        "~General           Michelle Walling              YT"
+# Matt Kahn All For Love
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHyGxx33FQ2cbZqPMh4hi_Q *Spirituality*        "~General           Matt Kahn All For Love        YT" 
+# Moojiji
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpw2gh99XM6Mwsbksv0feEg *Spirituality*        "~General           Moojij                        YT"
+# Lucid Mystic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEgAgMmyDXzPqvz6nOy6gOA *Spirituality*        "~General           The Lucid Mystic              YT"
+
+
+###### Hypnosis
+# Dolores Cannon
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6tTHgyNTUCTauwkXI1aQvQ *Spirituality*        "~Hypnosis          Dolores Cannon                YT"
+
+#: }}}
+
+#: Healt {{{
+
+###### Yoga & Vegan Food
+# Alo Moves
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsksmxdgJtJp18iMYQpJg0A *Healt*               "~Yoga              Alo Moves                     YT"
+# Strength Side
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9BNGVGr_lvbn3d23ckuVOA *Healt*               "~Yoga              Strength Side                 YT"
+###### Tai Chi
+# Energy Arts
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4ABDVU2Aj-jIIk1ca-A6WA *Healt*               "~Chi               Energy Arts                   YT"
+# Enter Tai Chi
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAuCfOo1L3r4cukZvg6expg *Healt*               "~Chi               Enter Tai Chi                 YT"
+
+###### Nutrition
+# Dr. Eric Berg DC
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3w193M5tYPJqF0Hi-7U-2g *Healt*               "~Nutricion         Dr. Eric Berg DC              YT"
+# Gustavo davalos
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1wIPlfXHO3AQ5M4HSvOYVg *Healt*               "~Nutricion         Gustavo davalos               YT"
+# Ronald Moscoso
+https://www.youtube.com/feeds/videos.xml?channel_id=UCViy6mZ9cL83qXJ15TZc1og *Healt*               "~Nutricion         Ronald Moscoso                YT"	
+# RuledMe
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9DRGV7k0jh5PgRBcM5SVfA *Healt*               "~Nutricion         RuledMe                       YT"
+# Vegan Physique
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6FtBjNlqu2wNAH87Qj1UVA *Healt*               "~Nutricion         Vegan Physique                YT"
+# Vegan
+https://www.reddit.com/r/vegan.rss                                           *Healt*               "~Nutricion         Vegan                         REDDIT"
+
+##### General tips
+# Natural Ways
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtHLcHryngTwOWUtiiEQiBg *Healt*               "~Nutricion         Natural Ways                  YT"
+# No Fap
+https://www.reddit.com/r/NoFap.rss *Healt*                                                         "~NoFAP             No Fap                        REDDIT"
+
+###### GYM
+# Athlen-X
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe0TLA0EsQbE-MjuHXevj2A *Healt*               "~Workout          ATHLEAN-X                      YT"
+# Bulldog Mindset
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFxdcuY-S6yjZGq_2cjilHg *Healt*               "~Woekout          Bulldog Mindset                YT"
+# Fight your way Fit
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3p5XucSRzdopmAdST2wDGQ *Healt*               "~Workout          Fight your way Fit             YT"
+# Fight TIPS
+https://www.youtube.com/feeds/videos.xml?channel_id=UClKgO_YP3pcIVeav2g_k6hw *Healt*               "~Workout          FightTIPS                      YT"
+# Hard2hurt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNKtHIrVMaDE7hovBvodpDw *Healt*               "~Workout          Hard2hurt                      YT"
+# KUBEBARZ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrwdQPKtysfp93F-jrJ7DhQ *Healt*               "~Workout          KUBEBARZ                       YT"
+# Lex Fitness
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdnioRJZSXZoj5cl9Oys-nA *Healt*               "~Workout          Lex Fitness                    YT"
+# THENX
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqjwF8rxRsotnojGl4gM0Zw *Healt*               "~Workout          THENX                          YT"
+# Fitness
+https://www.reddit.com/r/Fitness.rss                                         *Healt*               "~Workout          Fitness                        REDDIT"
+# Vegan Fitness
+https://www.reddit.com/r/veganfitness.rss                                    *Healt*               "~Workout          Vegan Fitness                  REDDIT"
+
+###### Martial Arts
+# Kevin Mack Krav Maga
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVVE8Um0FcrslJF-_JmfpJQ *Healt*               "~Martial-Arts     Kevin Mack Krav Maga           YT"
+# KMWKravMaga 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyA_wFi-W_1qixXghxNV0LA *Healt*               "~Martial-Arts     KMWKravMaga                    YT"
+# KRAV MAGA TRAINING
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMD_k2IDOQpGU4D8OMyHXVQ *Healt*               "~Martial-Arts     KRAV MAGA TRAINING             YT"
+# Kung Fu & Tai Chi Center w/ Jake Mace
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWYtZYH4kcbMm29liIOSGQQ *Healt*               "~Martial-Arts     Kung Fu & Tai Chi Center       YT"
+# Mike Rashid
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHp-_faz2gINcwGEf9A6ZZg *Healt*               "~Martial-Arts     Mike Rashid                    YT"
+# NateBowerFitness
+https://www.youtube.com/feeds/videos.xml?user=NateBowerFitness               *Healt*               "~Martial-Arts     NateBowerFitness               YT"
+# Precision Striking
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4PwJo76WpTOk-3N8dazt1A *Healt*               "~Martial-Arts     Precision Striking             YT"
+
+###### Motivation
+# Be Inspired
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaKZDEMDdQc8t6GzFj1_TDw *Healt*               "~Motivation       Be Inspired                    YT"
+# Get Motivated
+https://www.reddit.com/r/GetMotivated.rss                                    *Healt*               "~Motivation       Get Motivated                  REDDIT"
+# Workstations
+https://www.reddit.com/r/workstations.rss                                    *Healt*               "~Motivation       Workstation                    REDDIT"
+#: }}}
+
+#: Recetas {{{
+
+# All Recipes
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4tAgeVdaNB5vD_mBoxg50w *Recetas*             "~General           Allrecipes                    YT"
+# Cocina Natural
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvg_5WAbGznrT5qMZjaXFGA *Recetas*             "~General           Cocina Natural                YT"
+# Vagetariana
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLj5tilgmgH862bkmJnOo4g *Recetas*             "~Vegana            Cocina Veggikinga             YT"
+# El gourmet
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1Lhubbf3BjYODUrugx-oeA *Recetas*             "~General           El gourmet                    YT"
+# Food Wishes
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRIZtPl9nb9RiXc9btSTQNw *Recetas*             "~General           Food Wishes                   YT"
+# Gordon Ramsay
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIEv3lZ_tNXHzL3ox-_uUGQ *Recetas*             "~General           Gordon Ramsay                 YT"
+# Hilah Cooking
+https://www.youtube.com/feeds/videos.xml?channel_id=UCciOWSHoC_UFmInZBlVHSuA *Recetas*             "~General           Hilah Cooking                 YT"
+# La cocina de Masito
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtfcIH9J6eC3p-4WwXVAATQ *Recetas*             "~General           La cocina de Masito           YT"
+# Laura in the Kitchen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNbngWUqL2eqRw12yAwcICg *Recetas*             "~General           Laura in the Kitchen          YT"
+# Pro Home Cooks
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzH5n3Ih5kgQoiDAQt2FwLw *Recetas*             "~Genreal           Pro Home Cooks                YT"
+# Recetas de Cocina
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFelHhTqk6RTolahE7cWsrg *Recetas*             "~General           Recetas de Cocina             YT"
+# Tastemade
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqf_rFCGLODeUcw3p_Abr-A *Recetas*             "~General           Tastemade                     YT"
+# Food
+https://www.reddit.com/r/food.rss *Recetas*                                                        "~General           Food                          REDDIT"
+# Vegan recepies
+https://www.reddit.com/r/veganrecipes.rss *Recetas*                                                "~Vegana            Vegan Recepies                REDDIT"
+
+#: }}}
+
+#: Bussiness {{{
+
+#: Freelancing {{{
+
+# Brad Hussey
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVguiojKA6iobcySMJ5boNA *Bussiness*           "~Freelancing       Brad Hussey                   YT"
+
+#: }}}
+
+#: }}}
+
+#: Drawing & Art {{{
+
+# Cartoon block
+https://www.youtube.com/feeds/videos.xml?user=cartoonblock *Drawing*                               "~Cartoon           Cartoon Block                 YT"
+# Cartoon Club
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-biucJWhM8HwjsQ96uoIUw *Drawing*             "~Cartoon           Cartoon Club                  YT"
+# DokeTV
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9ntGcdOjckSSjeeM_YmDcg *Drawing*             "~Grafity           DokeTV                        YT"
+# Trent Kaniuga
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmRm1xtLIpBhuWjTyD411pA *Drawing*             "~General           Trent Kaniuga                 YT"
+
+##### arte 
+# son tran
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVs_W4kqxNhcdvhvmvUX1sQ *Art*                "~Artesania         son tran                      YT"
+# ART
+https://www.reddit.com/r/Art.rss *Art*                                                            "~General           REDDIT                        REDDIT"
+
+#Wood Carving
+# Carving Fusion By : Jordy Johnson
+https://www.youtube.com/feeds/videos.xml?channel_id=UCacacvf3jISuM-89pIiWoFQ *Art*                 "~Wood              -Wood Carving-	               YT"
+
+#: }}}
+
+#: Diy {{{
+
+###### Furnitire
+#CHESTER
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmRBWspht0wl5JIAbHndOKQ *DIY*                 "~Furniture         Chester                       YT"
+
+##### Electronica y casa en general.
+# Proyectos LED
+https://www.youtube.com/feeds/videos.xml?channel_id=UCztwF60DCiIPPqPE3HAV5EA *DIY*                 "~Casa              Proyectos LED                 YT"
+# DIY
+https://www.reddit.com/r/DIY.rss *DIY*                                                             "~Casa              DYI                           REDDIT"
+
+#: }}}
+
+#: Music {{{
+# Chill Nation
+https://www.youtube.com/feeds/videos.xml?channel_id=UCM9KEEuzacwVlkt9JfJad7g *Music* "~Chill Nation YT"
+# Dj Bangz
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRT4-8FRgbCphhQGJ51jzbg *Music* "~Dj Bangz YT"
+# Doctor Mix
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbzNcFN7cxA8HO18cTYyTfg *Music* "~Doctor Mix YT"
+# jamesdalbyacoustic
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUjW0sLb40FvEehSuYpVvNQ *Music* "~jamesdalbyacoustic YT"
+# Pardelion Music
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6J0RI8Tq9spMKygnMBwZ9g *Music* "~Pardelion Music YT"
+# ShaunTrack
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo5HJNjfdSoPWsdAHLsvSxQ *Music* "~ShaunTrack YT"
+# Sofar Sounds
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRLZb8PpI9N7COmYqHiDH7A *Music* "~Sofar Sounds YT"
+# therunningmates
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW_fsXbJu1aXDbsaIu5mMEQ *Music* "~therunningmates YT"
+# unfa
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAYKj_peyESIMDp5LtHlH2A *Music* "~unfa YT"
+
+#: }}}
+
+#: Huerta Y Jardin {{{
+
+###### Huerta
+# Cosas de Jardin
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTXy0hGmwjnoCPYn7zJ4RyQ *Huerta* "~Cosas de Jardin YT"
+# En20metros Huerto Urbano
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfSqR4o1H9P_gC8SXix4OvA *Huerta* "~en20metros Huerto Urbano YT"
+# Home & Garden
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbxbwh7MV5YOJ2HMzAu2zDg *Huerta* "~Home & Garden YT"
+# Kim's Gardens
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbdcQqnzdF2IAWc1Ct3QyYA *Huerta* "~Kim's Gardens YT"
+# Hortinha em Casa
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_Z8eD_IeTAHr-d-v_V7toQ *Huerta* "~Hortinha em Casa YT"
+# Huerta Forestal De Jaime
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuMhxEBSi-GrjDHhiULxdsQ *Huerta* "~Huerta Forestal De Jaime YT"
+# La huerta de Maycol En Casa
+https://www.youtube.com/feeds/videos.xml?channel_id=UChTAwm0FDxq4XZnaCRY1zZA *Huerta* "~La huerta de Maycol En Casa YT"
+# La Huertina De Toni
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8nVWi8L7fPCjOMpSSNAM0Q *Huerta* "~La Huertina De Toni YT"
+# Learn Organic Gardening at GrowingYourGreens
+https://www.youtube.com/feeds/videos.xml?user=growingyourgreens *Huerta* "~GrowingYourGreens YT"
+# OYR Frugal & Sustainable Organic Gardening
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv9ITE5nuShQ37Xd-NVkdcg *Huerta* "~OYR Frugal & Sustainable Organic Gardening YT"
+# Permacultura Holistica
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGJctxV-1iY_WKXFtfMXk2w *HUerta* "~Permacultura Holistica YT"
+# Soy AHORA!
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQ1Aw0NpfkuYTe-vtv-ZqUw *Huerta* "~Soy AHORA! YT"
+# TIERRA Y LOMBRICES
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXp5odFC6XE1CyP9PIfcqvg *Huerta* "~TIERRA Y LOMBRICES YT"
+
+#:}}}
+
+#: Entretenimiento {{{
+
+# HGTV
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBiuljj5uaUVHbnTAzfvutg *Entretenimiento*     "~General           HGTV                          YT"
+# my mechanics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMrMVIBtqFW6O0-MWq26gqw *Entretenimiento*     "~General           my mechanics                  YT"
+# YouTube Originals
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqVDpXKLmKeBU_yyt_QkItQ *Entretenimiento*     "~General           YouTube Originals             YT"
+# VIDEOS
+https://www.reddit.com/r/videos.rss *Entretenimiento*                                              "~General           Videos                        REDDIT"
+
+###  Humor
+# Guille Aquino
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQnTknlMWttN9GbY-n6JYuw *Entretenimiento*     "~Humor             Guille Aquino                 YT"
+# Jonatan Clay
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR-ZXezvsDLUb-vLv95AQQg *Entretenimiento*     "~Humor             Jonatan Clay                  YT"
+# Malos Pensamientos
+https://www.youtube.com/feeds/videos.xml?channel_id=UCimyrqdnHKYjLwlkl_brWoQ *Entretenimiento*     "~Humor             Malos Pensamientos            YT" *Radio*
+# JRE
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ *Entretenimiento*     "~General           PowerfulJRE                   YT"
+# Rodriguez Galati
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfurPtvn7AE3mGltAevzdKQ *Entretenimiento*     "~Humor             Rodriguez Galati              YT"
+# Sebastian Presta
+https://www.youtube.com/feeds/videos.xml?channel_id=UCekZraXDMtB3WF_aHl4cWbw *Entretenimiento*     "~Humor             Sebastian Presta              YT"
+
+##### Trailers
+# Rapid Trailer
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1cVTv6C0Unv6TtadjBvYRA *Entretenimiento*      "~Trailers         Rapid Trailer                 YT" *Trailers*
+
+#: }}}
+
+#: Animals & Nature {{{
+
+##### Dogs
+# Training Positive
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRyHBkIJ90SZNRyq1iVda5g *Dogs* "~Training Positive YT"
+# Treatpouch
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl_p13guW5dN0vBui0nq6ow *Dogs* "~Treatpouch YT"
+
+#: }}}
+
+#: Books {{{
+
+# Alexandria
+https://www.reddit.com/r/alexandria.rss *Books* "~Alexandria REDDIT"
+
+#: }}}
+
+#: Piracy {{{
+
+##### Open Directories
+# Open Directories
+https://www.reddit.com/r/opendirectories.rss *Piracy* "~Open Directories REDDIT"
+
+# Toorents
+#: }}}

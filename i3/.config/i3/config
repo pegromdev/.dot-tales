@@ -5,7 +5,6 @@
 #: fonts {{{
 
 # Status bar fonts
-set $rustbar	Noto Sans Regular 10, FontAwesome 10
 # i3 enviroment fonts
 set $i3fonts	xft:Source-Code-Pro 9
 # In this example the variable call fot the Source-Code-Pro Font Above
@@ -41,8 +40,8 @@ set $rofifont2		"Noto Sans Regular 8"
 # Keep your chossen apps with static themes by swithcin to Override
 
 # Mian Tui File Manager Used in Files workspace by default. mod+Ctrl+f
-#set $ranger		kitty --override include=~/.config/i3/themes/YourPreferTheme
-set $ranger		kitty 	
+set $ranger		kitty --override include=~/home/niko/.themes/kitty-themes/Atom.conf
+#set $ranger		kitty 	
 # Floating Terminal mod+Shift+return
 #set $dropdown	 kitty --class dropdown --override include=~/.config/kitty/YourPreferTheme
 set $dropdown		kitty --class dropdown 
@@ -63,10 +62,10 @@ set $telegram 	kitty --class social
 
 set $mode_system  (l)ock |  (e)xit |  s(u)spend |  (h)ibernate | ﰇ(r)eboot |  (S)hutdown
 mode "$mode_system" {
-    bindsym l exec $nsi i3lock-fancy, mode "default"
-    bindsym u exec $nsi i3lock-fancy -t 'DO MORE' && systemctl suspend, mode "default" 
+    bindsym l exec $nsi i3lock-fancy-dualmonitor, mode "default"
+    bindsym u exec $nsi i3lock-fancy-dualmonitor  && systemctl suspend, mode "default" 
     bindsym e exec $nsi i3-msg exit, mode "default"
-    bindsym h exec $nsi i3lock-fancy -t 'DO MORE' && systemctl hibernate, mode "default"
+    bindsym h exec $nsi i3lock-fancy-dualmonitor && systemctl hibernate, mode "default"
     bindsym r exec $nsi systemctl reboot, mode "default"
     bindsym s exec $nsi systemctl poweroff, mode "default"
 
@@ -90,7 +89,7 @@ mode "$volume_system" {
 		bindsym h exec $nsi  pulsemixer --set-volume 50 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-medium-symbolic.symbolic.png "Medium Volume", mode "default"
     bindsym l exec $nsi  pulsemixer --set-volume 25 && notify-send -i /usr/share/icons/Adwaita/16x16/status/audio-volume-low-symbolic.symbolic.png "Low Volume", mode "default"
 #		bindsym c	exec $nsi  $term -e 'pulsemixer', mode "default"	
-		bindsym c	exec $nsi  pavucontrol
+		bindsym c	exec $nsi  pavucontrol, mode "default"
  
    
  # exit system mode: "Enter" or "Escape"
@@ -229,46 +228,46 @@ set $mode__border Borders:  n(o)ne, (n)ormal, (t)title
 
 # i3tui first steps
 # xrandr Monitor check script
-#exec_always $nsi	monitors
+exec_always $nsi	monitors
 # Polkit
-exec $nsi /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#exec $nsi /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Wallpaper
 exec $nsi feh --bg-scale ~/.config/wall.png
 # Compositor
 exec $nsi picom --experimental-backends --config .config/picom.conf -b
 # clipboard Manager
-exec $nsi clipit
+#exec $nsi clipit
 # I3 Lock
-exec $nsi xautolock -time 30 -locker blurlock
+exec $nsi xautolock -time 30 -locker i3lock-fancy-dualmonitor
 # Sdcard Mounting
-exec $nsi mountsd
+#exec $nsi mountsd
 # Playerctl daemon
-exec $nsi playerctld daemon
+#exec $nsi playerctld daemon
 # Keyboard Keys custom changes
-exec_always $nsi	remaps
+#exec_always $nsi	remaps
 # Mutt wizard sync
-exec $nsi mw -Y && notify-send "Mail Sync done!"
+#exec $nsi mw -Y && notify-send "Mail Sync done!"
 # Desktop notifications
-exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
+#exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
 # Polybar 
-exec_always $nsi "sleep 4; polybarLaunch"
+#exec_always $nsi "sleep 4; polybarLaunch"
 # Dropdown Terminal
 exec $nsi "sleep 5; $dropdown" 	 
 # Vim server
 exec $nsi "sleep 6; $vim -e nvim" 	 
 # telegram
-exec $nsi "sleep 7; $telegram -e tg"
+#exec $nsi "sleep 7; $telegram -e tg"
 # Tmux
 exec $nsi	"sleep 8; $term -e tmux new-session -A -s Main"
 # Cheat
-exec $nsi "sleep 9; $cheat -e cht.sh --shell"
+#exec $nsi "sleep 9; $cheat -e cht.sh --shell"
 # Ranger
 exec $nsi	"sleep 10; $ranger --class ranger -e ranger"
 # Firefox
 exec $nsi	"sleep 11; firefox"
 # Newsboat
-exec $nsi "sleep 12; $term --class newsboat -e newslauncher"
+#exec $nsi "sleep 12; $term --class newsboat -e newslauncher"
 # Kill tmux 0 session
 exec $nsi 	"sleep 20; tmux kill-session -t 0"
 
@@ -276,22 +275,22 @@ exec $nsi 	"sleep 20; tmux kill-session -t 0"
 
 #: Start i3bar to display a workspace bar (plus the system information i3status if available) {{{
 
-#bar {
+bar {
+#	output primary 
+	status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
+	position top
+#		colors {
 
-#	i3bar_command i3bar 
-#	position top
-#	colors {
-
-#set_from_resource $barbackground 		background
-#set_from_resource $barforeground 		foreground
-#set_from_resource $barcolor0     		color0
-#set_from_resource $barcolor1     	 	color1
-#set_from_resource $barcolor2     	 	color2
-#set_from_resource $barcolor3     	 	color3
-#set_from_resource $barcolor4     	 	color4
-#set_from_resource $barcolor5     	 	color5
-#set_from_resource $barcolor6     	 	color6
-#set_from_resource $barcolor7     	 	color7
+set_from_resource $barbackground 		background
+set_from_resource $barforeground 		foreground
+set_from_resource $barcolor0     		color0
+set_from_resource $barcolor1     	 	color1
+set_from_resource $barcolor2     	 	color2
+set_from_resource $barcolor3     	 	color3
+set_from_resource $barcolor4     	 	color4
+set_from_resource $barcolor5     	 	color5
+set_from_resource $barcolor6     	 	color6
+set_from_resource $barcolor7     	 	color7
 
 # i3bar , statusline, desktop Colors
 # If you like to use your custom color edit next Variables and uncomment set_from_resource colors:
@@ -306,23 +305,23 @@ exec $nsi 	"sleep 20; tmux kill-session -t 0"
 #set $i3bar8 #7E7EFD
 
 #				separator 	$barcolor0
-#        background 	$barbackground
-#        statusline 	$barforeground
+#				background 	$barbackground
+#				statusline 	$barforeground
 #				                    #Border 		 	Back     				Text 
-#        focused_workspace 	$ibarcolor1 	$barcolor4 			$barforeground
-#        active_workspace 		$barcolor0 		$barcolor6 			$barforegound     
-#        inactive_workspace 	$barcolor0 		$barbackground 	$barforeground
-#        urgent_workspace 		$barcolor0 		$barcolor7 			$barcolor0
-#   }
+#				focused_workspace 	$ibarcolor1 	$barcolor4 			$barforeground
+#				active_workspace 		$barcolor0 		$barcolor6 			$barforegound     
+#				inactive_workspace 	$barcolor0 		$barbackground 	$barforeground
+#				urgent_workspace 		$barcolor0 		$barcolor7 			$barcolor0
+	}
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-#	tray_output primary
+#tray_output primary
 #tray_output LDVS-1
 
 #	bindsym button4 nop
 #	bindsym button5 nop
 
-#	strip_workspace_numbers yes
+#strip_workspace_numbers yes
 #}
 #:}}}
 
@@ -395,9 +394,9 @@ bindsym $mod+Shift+Return  	[instance="dropdown"] scratchpad show
 # Vimpad 
 bindsym $sup+Return  				[instance="vimpad"] scratchpad show
 # Telegram 
-bindsym $mod+t  						[instance="social"] scratchpad show
+#bindsym $mod+t  						[instance="social"] scratchpad show
 # Cheatsheets
-bindsym $mod+z 							[instance="cheatsheet"] scratchpad show 
+#bindsym $mod+z 							[instance="cheatsheet"] scratchpad show 
 # Dmenuhandler
 bindsym $mod+d							exec $nsi xclip -o | dmenuhandler
 # rofi
@@ -407,7 +406,7 @@ bindsym $mod+c 							mode "$conky"
 # Show selection (xclip)
 bindsym $mod+Insert				exec $nsi showclip
 # Lock screen
-bindsym $mod+9 							exec $nsi i3lock-fancy -t 'DO MORE'
+bindsym $mod+9 							exec $nsi i3lock-fancy-dualmonitor
 # Ranger
 bindsym $mod+Ctrl+f 				exec $nsi	$ranger --class ranger -e ranger
 # hide/unhide i3status bar

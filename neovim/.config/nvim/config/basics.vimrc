@@ -1,3 +1,5 @@
+" No Swap file
+set noswapfile
 "Paste from other programs and other buffers
 set clipboard=unnamed,unnamedplus
 "Cannot remember where I got this from

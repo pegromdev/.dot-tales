@@ -72,6 +72,9 @@ highlight article "\\[embedded flash: [0-9][0-9]*\\]" color66 default bold
 macro y set browser "mpv %u" ; open-in-browser ; set browser "w3m %u"
 # 480 quality Stream
 macro t set browser "mpv --ytdl-format='bestvideo[height<=?480]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+# 720 quality Stream
+#macro t set browser "mpv --ytdl-format='bestvideo[height<=?720]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+#macro t set browser "mpv --ytdl-format='bestvideo[height<=?480]+bestaudio/best' %u &>/dev/null " ; open-in-browser ; set browser "w3m %u &>/dev/null"
 #macro t set browser "mpv --ytdl-format='bestvideo[height<=?480]+bestaudio/best' %u </dev/null &>/dev/null &" ; open-in-browser ; set browser "w3m %u"
 # Websites Reader
 macro w set browser "readable %u -p html-title,html-content | w3m -T text/html"; open-in-browser ; set browser "w3m %u"
