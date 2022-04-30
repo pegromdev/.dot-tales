@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Better Stock Ubuntu Server Defaultts by pegromdev 
+# Better Ubuntu Server Defaults by pegromdev 
 #	Run:
 #			touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/serverFirstRun.sh >> freshRun.sh
 #	Then execute:
@@ -10,6 +10,7 @@
 apt upgrade
 apt install -y vim ranger tmux git xsel stow xclip trash-cli make
 cd ~/
+rm -f ~/.profile
 curl -sS https://starship.rs/install.sh | sh
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 git clone https://github.com/pegromdev/.dot-tales.git
