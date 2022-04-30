@@ -17,8 +17,6 @@ alias free='free -m'                                            # Show sizes in 
 alias ping="prettyping"
 #Places
 alias dot="cd /home/niko/.dot-tales"
-# New Server
-alias fresh-server='echo "touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/.config/serverFirstRun.sh >> freshRun.sh" | xclip -sel clip'
 
 #: }}}
 
@@ -37,6 +35,7 @@ alias rest-clean='restic cache --cleanup'
 alias rest-prune='restic forget --keep-last 1 --prune'
 	
 # Vim
+alias lv="/home/niko/.local/bin/lvim"
 alias	vm="nvim"  
 # bpytop
 alias status="bpytop"
@@ -53,7 +52,8 @@ alias fonts="fc-cache -f -v"
 
 # Mount
 alias sdc="sudo mount /dev/sdc ~/Usb -o uid=niko -o gid=niko"
-alias sdb="sudo mount /dev/sdb2 /home/niko/Hdd -o uid=niko -o gid=niko"
+#alias sdb="sudo mount /dev/sdb2 /home/niko/Hdd -o uid=niko -o gid=niko"
+alias sdb="sudo mount /dev/sdb2 /home/niko/Hdd"
 
 #: }}}
 
@@ -106,6 +106,9 @@ alias pipe="pipe-viewer --use-colors --get-term-width"
 alias pipech="pipe-viewer --use-colors -sc"
 # Pass
 alias passgen="pass generate -c"
+alias pc="pass --clip"
+alias dot-tales="pass --clip github.dot-tales"
+
 # ncmpcpp
 alias music="ncmpcpp"
 # Mind mapping
@@ -133,5 +136,7 @@ alias dwn="cd /home/niko/Downloads"
 alias gdrive="rclone mount --daemon drive: /home/niko/Gdrive"
 alias	yt="pipe-viewer"
 alias holberton='sshpass -p "$(pass show holbert.server)" ssh root@54.242.22.52'
+# New Server
+alias fresh-server='echo "touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/serverFirstRun.sh >> freshRun.sh" | xclip -sel clip'
 	
 #: }}}
