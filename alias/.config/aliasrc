@@ -17,6 +17,9 @@ alias free='free -m'                                            # Show sizes in 
 alias ping="prettyping"
 #Places
 alias dot="cd /home/niko/.dot-tales"
+# New Server
+alias fresh-server='echo "touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/.config/serverFirstRun.sh >> freshRun.sh" | xclip -sel clip'
+
 #: }}}
 
 #: System Administration {{{
@@ -26,7 +29,7 @@ alias ip='ip -color=auto'
 alias date2="date '+%F'" 
 alias mem="cat /proc/meminfo"
 # Screen
-alias screenoff='xset dpms force off && i3lock-fancy -t 'Do MORE''
+alias screenoff='xset dpms force off && i3lock-fancy-dualmonitor'
 # Restic 
 alias rest-backup='restic backup --files-from /home/niko/.restic_include.txt'
 alias rest-snap='restic snapshots'
@@ -44,9 +47,13 @@ alias update="sudo paru -Syu"
 alias svim="source ~/.dot-tales/neovim/.config/nvim/init.vim"
 alias szsh="source ~/.zshrc"
 alias stmux="source ~/.tmux.conf"
+alias atmux="tmux new-session -A -s Main"
+#	Font Refresh	
+alias fonts="fc-cache -f -v"
 
 # Mount
-alias sdc="sudo mount /dev/sdc /mnt -o uid=niko -o gid=niko"
+alias sdc="sudo mount /dev/sdc ~/Usb -o uid=niko -o gid=niko"
+alias sdb="sudo mount /dev/sdb2 /home/niko/Hdd -o uid=niko -o gid=niko"
 
 #: }}}
 
@@ -64,7 +71,7 @@ alias npmlist="npm list -g --depth=0"
 # copy with progress details
 alias copy="rsync -avh --progress"
 # get keyboard key
-alias keys=" xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'\n"
+alias keys="xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'\n"
 #: }}}
 
 #: Apps {{{
@@ -105,6 +112,8 @@ alias music="ncmpcpp"
 alias mind="mm /run/media/hdd/Documents/mindmaps/lifeOn2021"
 # nb Bash Note Taking
 alias nb="bash /home/niko/.npm-global/bin/nb shell"
+#	tmux
+alias clock="tmux clock-mode"
 
 # Kitty Themes
 alias kt="kitty +kitten themes"
@@ -121,7 +130,8 @@ alias	books="/run/media/hdd/Books/"
 alias fbooks="ls * /run/media/hdd/Books/ | fzf"
 alias usb="cd /run/media/usb"
 alias dwn="cd /home/niko/Downloads"
-alias gdrive="rclone mount --daemon drive: /home/niko/gdrive"
-
-
+alias gdrive="rclone mount --daemon drive: /home/niko/Gdrive"
+alias	yt="pipe-viewer"
+alias holberton='sshpass -p "$(pass show holbert.server)" ssh root@54.242.22.52'
+	
 #: }}}
