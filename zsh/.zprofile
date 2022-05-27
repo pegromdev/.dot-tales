@@ -1,6 +1,6 @@
 #!/bin/sh
 export XDG_RUNTIME_DIR=/run/user/`id -u`
-export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" "$HOME/.config/i3blocks" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 #export PATH="~/.npm-global/bin:$PATH"
 export EDITOR="nvim" 
 export TERMINAL="kitty"
