@@ -1,7 +1,4 @@
 # vim:foldmethod=marker
-# Prezto framework
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-
 source $HOME/.config/aliasrc
 source $HOME/.config/fzfrc # Load FZF Commands
 source $HOME/.profile

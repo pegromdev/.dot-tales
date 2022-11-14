@@ -3,11 +3,11 @@
 
 #: Shell Basics {{{
 alias	b="cd .."      
-alias	ls="lsd --color=auto" 
-alias l="lsd -l" 
-alias	la="lsd -a" 
-alias	lla="lsd -la"	
-alias lt="lsd --tree"
+#alias	ls="lsd --color=auto" 
+#alias l="lsd -l" 
+#alias	la="lsd -a" 
+#alias	lla="lsd -la"	
+#alias lt="lsd --tree"
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
 alias free='free -m'                                            # Show sizes in MB
@@ -76,6 +76,8 @@ alias keys="xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s 
 
 #: Apps {{{
 
+#	Firefox
+alias fire="firefox -p niko </dev/null &>/dev/null &"
 # Tmux
 alias	tm="tmux new-session -A -s Main" 
 # Kitty vim server 

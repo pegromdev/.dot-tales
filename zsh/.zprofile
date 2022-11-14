@@ -1,6 +1,6 @@
 #!/bin/sh
 export XDG_RUNTIME_DIR=/run/user/`id -u`
-export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" "$HOME/.config/i3blocks" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+export PATH="$PATH:$(du "$HOME/.bin/" "$HOME/.npm-packages" "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 #export PATH="~/.npm-global/bin:$PATH"
 export EDITOR="nvim" 
 export TERMINAL="kitty"
@@ -13,8 +13,8 @@ export FILE="ranger"
 eval $(ssh-agent)
 
  # FZF	
-export FZF_DEFAULT_COMMAND="fd --type f --exclude .git --follow --hidden"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+#export FZF_DEFAULT_COMMAND="fd --type f --exclude .git --follow --hidden"
+#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # Colored Man Pages
 #man() {
@@ -38,5 +38,5 @@ export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
 # Restic 
-export RESTIC_REPOSITORY="~/Hdd/restic/"
-export RESTIC_PASSWORD_COMMAND="pass show restic"
+#export RESTIC_REPOSITORY="~/Hdd/restic/"
+#export RESTIC_PASSWORD_COMMAND="pass show restic"

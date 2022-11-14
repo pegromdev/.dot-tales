@@ -12,17 +12,8 @@ if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"
 fi
 
-
-# start some nice programs
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
-    for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-        [ -x "$f" ] && . "$f"
-    done
-    unset f
-fi
-
 xmodmap ~/.Xmodmap
 xmodmap -e 'clear lock'
 
-exec i3 --shmlog-size 0
+exec qtile start
 exec source ~/.zshrc

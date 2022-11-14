@@ -30,3 +30,4 @@ context.Inbox=project:Inbox
 
 # My Modify Color theme
 include ~/.mytask.theme
+news.version=2.6.0
