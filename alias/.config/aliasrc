@@ -116,7 +116,7 @@ alias music="ncmpcpp"
 # Mind mapping
 alias mind="mm /run/media/hdd/Documents/mindmaps/lifeOn2021"
 # nb Bash Note Taking
-alias nb="bash /home/niko/.npm-global/bin/nb shell"
+#alias nb="bash /home/niko/.npm-global/bin/nb shell"
 #	tmux
 alias clock="tmux clock-mode"
 
@@ -141,4 +141,6 @@ alias holberton='sshpass -p "$(pass show holbert.server)" ssh root@54.242.22.52'
 # New Server
 alias fresh-server='echo "touch freshRun.sh && curl -L https://raw.githubusercontent.com/pegromdev/.dot-tales/main/server/serverFirstRun.sh >> freshRun.sh" | xclip -sel clip'
 	
+alias lock="i3lock-fancy"
+alias batalias="bat ~/.config/aliasrc"
 #: }}}
